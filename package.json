@@ -7,11 +7,13 @@
   "scripts": {
     "start": "node app",
     "watch": "nodemon app",
-    "test": "npm run jshint; npm run testcov; npm run testcovcheck",
+    "test": "npm run jshint; npm run testcov; npm run testcovcheck;",
+    "docs": "npm run jsdoc; npm run apidoc;",
     "testcov": "istanbul cover _mocha",
+    "testcovcheck": "istanbul check-coverage",
     "jshint": "jshint *.js **/*.js --reporter=node_modules/jshint-stylish/stylish.js",
     "jsdoc": "jsdoc -c .jsdocrc",
-    "testcovcheck": "istanbul check-coverage"
+    "apidoc": "apidoc -i routes/ -o docs/api/"
   },
   "repository": {
     "type": "git",
