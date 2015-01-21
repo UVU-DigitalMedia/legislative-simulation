@@ -1,0 +1,23 @@
+# Directories
+node_modules
+docs
+coverage
+
+# OS and IDE specific
+.DS_Store
+.idea
+
+# Dev environment configuration
+config/env.development.js
+
+# logs
+npm-debug.log
+logs/*.log
+
+# OpenSSL stuff
+openssl.cnf
+*.crt
+*.key
+
+# Redis
+dump.rdb
