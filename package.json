@@ -9,7 +9,7 @@
     "watch": "nodemon app",
     "test": "npm run jshint; npm run testcov; npm run testcovcheck;",
     "docs": "npm run jsdoc; npm run apidoc;",
-    "testcov": "istanbul cover _mocha",
+    "testcov": "NODE_ENV=test istanbul cover _mocha",
     "testcovcheck": "istanbul check-coverage",
     "jshint": "jshint *.js **/*.js --reporter=node_modules/jshint-stylish/stylish.js",
     "jsdoc": "jsdoc -c .jsdocrc",
@@ -33,5 +33,8 @@
     "mocha": "^2.1.0",
     "mocha-lcov-reporter": "0.0.1",
     "nodemon": "^1.3.2"
+  },
+  "dependencies": {
+    "convict": "^0.6.1"
   }
 }
