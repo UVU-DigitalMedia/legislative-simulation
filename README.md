@@ -17,6 +17,7 @@ properly.
 ```bash
 # clone the repository
 git clone https://github.com/ksmithut/express-api.git
+cd express-api
 # install the dependencies
 npm install
 # TODO instructions: make sure the database is running
