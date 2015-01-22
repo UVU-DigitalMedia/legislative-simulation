@@ -9,7 +9,7 @@
     "watch": "nodemon app",
     "test": "npm run jshint; npm run testcov; npm run testcovcheck;",
     "docs": "npm run jsdoc; npm run apidoc;",
-    "testcov": "istanbul cover _mocha",
+    "testcov": "NODE_ENV=test istanbul cover _mocha",
     "testcovcheck": "istanbul check-coverage",
     "jshint": "jshint *.js **/*.js --reporter=node_modules/jshint-stylish/stylish.js",
     "jsdoc": "jsdoc -c .jsdocrc",
