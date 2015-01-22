@@ -16,7 +16,7 @@ properly.
 
 ```bash
 # clone the repository
-git clone https://github.com/ksmithut/express-api.git
+git clone git://github.com:UVU-DigitalMedia/legislative-simulation.git
 cd express-api
 # install the dependencies
 npm install
