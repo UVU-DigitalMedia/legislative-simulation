@@ -1,7 +1,10 @@
 'use strict';
 /**
  * @module config
- * This is where the configuration gets loaded.
+ * @descriptioin. This is where the configuration gets loaded. See below for
+ * configuration options and examples. To load the configuration object in
+ * another module, use `var config = require('../path/to/config');` then you can
+ * use `config.get('configOption');` to get the configuration values you need.
  * @see http://npmjs.com/package/convict
  *
  * @requires core:path
