@@ -19,7 +19,7 @@
   "maxdepth"      : 3,        // forces nested blocks to only be a certain number of blocks deep
   "maxerr"        : 100,       // maximum number of errors jshint will report before giving up
   "maxlen"        : 80,       // maximum line length
-  "maxparams"     : 3,        // forces functions to have a maximum number of parameters
+  "maxparams"     : 4,        // forces functions to have a maximum number of parameters
   "maxstatements" : 12,       // maximum number of statements in a function
   "newcap"        : true,     // must use capitalized constructors with the `new` keyword
   "noarg"         : true,     // mustn't use `arguments.callee` or `arguments.caller`
@@ -32,7 +32,7 @@
   "shadow"        : "outer",  // Checks variable declaration scope. Also checks outer scope for already declared variables
   "singleGroups"  : false,    // Grouping operator "()" may be used for single expressions
   "undef"         : true,     // prohibits the use of explicitly undeclared variables
-  "unused"        : true,     // warns about declared but unused variables
+  "unused"        : false,    // warns about declared but unused variables
 
   "trailing"      : true,
 
