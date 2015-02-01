@@ -8,7 +8,7 @@
   "freeze"        : true,     // prohibits overwriting prototypes of native objects
   "funcscope"     : false,    // prohibits variable being used out of scope
   "globals"       : {
-    "Promise"       : true   // Prevents Promise being redeclared (bluebird)
+    "Promise"       : true    // Prevents Promise being redeclared (bluebird)
   },
   "globalstrict"  : false,    // Prevents 'use strict' errors. 'use strict' will be required in our case
   "immed"         : false,    // Immediately invoked functions must be wrapped in parentheses (for readability)
@@ -20,7 +20,7 @@
   "maxerr"        : 100,       // maximum number of errors jshint will report before giving up
   "maxlen"        : 80,       // maximum line length
   "maxparams"     : 3,        // forces functions to have a maximum number of parameters
-  "maxstatements" : 10,       // maximum number of statements in a function
+  "maxstatements" : 12,       // maximum number of statements in a function
   "newcap"        : true,     // must use capitalized constructors with the `new` keyword
   "noarg"         : true,     // mustn't use `arguments.callee` or `arguments.caller`
   "nocomma"       : false,    // commas are allowed, but you shouldn't do comma first
@@ -39,7 +39,6 @@
   "asi"           : false,    // You don't need semicolons. But we're going to require them for consistency. http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding
   "boss"          : false,    // Cannot use assignment operators in conditional statements, except when wrapped in parantheses
   "debug"         : false,    // Warns you about forgotten debugger statements
-  //"elision"       :false    // option not supported
   "eqnull"        : true,     // Can use == null to see if something is null or undefined
   "esnext"        : false,    // Don't use es6 stuff (yet)
   "evil"          : false,    // don't use eval. it's evil. or can be
