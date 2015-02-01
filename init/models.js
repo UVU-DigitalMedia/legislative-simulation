@@ -39,6 +39,7 @@ module.exports = function initModels() {
       var extension = path.extname(file);
 
       // Non .js file (such as folders) will be excluded.
+      /* istanbul ignore if: This is just a debugging warning */
       if (extension !== '.js') {
         return log.debug('%s exluded from models, not a .js file', file);
       }
@@ -58,7 +59,7 @@ module.exports = function initModels() {
       var schema = require(fullPath);
       log.debug('Loaded schema file from %s', fullPath);
 
-      /** istanbul ignore if: Models should all be loaded correctly */
+      /* istanbul ignore if: Models should all be loaded correctly */
       if (!(schema instanceof mongoose.Schema)) {
         return log.warn('%s excluded from models, not a mongoose schema', file);
       }
