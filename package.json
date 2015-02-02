@@ -13,7 +13,9 @@
     "testcovcheck": "istanbul check-coverage",
     "jshint": "jshint *.js **/*.js --reporter=node_modules/jshint-stylish/stylish.js",
     "jsdoc": "jsdoc -c .jsdocrc",
-    "apidoc": "apidoc -i routes/ -o docs/api/"
+    "apidoc": "apidoc -i routes/ -o docs/api/",
+    "ssl": "bash ./scripts/ssl.sh",
+    "dev-config": "node scripts/dev"
   },
   "repository": {
     "type": "git",

@@ -14,7 +14,6 @@ You will also need a [github](https://github.com/) account.
 
 # Installation and Setup
 
-<!-- TODO need to complete instructions -->
 This assumes that you have the above software already installed an up-to-date.
 
 1. Fork the
@@ -46,6 +45,7 @@ This assumes that you have the above software already installed an up-to-date.
   # this runs the mongodb shell.
   mongo
   >
+  # Press ctrl+c to quit the mongo shell if it connects successfully
   ```
   If it exits with `exception: connect failed`, then you need to open up a new
   tab and run:
@@ -57,15 +57,30 @@ This assumes that you have the above software already installed an up-to-date.
   the database file/folder it's trying to write to, and google the issue if that
   persists. Avoid running with `sudo`.
 
-6. Seed the Database TODO instructions
+6. Seed the Database (You don't need to do anything for this yet)
 
-7. Set up your local configuration TODO instructions
+7. Set up your local configuration
+  ```bash
+  npm run dev-config
+  ```
+  Go change any values you need to in `config/env.development.js`.
 
-8. Set up the dev ssl certificates TODO instructions
+8. Set up the dev ssl certificates
+  ```bash
+  # Note that you need bash and openssl. If you're on a mac, you should have it
+  # by default
+  npm run ssl
+  ```
 
-9. Run the tests to make sure everything is working TODO instructions
+9. Run the tests to make sure everything is working
+  ```bash
+  npm test
+  ```
 
-10. Start the app TODO instructions
+10. Start the app
+  ```bash
+  npm start
+  ```
 
 
 # Available commands
@@ -89,6 +104,12 @@ commands.
 * `npm run jshint` - Runs all .js files through `jshint`. Rules are defined in
   [`.jshintrc`](.jshintrc). Also gets run during the normal `npm test`.
   Avoid changing the rules to fix jshint errors.
+
+* `npm run ssl` - Generates an ssl certificate and key to use for the https
+  server. You want to make sure you `trust it` in your Keychain Access settings
+  (Mac OS X).
+
+* `npm run dev-config` - Generates a `config/env.development.js` file for you to use.
 
 ## Sub commands
 
