@@ -22,7 +22,7 @@ var config = convict({
    * @example
    * $ NODE_ENV=production npm start
    * @example
-   * $ node app --env production
+   * $ node client --env production
    */
   env: {
     doc: 'The applicaton environment.',
@@ -39,7 +39,7 @@ var config = convict({
    * @example
    * $ DB=postgres://127.0.0.1/leglislation npm start
    * @example
-   * $ node app --db postgres://127.0.0.1/leglislation
+   * $ node client --db postgres://127.0.0.1/leglislation
    * @todo TODO make db name match package name
    */
   db: {
@@ -66,7 +66,7 @@ var config = convict({
    * @example
    * $ PORT=443 npm start
    * @example
-   * $ node app --port 443
+   * $ node client --port 443
    */
   port: {
     doc: 'The port to bind.',
@@ -83,7 +83,7 @@ var config = convict({
    * @example
    * $ KEY=/data/keys/key.pem npm start
    * @example
-   * $ node app --key /data/keys/key.pem
+   * $ node client --key /data/keys/key.pem
    */
   key: {
     doc: 'The path to the key.pem for ssl/tls',
@@ -99,7 +99,7 @@ var config = convict({
    * @example
    * $ CERT=/data/keys/cert.pem npm start
    * @example
-   * $ node app --cert /data/keys/cert.pem
+   * $ node client --cert /data/keys/cert.pem
    */
   cert: {
     doc: 'The path to the cert.pem for ssl/tls',
@@ -115,7 +115,7 @@ var config = convict({
    * @example
    * $ LOG=warn npm start
    * @example
-   * $ node app --log verbose
+   * $ node client --log verbose
    */
   logLevel: {
     doc: 'The level at which log messages should be saved',
@@ -132,7 +132,7 @@ var config = convict({
    * @example
    * $ DISABLE_CONSOLE=true npm start
    * @example
-   * $ node app --disable-console
+   * $ node client --disable-console
    */
   disableConsole: {
     doc: 'Whether or not to disable console logging',
