@@ -1,7 +1,10 @@
 'use strict';
 /**
  * @module config
- * This is where the configuration gets loaded.
+ * @descriptioin. This is where the configuration gets loaded. See below for
+ * configuration options and examples. To load the configuration object in
+ * another module, use `var config = require('../path/to/config');` then you can
+ * use `config.get('configOption');` to get the configuration values you need.
  * @see http://npmjs.com/package/convict
  *
  * @requires core:path
@@ -32,19 +35,18 @@ var config = convict({
     arg: 'env'
   },
   /**
-   * @member {String} [db='postgres://127.0.0.1/leglislation'] - The database
+   * @member {String} [db='mongodb://localhost/legislation'] - The database
    * connection url
    * @example
    * config.get('db');
    * @example
-   * $ DB=postgres://127.0.0.1/leglislation npm start
+   * $ DB=mongodb://localhost/legislation npm start
    * @example
-   * $ node app --db postgres://127.0.0.1/leglislation
-   * @todo TODO make db name match package name
+   * $ node app --db mongodb://localhost/legislation
    */
   db: {
     doc: 'The database connection url',
-    default: 'postgres://postgres:superuser@127.0.0.1/leglislation',
+    default: 'mongodb://localhost/legislation',
     env: 'DB',
     arg: 'db'
   },

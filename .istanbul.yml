@@ -1,13 +1,13 @@
 check:
-	global:
-		statements : 90
-		lines      : 90
-		branches   : 90
-		functions  : 90
-		excludes   : []
-	each:
-		statements : 90
-		lines      : 90
-		branches   : 90
-		functions  : 90
-		excludes   : []
+    global:
+        statements : 50
+        lines      : 50
+        branches   : 50
+        functions  : 50
+        excludes   : []
+    each:
+        statements : 50
+        lines      : 50
+        branches   : 50
+        functions  : 50
+        excludes   : []
