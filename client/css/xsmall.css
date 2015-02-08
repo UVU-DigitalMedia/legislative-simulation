@@ -1,0 +1,27 @@
+core-toolbar {
+    background: #333;
+    color: #fff;
+}
+
+[main]{
+    background: #ddd;
+}
+
+[drawer]{
+    background:#eee;
+    color:#333;
+}
+
+
+.mainTitle{
+    text-decoration: none;
+    color: #fff;
+}
+.mainTitle:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.mainTitle:visited{
+    text-decoration: none;
+    color: #fff;
+}

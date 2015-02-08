@@ -5,8 +5,13 @@ var app = angular.module('app', [
     'ngRoute'
 ]);
 
-app.config(['$routeProvider',function(){
-    $routrProvider
-        .when('/',{templateUrl: '', controller:'home'})
-        .otherwise({redirectTo:'/'});
+app.config(['$routeProvider',function($routeProvider){
+    $routeProvider
+        .when('/',{templateUrl: 'client/templates/info.html', controller:'HomeController'})
+        .when('/info',{templateUrl: 'client/templates/info.html', controller:'InfoController'})
+        .when('/info/:val1',{templateUrl: 'client/templates/info.html', controller:'InfoController'})
+        .when('/stage',{templateUrl: 'client/templates/stages.html', controller:'StageController'})
+        .when('/stage/:val1',{templateUrl: 'client/templates/stages.html', controller:'StageController'})
+
+        .otherwise('/');
 }])
