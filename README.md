@@ -1,4 +1,4 @@
-# Express API boilerplate
+# Express API boilerplate.
 
 # Required Software
 
