@@ -25,7 +25,7 @@ var config = convict({
    * @example
    * $ NODE_ENV=production npm start
    * @example
-   * $ node client --env production
+   * $ node app --env production
    */
   env: {
     doc: 'The applicaton environment.',
@@ -68,7 +68,7 @@ var config = convict({
    * @example
    * $ PORT=443 npm start
    * @example
-   * $ node client --port 443
+   * $ node app --port 443
    */
   port: {
     doc: 'The port to bind.',
@@ -85,7 +85,7 @@ var config = convict({
    * @example
    * $ KEY=/data/keys/key.pem npm start
    * @example
-   * $ node client --key /data/keys/key.pem
+   * $ node app --key /data/keys/key.pem
    */
   key: {
     doc: 'The path to the key.pem for ssl/tls',
@@ -101,7 +101,7 @@ var config = convict({
    * @example
    * $ CERT=/data/keys/cert.pem npm start
    * @example
-   * $ node client --cert /data/keys/cert.pem
+   * $ node app --cert /data/keys/cert.pem
    */
   cert: {
     doc: 'The path to the cert.pem for ssl/tls',
@@ -117,7 +117,7 @@ var config = convict({
    * @example
    * $ LOG=warn npm start
    * @example
-   * $ node client --log verbose
+   * $ node app --log verbose
    */
   logLevel: {
     doc: 'The level at which log messages should be saved',
@@ -134,7 +134,7 @@ var config = convict({
    * @example
    * $ DISABLE_CONSOLE=true npm start
    * @example
-   * $ node client --disable-console
+   * $ node app --disable-console
    */
   disableConsole: {
     doc: 'Whether or not to disable console logging',
