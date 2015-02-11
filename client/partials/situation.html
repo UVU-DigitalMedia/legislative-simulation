@@ -1,3 +1,11 @@
 <div class="situation">
-    <ha>Situation</ha>
+    <h1>{{ content.header }}</h1>
+    <div>
+        <h2>{{ content.body.name }}</h2>
+        <p>{{ content.body.p1  }}</p>
+        <p>{{ content.body.p2  }}</p>
+        <p>{{ content.body.p3  }}</p>
+    </div>
+    <img ng-src="{{ content.images[0].url  }}" alt="{{ content.images[0].alt }}">
+    <p>{{ content.district }}</p>
 </div>

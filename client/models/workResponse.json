@@ -1,0 +1,19 @@
+{
+  "content":{
+    "header":"Response to Work Options",
+    "stage":"Stage 1",
+    "body":{
+      "situations":[
+        {"activityChosen":"what ever you chose", "response":"The response"},
+        {"question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."}
+      ]
+    },
+    "images":[
+      {
+        "name": "person you voted on",
+        "url": "client/img/votedStaff.jpg",
+        "alt": "Person you voted on"
+      }
+    ]
+  }
+}

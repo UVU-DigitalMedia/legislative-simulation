@@ -1,0 +1,22 @@
+{
+  "content":{
+    "header":"Time To Make Some Decisions",
+    "date":"November, 2014",
+    "stage":"Stage 1",
+    "body":{
+      "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are given below.",
+      "answers":[
+        {"entry":"Paula Martinez", "value":"1", "name":"vote"},
+        {"entry":"Dan Graves", "value":"2", "name":"vote"},
+        {"entry":"Erik Larson", "value":"3", "name":"vote"}
+      ]
+    },
+    "images":[
+      {
+        "name": "Img",
+        "url": "client/img/img.jpg",
+        "alt": "img"
+      }
+    ]
+  }
+}
