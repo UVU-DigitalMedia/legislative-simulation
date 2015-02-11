@@ -1,3 +1,14 @@
 <div class="work-organizer">
-    <h1>Work Organizer</h1>
+    <h1>{{ content.header }}</h1>
+    <p>{{ content.date }}</p>
+    <p>{{ content.stage }}</p>
+    <div>
+        <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
+    </div>
+    <div ng-repeat="situation in content.body.situations ">
+        <paper-checkbox></paper-checkbox>
+        <div verticle layout>
+            <p>{{ situation.entry }}</p>
+        </div>
+    </div>
 </div>

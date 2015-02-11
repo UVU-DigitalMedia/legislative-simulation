@@ -1,3 +1,14 @@
 <div class="decisions">
-    <h1>Decisions</h1>
+    <h1>{{ content.header }}</h1>
+    <p>{{ content.date }}</p>
+    <p>{{ content.stage }}</p>
+    <div>
+        <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
+    </div>
+    <div>
+        <p>{{ content.body.situation }}</p>
+        <paper-radio-group >
+            <paper-radio-button name="{{ answer.value }}" label="{{ answer.entry }}" ng-repeat="answer in content.body.answers"></paper-radio-button>
+        </paper-radio-group>
+    </div>
 </div>

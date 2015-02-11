@@ -1,3 +1,10 @@
 <div class="work-response">
-    <h1>Work Response</h1>
+
+    <h1>{{ content.header }}</h1>
+    <div ng-repeat="situation in content.body.situations" class="situationContainer">
+        <div>Your chosen action: {{ situation.question }}</div><br>
+        <div>Response: {{ situation.response }}</div>
+    </div>
+
+
 </div>

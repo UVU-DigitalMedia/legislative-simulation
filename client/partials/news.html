@@ -1,3 +1,26 @@
 <div class="news">
-    <h1>News</h1>
+    <div class="news-paper">
+        <div class="paper-header">
+            <div>
+                <p>{{ content.paper.day }}</p>
+            </div>
+            <div>
+                <h1>{{ content.paper.title }}</h1>
+            </div>
+            <div>
+                <h2>{{ content.paper.header }}</h2>
+            </div>
+        </div>
+        <div class="paper-body">
+            <div>
+                <img ng-src="{{ content.paper.images[0].url }}" alt="content.paper.images[0].alt">
+                <img ng-src="{{ content.paper.images[1].url }}" alt="content.paper.images[1].alt">
+            </div>
+            <div ng-repeat="article in content.paper.articles">
+                <h3>{{ article.title }}</h3>
+                <p>{{ article.p1 }}</p>
+                <p>{{ article.p2 }}</p>
+            </div>
+        </div>
+    </div>
 </div>

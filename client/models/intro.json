@@ -1,0 +1,23 @@
+{
+  "content":{
+    "header":"Legislative Simulation",
+    "subHeader":"Utah House Simulation: October, 2013",
+    "images":[
+      {
+        "name": "Utah 38th House District Map",
+        "url": "client/img/districtMap.jpg",
+        "alt": "Map of Utah District 38"
+      }
+    ],
+    "body":{
+      "p1":"You have four goals during this simulation. They are as follows:",
+      "goals":[
+        { "letter":"A","entry":"Winning Legislator of the Year"},
+        { "letter":"B","entry":"Getting re-elected"},
+        { "letter":"C","entry":"Being respected by your colleagues"},
+        { "letter":"D","entry":"Keeping You family intact"}
+      ],
+      "p2":"There are six Rounds.  The final round is the campaign.  At that time you will find out how well you did on accomplishing the four goals.  Good Luck!"
+    }
+  }
+}

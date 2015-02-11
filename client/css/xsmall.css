@@ -25,3 +25,6 @@ core-toolbar {
     text-decoration: none;
     color: #fff;
 }
+.view{margin:2%;}
+
+.situationContainer{background: #aaa; margin:2%;padding:10px;}
