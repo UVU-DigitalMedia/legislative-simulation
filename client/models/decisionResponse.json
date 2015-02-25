@@ -1,21 +1,118 @@
 {
   "content":{
-    "header":"Update from (person you voted on in decisions)",
-    "stage":"Stage 1",
-    "body":{
-      "situations":[
-        {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
-        {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
-        {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
-        {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+    "decisionResponse1":{
+      "header":"Update from (person you voted on in decisions)",
+      "stage":"Stage 1",
+      "body":{
+        "situations":[
+          {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
+          {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "person you voted on",
+          "url": "client/img/votedStaff.jpg",
+          "alt": "Person you voted on"
+        }
       ]
     },
-    "images":[
-      {
-        "name": "person you voted on",
-        "url": "client/img/votedStaff.jpg",
-        "alt": "Person you voted on"
-      }
-    ]
+    "decisionResponse2":{
+      "header":"Update from (person you voted on in decisions)",
+      "stage":"Stage 2",
+      "body":{
+        "situations":[
+          {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
+          {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "person you voted on",
+          "url": "client/img/votedStaff.jpg",
+          "alt": "Person you voted on"
+        }
+      ]
+    },
+    "decisionResponse3":{
+      "header":"Update from (person you voted on in decisions)",
+      "stage":"Stage 3",
+      "body":{
+        "situations":[
+          {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
+          {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "person you voted on",
+          "url": "client/img/votedStaff.jpg",
+          "alt": "Person you voted on"
+        }
+      ]
+    },
+    "decisionResponse4":{
+      "header":"Update from (person you voted on in decisions)",
+      "stage":"Stage 4",
+      "body":{
+        "situations":[
+          {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
+          {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "person you voted on",
+          "url": "client/img/votedStaff.jpg",
+          "alt": "Person you voted on"
+        }
+      ]
+    },
+    "decisionResponse5":{
+      "header":"Update from (person you voted on in decisions)",
+      "stage":"Stage 5",
+      "body":{
+        "situations":[
+          {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
+          {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "person you voted on",
+          "url": "client/img/votedStaff.jpg",
+          "alt": "Person you voted on"
+        }
+      ]
+    },
+    "decisionResponse6":{
+      "header":"Update from (person you voted on in decisions)",
+      "stage":"Stage 6",
+      "body":{
+        "situations":[
+          {"question":"Staff",                  "choice":"Paula Martinez (your choice here)", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"question":"Tax Deal",               "choice":"your choice here", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."},
+          {"question":"Appropriations Commitee","choice":"your choice here", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"question":"Speaker Selection",      "choice":"your choice here", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "person you voted on",
+          "url": "client/img/votedStaff.jpg",
+          "alt": "Person you voted on"
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,72 @@
+{
+  "order":[
+    {"name":"home",         "url":"#/",                         "value":1},
+    {"name":"intro",        "url":"#/intro/intro",              "value":1.61},
+
+    {"name":"situation",    "url":"#/intro/situation",          "value":3.22},
+    {"name":"news1",         "url":"#/stage/news/1",            "value":4.83},
+    {"name":"decisions1A",  "url":"#/stage/decisions/1a",       "value":6.44},
+    {"name":"decisions1B",  "url":"#/stage/decisions/1b",       "value":8.05},
+    {"name":"decisions1C",  "url":"#/stage/decisions/1c",       "value":9.66},
+    {"name":"decisions1D",  "url":"#/stage/decisions/1d",       "value":11.27},
+    {"name":"workOrg",      "url":"#/stage/workOrganizer/1",    "value":12.88},
+    {"name":"decUpdate",    "url":"#/stage/decisionResponse/1", "value":14.49},
+    {"name":"workRes",      "url":"#/stage/workResponse/1",     "value":16.1},
+
+    {"name":"news2",         "url":"#/stage/news/2",            "value":19.32},
+    {"name":"decisions2A",  "url":"#/stage/decisions/2a",       "value":20.93},
+    {"name":"decisions2B",  "url":"#/stage/decisions/2b",       "value":22.54},
+    {"name":"decisions2C",  "url":"#/stage/decisions/2c",       "value":24.15},
+    {"name":"decisions2D",  "url":"#/stage/decisions/2d",       "value":25.76},
+    {"name":"workOrg",      "url":"#/stage/workOrganizer/2",    "value":26},
+    {"name":"decUpdate",    "url":"#/stage/decisionResponse/2", "value":27},
+    {"name":"workRes",      "url":"#/stage/workResponse/2",     "value":28},
+
+    {"name":"news3",         "url":"#/stage/news/3",            "value":29},
+    {"name":"decisions3A",  "url":"#/stage/decisions/3a",       "value":30},
+    {"name":"decisions3B",  "url":"#/stage/decisions/3b",       "value":31},
+    {"name":"decisions3C",  "url":"#/stage/decisions/3c",       "value":32},
+    {"name":"decisions3D",  "url":"#/stage/decisions/3d",       "value":33},
+    {"name":"workOrg",      "url":"#/stage/workOrganizer/3",    "value":34},
+    {"name":"decUpdate",    "url":"#/stage/decisionResponse/3", "value":35},
+    {"name":"workRes",      "url":"#/stage/workResponse/3",     "value":36},
+
+    {"name":"news4",         "url":"#/stage/news/4",            "value":37},
+    {"name":"decisions4A",  "url":"#/stage/decisions/4a",       "value":38},
+    {"name":"decisions4B",  "url":"#/stage/decisions/4b",       "value":39},
+    {"name":"decisions4C",  "url":"#/stage/decisions/4c",       "value":40},
+    {"name":"decisions4D",  "url":"#/stage/decisions/4d",       "value":41},
+    {"name":"workOrg",      "url":"#/stage/workOrganizer/4",    "value":42},
+    {"name":"decUpdate",    "url":"#/stage/decisionResponse/4", "value":43},
+    {"name":"workRes",      "url":"#/stage/workResponse/4",     "value":44},
+
+    {"name":"news5",         "url":"#/stage/news/5",            "value":45},
+    {"name":"decisions5A",  "url":"#/stage/decisions/5a",       "value":46},
+    {"name":"decisions5B",  "url":"#/stage/decisions/5b",       "value":47},
+    {"name":"decisions5C",  "url":"#/stage/decisions/5c",       "value":48},
+    {"name":"decisions5D",  "url":"#/stage/decisions/5d",       "value":49},
+    {"name":"workOrg",      "url":"#/stage/workOrganizer/5",    "value":50},
+    {"name":"decUpdate",    "url":"#/stage/decisionResponse/5", "value":51},
+    {"name":"workRes",      "url":"#/stage/workResponse/5",     "value":52},
+
+    {"name":"campSpending", "url":"#/campSpending",             "value":53},
+
+    {"name":"news6",         "url":"#/stage/news/6",            "value":10},
+    {"name":"decisions6A",  "url":"#/stage/decisions/6a",       "value":10},
+    {"name":"decisions6B",  "url":"#/stage/decisions/6b",       "value":10},
+    {"name":"decisions6C",  "url":"#/stage/decisions/6c",       "value":10},
+    {"name":"decisions6D",  "url":"#/stage/decisions/6d",       "value":10},
+    {"name":"workOrg",      "url":"#/stage/workOrganizer/6",    "value":10},
+    {"name":"decUpdate",    "url":"#/stage/decisionResponse/6", "value":10},
+    {"name":"workRes",      "url":"#/stage/workResponse/6",     "value":10},
+
+    {"name":"vote",         "url":"#/vote",                     "value":10},
+
+    {"name":"effectiveness","url":"#/effectiveness",            "value":10},
+    {"name":"analysis",     "url":"#/analysis",                 "value":10},
+    {"name":"voteResults",  "url":"#/voteResults",              "value":10},
+
+    {"name":"thankyou",     "url":"#/thankyou",                 "value":10},
+    {"name":"credits",      "url":"#/credits",                  "value":10}
+  ]
+}

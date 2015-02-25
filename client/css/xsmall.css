@@ -28,3 +28,11 @@ core-toolbar {
 .view{margin:2%;}
 
 .situationContainer{background: #aaa; margin:2%;padding:10px;}
+
+core-header-panel a:link, core-header-panel a:visited{color:#fff;}
+core-header-panel a:hover{color:#aaa;}
+
+paper-fab::shadow #ripple {
+    color: white;
+}
+paper-fab{background: green;}

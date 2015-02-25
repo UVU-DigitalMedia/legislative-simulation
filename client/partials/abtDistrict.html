@@ -1,3 +1,11 @@
 <div class="abt-district">
-    <h1>About the District</h1>
+    <h1>{{ content.header }}</h1>
+    <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
+    <p>{{ content.images[0].name }}</p>
+
+    <p>{{ content.body.p1 }}</p>
+    <p>{{ content.body.p2 }}</p>
+    <p>{{ content.body.p3 }}</p>
+    <p>{{ content.body.p4 }}</p>
+    <p>{{ content.body.p5 }}</p>
 </div>
