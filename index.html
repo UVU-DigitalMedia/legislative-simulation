@@ -37,33 +37,36 @@
 
 <core-drawer-panel responsiveWidth="1024px">
 
+    <!--Main Navigation-->
     <core-header-panel drawer>
         <core-toolbar>Menu</core-toolbar>
         <core-menu>
-            <core-item label="Introduction"><a href="#/info/intro"></a></core-item>
-            <core-item label="Situation"><a href="#/info/situation"></a></core-item>
+            <core-item label="Introduction"><a href="#/intro/intro"></a></core-item>
+            <core-item label="Situation"><a href="#/intro/situation"></a></core-item>
             <core-item label="About You"><a href="#/info/abtYou"></a></core-item>
             <core-item label="About District"><a href="#/info/abtDistrict"></a></core-item>
             <core-item label="About Appropriations"><a href="#/info/abtAppropriations"></a></core-item>
             <core-item label="About Staff"><a href="#/info/abtStaff"></a></core-item>
-            <core-item label="News"><a href="#/stage/news"></a></core-item>
-            <core-item label="Decisions"><a href="#/stage/decisions"></a></core-item>
-            <core-item label="Work Organizer"><a href="#/stage/workOrganizer"></a></core-item>
-            <core-item label="Decision Response"><a href="#/stage/decisionResponse"></a></core-item>
-            <core-item label="Work Response"><a href="#/stage/workResponse"></a></core-item>
+            <core-item label="News (temp)"><a href="#/stage/news/1"></a></core-item>
+            <core-item label="Decisions (temp)"><a href="#/stage/decisions1a"></a></core-item>
+            <core-item label="Work Organizer (temp)"><a href="#/stage/workOrganizer"></a></core-item>
+            <core-item label="Decision Response (temp)"><a href="#/stage/decisionResponse"></a></core-item>
+            <core-item label="Work Response (temp)"><a href="#/stage/workResponse"></a></core-item>
         </core-menu>
     </core-header-panel>
 
-
-    <core-header-panel mode="waterfall-tall" main>
-        <core-toolbar>
+    <!--Main Header-->
+    <core-header-panel mode="waterfall" main>
+        <core-toolbar class="">
+            <a ng-controller="navigationCtrl" ng-href="{{ progress.previous }}"><paper-icon-button icon="chevron-left" ></paper-icon-button></a>
+            <div><a class="mainTitle" href="#/">Legislation Simulator</a></div><span flex></span>
+            <a ng-controller="navigationCtrl" ng-href="{{ progress.next }}"><paper-fab  class="nextButton" mini icon="chevron-right" ></paper-fab></a>
             <paper-icon-button id="navicon" icon="menu" core-drawer-toggle></paper-icon-button>
-            <div><a class="mainTitle" href="#/">Legislation Simulator</a></div>
-            <span flex></span>
-            <paper-icon-button icon="search"></paper-icon-button>
-            <paper-progress class="top fit" value="75"></paper-progress>
+            <paper-progress ng-controller="navigationCtrl" class="top fit" value="{{ progress.value }}"></paper-progress>
         </core-toolbar>
 
+
+        <!--Main View-->
         <div ng-view class="view"></div>
 
     </core-header-panel>

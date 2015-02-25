@@ -1,3 +1,9 @@
 <div class="abt-appropriations">
-    <h1>About the Appropriations Chair</h1>
+    <h1>{{ content.header }}</h1>
+    <h2>{{ content.body.title }}</h2>
+    <div class="candidateCont" ng-repeat="can in content.body.candidates">
+        <img ng-src="{{ can.imgUrl }}" alt="{{ can.imgAlt }}">
+        <h3>{{ can.name }}</h3>
+        <p>{{ can.info }}</p>
+    </div>
 </div>

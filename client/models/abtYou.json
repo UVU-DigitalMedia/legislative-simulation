@@ -1,0 +1,19 @@
+{
+  "content":{
+    "header":"About",
+    "name":"Kenneth Jones ",
+    "body":{
+      "p1":"Kenneth Jones is a successful businessman (social media marketing) from the suburban community of North Districtville.  He is very proud of his ancestry, as his family first located in Utah in the 1840s.",
+      "p2":"He served on the Bunko County Commission prior to being elected to the legislature.  He is known to be rather \"volitile\" and expresses his opinions freely.",
+      "p3":"Jones is known as an moderate but with a deep distrust of big government programs.  His typical speech is about how local communities should set policy.  This makes him acceptable to Tea Party supporters.",
+      "p4":"He is married and has grown children.  His wife,  Annebel, is a teacher in the local school district."
+    },
+    "images":[
+      {
+        "name": "Kenneth Jones",
+        "url": "client/img/kenneth.jpg",
+        "alt": "Profile pic of Kenneth Jones"
+      }
+    ]
+  }
+}

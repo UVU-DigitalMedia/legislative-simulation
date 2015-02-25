@@ -1,3 +1,8 @@
 <div class="abt-you">
-    <h1>About You (the politician)</h1>
+    <h1>{{ content.title }}{{ content.name }}</h1>
+    <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
+    <p>{{ content.body.p1 }}</p>
+    <p>{{ content.body.p2 }}</p>
+    <p>{{ content.body.p3 }}</p>
+    <p>{{ content.body.p4 }}</p>
 </div>

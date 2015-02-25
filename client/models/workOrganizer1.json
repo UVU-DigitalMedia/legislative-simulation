@@ -1,22 +1,124 @@
 {
   "content":{
-    "header":"Work Organizer",
-    "date":"November, 2014",
-    "stage":"Stage 1",
-    "body":{
-      "situations":[
-        {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-        {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-        {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-        {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+    "workDecision1":{
+      "header":"Work Organizer",
+      "date":"November, 2014",
+      "stage":"Stage 1",
+      "body":{
+        "situations":[
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
       ]
     },
-    "images":[
-      {
-        "name": "Img",
-        "url": "client/img/img.jpg",
-        "alt": "img"
-      }
-    ]
+    "workDecision2":{
+      "header":"Work Organizer",
+      "date":"November, 2014",
+      "stage":"Stage 2",
+      "body":{
+        "situations":[
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "workDecision3":{
+      "header":"Work Organizer",
+      "date":"November, 2014",
+      "stage":"Stage 3",
+      "body":{
+        "situations":[
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "workDecision4":{
+      "header":"Work Organizer",
+      "date":"November, 2014",
+      "stage":"Stage 4",
+      "body":{
+        "situations":[
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "workDecision5":{
+      "header":"Work Organizer",
+      "date":"November, 2014",
+      "stage":"Stage 5",
+      "body":{
+        "situations":[
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "workDecision6":{
+      "header":"Work Organizer",
+      "date":"November, 2014",
+      "stage":"Stage 6",
+      "body":{
+        "situations":[
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    }
   }
 }

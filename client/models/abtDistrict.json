@@ -1,0 +1,33 @@
+{
+  "content":{
+    "header":"About the District",
+    "body":{
+      "p1":"The Utah 38th House District includes the northern half of the city of Districtville and the immediate suburbs of North Districtville and Potsdale.",
+      "p2":"The politics of the 38th is quite varied.  Districtville is very liberal where anything goes.  It is surrounded by traditional conservative LDS church members.   Jones won the election by carrying North Districtville and winning Potsdale by a very large margin.",
+      "p3":"Districtville houses the University of Districtville, also known as the fighting \"Weasels.\" The city is home to a burgeoning music industry and a federal agency specializing in climate research.",
+      "p4":"The big issue in the 38th is support for education and the university.  Voters are concerned about declining test scores and safety in the schools.",
+      "p5":"The biggest industry is tourism with over a million visitors spending time and money in the region.   The powerful business leaders are largely from the tourist industry."
+
+    },
+    "images":[
+      {
+        "name": "District map",
+        "url": "client/img/district_map.jpg",
+        "alt": "A map of the district"
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
