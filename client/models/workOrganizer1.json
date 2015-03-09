@@ -6,10 +6,10 @@
       "stage":"Stage 1",
       "body":{
         "situations":[
-          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1", "name":"work1a", "response":"The plant gate idea was a cute plan, but workers wondered why a Republican was wasting his time."},
+          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2", "name":"work1b", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3", "name":"work1c", "response":"The caucus was packed.  It was good you were there.  Your passionate statements for school finance reform may have an effect."},
+          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4", "name":"work1d", "response":"City officials were astonished at your presence.  No Representative had visited a town hall meeting in years.  They appreciated it."}
         ]
       },
       "images":[
@@ -22,14 +22,14 @@
     },
     "workDecision2":{
       "header":"Work Organizer",
-      "date":"November, 2014",
+      "date":"January, 2015",
       "stage":"Stage 2",
       "body":{
         "situations":[
-          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+          {"entry":"Conduct research on the bills you are going to introduce.", "value":"1", "name":"work2a", "response":"You spend an entire day in the state library.  You are now prepared to debate HB 240."},
+          {"entry":"Attend a PTA meeting in Suburbia to discuss \"No Child Left Behind.\"", "value":"2", "name":"work2b", "response":"Three hundred concerned parents were somewhat pleased you would meet with them.  The president of the school board told the press the future of the school was in your hands."},
+          {"entry":"Pay attention to staff priorities and concerns.", "value":"3", "name":"work2c", "response":"Staff really needed the direction you gave them.  The office will run better now."},
+          {"entry":"Visit Washington to discuss state budget problems with the congressional delegation.", "value":"4", "name":"work2d", "response":"Your visit went very well.  Senate Republican Leader Frist invited you for a picture opportunity."}
         ]
       },
       "images":[
@@ -42,14 +42,14 @@
     },
     "workDecision3":{
       "header":"Work Organizer",
-      "date":"November, 2014",
+      "date":"February, 2014",
       "stage":"Stage 3",
       "body":{
         "situations":[
-          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+          {"entry":"Take your family on a short vacation.", "value":"1", "name":"work3a", "response":"The family had a great time in Bermuda.  The snorkeling was great, and your wife loved the time with you."},
+          {"entry":"Meet with the governor to review the bills you have introduced.", "value":"2", "name":"work3b", "response":"The time spent on your legislation was well worth it.  They  will have a greater chance of avoiding a veto."},
+          {"entry":"Send a questionnaire to your district", "value":"3", "name":"work3c", "response":"The questionnaire was loved by constituents.  More than 3,000 filled it out and mailed it in."},
+          {"entry":"Meet with lobbyists interested in education issues.", "value":"4", "name":"work3d", "response":"The lobbyist meeting went well.  Their respect for you increases daily."}
         ]
       },
       "images":[
@@ -62,14 +62,14 @@
     },
     "workDecision4":{
       "header":"Work Organizer",
-      "date":"November, 2014",
+      "date":"January, 2016",
       "stage":"Stage 4",
       "body":{
         "situations":[
-          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+          {"entry":"Meet with staff about their concerns.", "value":"1", "name":"work4a", "response":"Your staff appreciated your attention.  They will now stay with you through the election."},
+          {"entry":"Organize a hearing at University of Disttrictville to discuss tuition levels.", "value":"2", "name":"work4b", "response":"Local constituents turned out \"en mass\" to tell you of their concerns.  A student suggested an idea for a bill to help economic development in the area.  It was a great evening.  You may have to hold more public forums."},
+          {"entry":"Send a \"franked\" mail to your district.", "value":"3", "name":"work4c", "response":"Your constituents appreciated the mailing.  Local press criticized the fact that your picture appeared in the mailing ten times.  The Taxpayers United group filed a lawsuit asking you to repay the money spent on the mailing by the government."},
+          {"entry":"Organize a fund-raiser.", "value":"4", "name":"work4d", "response":"A fund raiser was successful.  It raised $40,000, with most of it coming from political action Committees."}
         ]
       },
       "images":[
@@ -82,14 +82,14 @@
     },
     "workDecision5":{
       "header":"Work Organizer",
-      "date":"November, 2014",
+      "date":"February, 2016",
       "stage":"Stage 5",
       "body":{
         "situations":[
-          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+          {"entry":"Organize your congressional campaign.", "value":"1", "name":"work5a", "response":"Your congressional campaign got off to a good start.  Forty people showed up to organize the campaign.  House Republicans are very upset."},
+          {"entry":"Hold committee hearings throughout the state.", "value":"2", "name":"work5b", "response":"Thecommittee hearings in Murphy was sparsely attended.  You got three column inches in the newspaper saying the committee was there.  You were not mentioned."},
+          {"entry":"Hold a fund-raiser.", "value":"3", "name":"work5c", "response":"The fund-raiser was a success.  An additional $30,000 was brought in."},
+          {"entry":"Meet with constituents.", "value":"4", "name":"work5d", "response":"Your district townhall meetings were great.  Your idea of having two-way video from the high school to the middle school was featured in the newspaper."}
         ]
       },
       "images":[
@@ -102,14 +102,14 @@
     },
     "workDecision6":{
       "header":"Work Organizer",
-      "date":"November, 2014",
+      "date":"October, 2016",
       "stage":"Stage 6",
       "body":{
         "situations":[
-          {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1"},
-          {"entry":"Meet wtih influential lobbyists in Salt Lake City.", "value":"2"},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3"},
-          {"entry":"Visit city halls introducing your constituent service plan.", "value":"4"}
+          {"entry":"Attend a Republican \"get out the vote\" rally on campus.", "value":"1", "name":"work6a", "response":"Students enjoy the rally with their representative.  Unfortunately, only 25 students showed up and they were already planning to vote for the Republican candidate from their home district."},
+          {"entry":"Go door to door in swing precincts.", "value":"2", "name":"work6b", "response":"Door to door was very satisfying.  You received a good reception.  You were able to talk to 200 voters in the last few days."},
+          {"entry":"Campaign with Governor Herbert in Republican neighborhoods.", "value":"3", "name":"work6c", "response":"People were impressed that the governor came to visit.  It seemed like they remembered him more than you.  You did gain some additional yard sign locations. Press wrote favorably about it."},
+          {"entry":"Organize a fund-raiser for a last minute television blitz.", "value":"4", "name":"work6d", "response":"You received needed funds for the last-minute television blitz. It should help if you can get the ads produced in time."}
         ]
       },
       "images":[

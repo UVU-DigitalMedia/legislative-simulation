@@ -8,7 +8,7 @@
     <div>
         <p>{{ content.body.situation }}</p>
         <paper-radio-group >
-            <paper-radio-button name="{{ answer.value }}" label="{{ answer.entry }}" ng-repeat="answer in content.body.answers"></paper-radio-button>
+            <paper-radio-button  ng-click="saveAnswer(answer.entry, answer.name, answer.response)" name="{{ answer.value }}" label="{{ answer.entry }}" ng-repeat="answer in content.body.answers" ></paper-radio-button>
         </paper-radio-group>
     </div>
 </div>

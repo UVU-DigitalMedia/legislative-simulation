@@ -6,7 +6,9 @@
         <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
     </div>
     <div ng-repeat="situation in content.body.situations ">
-        <paper-checkbox></paper-checkbox>
+
+        <input type="checkbox" ng-model="checkbox.answer" ng-change="checkChanged(checkbox, situation.name ,situation.entry, situation.response)" ng-disabled="checked==limit && !checkbox.answer">
+        <!--<paper-checkbox ng-model="checkbox.answer" ng-change="checkChanged(checkbox)" ng-disabled="checked==limit && !checkbox.answer"></paper-checkbox>-->
         <div verticle layout>
             <p>{{ situation.entry }}</p>
         </div>
