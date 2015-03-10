@@ -115,21 +115,21 @@ angular.module('controllers',[])
             localStorage[response] = answer;
         };
 
-        //limit check boxes to 2, add remove from local storage
+        //limit check boxes to 2, add/remove from local storage
         $scope.checkboxs = [];
         $scope.limit = 2;
         $scope.checked = 0;
-        $scope.checkChanged = function(checkbox, question, entry){
+        $scope.checkChanged = function(checkbox, questionName, entry, response){
             if(checkbox.answer){
                 $scope.checked++;
-                addValue(question, entry)
+                addValue(questionName, entry, response)
             }else{
                 $scope.checked--;
-                removeValue(question, entry)
+                removeValue(questionName, entry, response)
             }
         };
 
-        //add checked value
+        //add checked value to localStorage
         function addValue(question, entry, answer){
             localStorage[question] = entry;
             var response = question + 'Response';
@@ -247,10 +247,16 @@ angular.module('controllers',[])
                 decisionResponseModel.get(function(content){
                     $scope.decisionResponseContent = content.content;
 
+
                     //conjoin relevant section of model to the scope for binding (depending on what stage it is)
                     switch ($routeParams.val2){
                         /*stages 1 - 6*/
-                        case "1":$scope.content = $scope.decisionResponseContent.decisionResponse1;
+                        case "1":
+                            $scope.content = $scope.decisionResponseContent.decisionResponse1;
+                            console.log($scope.content);
+                            //todo make service that collects local and builds single "answer object
+                            //todo change question too
+                            //todo cleanup json objects, have them be a full build
 
                             $scope.content.body.questions[0].choice = localStorage['1a'];
                             $scope.content.body.questions[0].response = localStorage['1aResponse'];
@@ -264,9 +270,12 @@ angular.module('controllers',[])
                             $scope.content.body.questions[3].choice = localStorage['1d'];
                             $scope.content.body.questions[3].response = localStorage['1dResponse'];
 
-                            console.log($scope.content);
+
                             break;
-                        case "2":$scope.content = $scope.decisionResponseContent.decisionResponse2;
+                        case "2":
+                            $scope.content = $scope.decisionResponseContent.decisionResponse2;
+                            console.log($scope.content)
+
                             $scope.content.body.questions[0].choice = localStorage['2a'];
                             $scope.content.body.questions[0].response = localStorage['2aResponse'];
 
@@ -279,7 +288,8 @@ angular.module('controllers',[])
                             $scope.content.body.questions[3].choice = localStorage['2d'];
                             $scope.content.body.questions[3].response = localStorage['2dResponse'];
                             break;
-                        case "3":$scope.content = $scope.decisionResponseContent.decisionResponse3;
+                        case "3":
+                            $scope.content = $scope.decisionResponseContent.decisionResponse3;
 
                             $scope.content.body.questions[0].choice = localStorage['3a'];
                             $scope.content.body.questions[0].response = localStorage['3aResponse'];
@@ -351,28 +361,23 @@ angular.module('controllers',[])
                     switch ($routeParams.val2){
                         /*stages 1 - 6*/
                         case "1":$scope.content = $scope.workResponseContent.workResponse1;
-
-                            function searchValue(local){
-
-                            }
-
-
-
+                            //service that gets local storage and returns answer object
+                            $scope.content.body.situations = DataService.getWorkResponses(1);
                             break;
                         case "2":$scope.content = $scope.workResponseContent.workResponse2;
-
+                            $scope.content.body.situations = DataService.getWorkResponses(2);
                             break;
                         case "3":$scope.content = $scope.workResponseContent.workResponse3;
-
+                            $scope.content.body.situations = DataService.getWorkResponses(3);
                             break;
                         case "4":$scope.content = $scope.workResponseContent.workResponse4;
-
+                            $scope.content.body.situations = DataService.getWorkResponses(4);
                             break;
                         case "5":$scope.content = $scope.workResponseContent.workResponse5;
-
+                            $scope.content.body.situations = DataService.getWorkResponses(5);
                             break;
                         case "6":$scope.content = $scope.workResponseContent.workResponse6;
-
+                            $scope.content.body.situations = DataService.getWorkResponses(6);
                             break;
                         default: console.log('stageCtrl workResponse switch err');
                     }

@@ -1,154 +1,87 @@
 {
-  "content":{
-    "workResponse1":{
-      "header":"Response to Work Options",
-      "stage":"Stage 1",
-      "body":{
-        "situations":[
+  "content": {
+    "workResponse1": {
+      "header": "Response to Work Options",
+      "stage": "Stage 1",
+      "body": {
+        "images": [
           {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-          },
-          {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
+            "name": "person you voted on",
+            "url": "client/img/votedStaff.jpg",
+            "alt": "Person you voted on"
           }
         ]
-      },
-      "images":[
-        {
-          "name": "person you voted on",
-          "url": "client/img/votedStaff.jpg",
-          "alt": "Person you voted on"
-        }
-      ]
+      }
     },
-    "workResponse2":{
-      "header":"Response to Work Options",
-      "stage":"Stage 2",
-      "body":{
-        "situations":[
+    "workResponse2": {
+      "header": "Response to Work Options",
+      "stage": "Stage 2",
+      "body": {
+
+        "images": [
           {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-          },
-          {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
+            "name": "person you voted on",
+            "url": "client/img/votedStaff.jpg",
+            "alt": "Person you voted on"
           }
         ]
-      },
-      "images":[
-        {
-          "name": "person you voted on",
-          "url": "client/img/votedStaff.jpg",
-          "alt": "Person you voted on"
-        }
-      ]
+      }
     },
-    "workResponse3":{
-      "header":"Response to Work Options",
-      "stage":"Stage 3",
-      "body":{
-        "situations":[
+    "workResponse3": {
+      "header": "Response to Work Options",
+      "stage": "Stage 3",
+      "body": {
+
+        "images": [
           {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-          },
-          {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
+            "name": "person you voted on",
+            "url": "client/img/votedStaff.jpg",
+            "alt": "Person you voted on"
           }
         ]
-      },
-      "images":[
-        {
-          "name": "person you voted on",
-          "url": "client/img/votedStaff.jpg",
-          "alt": "Person you voted on"
-        }
-      ]
+      }
     },
-    "workResponse4":{
-      "header":"Response to Work Options",
-      "stage":"Stage 4",
-      "body":{
-        "situations":[
+    "workResponse4": {
+      "header": "Response to Work Options",
+      "stage": "Stage 4",
+      "body": {
+
+        "images": [
           {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-          },
-          {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
+            "name": "person you voted on",
+            "url": "client/img/votedStaff.jpg",
+            "alt": "Person you voted on"
           }
         ]
-      },
-      "images":[
-        {
-          "name": "person you voted on",
-          "url": "client/img/votedStaff.jpg",
-          "alt": "Person you voted on"
-        }
-      ]
+      }
     },
-    "workResponse5":{
-      "header":"Response to Work Options",
-      "stage":"Stage 5",
-      "body":{
-        "situations":[
+    "workResponse5": {
+      "header": "Response to Work Options",
+      "stage": "Stage 5",
+      "body": {
+
+        "images": [
           {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-          },
-          {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
+            "name": "person you voted on",
+            "url": "client/img/votedStaff.jpg",
+            "alt": "Person you voted on"
           }
         ]
-      },
-      "images":[
-        {
-          "name": "person you voted on",
-          "url": "client/img/votedStaff.jpg",
-          "alt": "Person you voted on"
-        }
-      ]
+      }
     },
-    "workResponse6":{
-      "header":"Response to Work Options",
-      "stage":"Stage 6",
-      "body":{
-        "situations":[
+    "workResponse6": {
+      "header": "Response to Work Options",
+      "stage": "Stage 6",
+      "body": {
+
+        "images": [
           {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-          },
-          {
-            "activityChosen":"what ever you chose",
-            "response":"The response",
-            "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
+            "name": "person you voted on",
+            "url": "client/img/votedStaff.jpg",
+            "alt": "Person you voted on"
           }
         ]
-      },
-      "images":[
-        {
-          "name": "person you voted on",
-          "url": "client/img/votedStaff.jpg",
-          "alt": "Person you voted on"
-        }
-      ]
+      }
     }
   }
 }
