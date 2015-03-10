@@ -275,6 +275,14 @@ angular.module('controllers',['angularCharts'])
                     });
                 break;
 
+            case 'analysis':
+                    $scope.currentContInclude = {"url": "client/partials/analysis.html"};
+                    var model = DataService.getModel('analysis');
+                    model.get(function (content) {
+                        $scope.content = content.content;
+                    });
+                    break;
+
             //todo create campaign spending case/model/bindings
 
             //possibly in a new controller, PostStageing or results or something
