@@ -1,4 +1,4 @@
-angular.module('controllers',[])
+angular.module('controllers',['angularCharts'])
 
     .controller('navigationCtrl', ['$routeParams', '$scope', '$location', 'DataService', function ($routeParams, $scope, $location, DataService){
         //determine progress %, next and previous page, and provide link to each
@@ -384,11 +384,34 @@ angular.module('controllers',[])
                 });
                 break;
 
+            case 'effectiveness':
+
+            $scope.config = {
+                tooltips: true,
+                labels: false,
+                mouseover: function() {},
+                mouseout: function() {},
+                click: function() {},
+                legend: {
+                  display: true,
+                  //could be 'left, right'
+                  position: 'right'
+                }
+              };
+
+                //get effectiveness model
+                $scope.currentContInclude = {"url": "client/partials/effectiveness.html"};
+                    var model = DataService.getModel('effectiveness');
+                    model.get(function (content) {
+                        $scope.content = content.content;
+                        $scope.effData = content.effData;
+                    });
+                break;
+
             //todo create campaign spending case/model/bindings
 
             //possibly in a new controller, PostStageing or results or something
             //todo create vote case/model/bindings
-            //todo create effectiveness case/model/bindings
             //todo create analysis case/model/bindings
             //todo create voteResults case/model/bindings
             //todo create thankyou case/model/bindings
