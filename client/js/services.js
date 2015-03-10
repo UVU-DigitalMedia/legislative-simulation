@@ -7,10 +7,10 @@ angular.module('services',['ngResource'])
             },
             getWorkResponses: function(stageNumber){
 
-                var questionNamea =  stageNumber+ "a";
+                /*var questionNamea =  stageNumber+ "a";
                 var questionNameb =  stageNumber+ "b";
                 var questionNamec =  stageNumber+ "c";
-                var questionNamed =  stageNumber+ "d";
+                var questionNamed =  stageNumber+ "d";*/
 
                 var answerNamea = "work" + stageNumber+ "a";
                 var answerNameb = "work" + stageNumber+ "b";
@@ -22,11 +22,9 @@ angular.module('services',['ngResource'])
                 var responseNamec = "work" + stageNumber+ "cResponse";
                 var responseNamed = "work" + stageNumber+ "dResponse";
 
-
-                var questions = [questionNamea,questionNameb,questionNamec,questionNamed];
+                /*var questions = [questionNamea,questionNameb,questionNamec,questionNamed];*/
                 var answers = [answerNamea,answerNameb,answerNamec,answerNamed];
                 var responses = [responseNamea,responseNameb,responseNamec,responseNamed];
-
 
                 var situations = [];
 
@@ -40,20 +38,6 @@ angular.module('services',['ngResource'])
                     }
                 }
                 return situations;
-
-
-                /*[
-                    {
-                        "activityChosen":"what ever you chose",
-                        "response":"The response",
-                        "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-                    },
-                    {
-                        "activityChosen":"what ever you chose",
-                        "response":"The response",
-                        "question":"Visit city halls introducing your constituent service plan.", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."
-                    }
-                ]*/
             }
         }
     }]);
