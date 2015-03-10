@@ -7,9 +7,9 @@
       "body":{
         "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are given below.",
         "answers":[
-          {"entry":"Paula Martinez", "value":"1", "name":"vote"},
-          {"entry":"Dan Graves", "value":"2", "name":"vote"},
-          {"entry":"Erik Larson", "value":"3", "name":"vote"}
+          {"entry":"Paula Martinez",  "value":"1", "name":"1a", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
+          {"entry":"Dan Graves",      "value":"2", "name":"1a", "response":"Speaker Peterson was pleased you hired me.  I heard he told others that \"Jones is off to a good start.\"   Rep. Jenkins called to wish you well."},
+          {"entry":"Erik Larson",     "value":"3", "name":"1a", "response":"I understand that \"main stream\" Republicans are unhappy that you hired me.   While I'm not an insider, I think I can help you carry the far right vote in the district.  You need my help."}
         ]
       },
       "images":[
@@ -25,11 +25,11 @@
       "date":"November, 2014",
       "stage":"Stage 1",
       "body":{
-        "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are given below.",
+        "situation":"You just got a call from Representative Dunne, a twelve-year veteran and chair of the new Ways and Means Committee, who says he will intervene with the Speaker to help you get better office space and more staff if you support his property tax cut of 35% with the money to be replaced by state general funds.  Will you agree to vote for his legislation?",
         "answers":[
-          {"entry":"Paula Martinez", "value":"1", "name":"vote"},
-          {"entry":"Dan Graves", "value":"2", "name":"vote"},
-          {"entry":"Erik Larson", "value":"3", "name":"vote"}
+          {"entry":"yes",   "value":"1", "name":"1b", "response":"Local Democratic moderates who supported you were outraged that your first legislative act was to cut taxes. Dunne is not respected.  Fortunately, the Republican leader didn't know of the deal."},
+          {"entry":"no",    "value":"2", "name":"1b", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."}
+
         ]
       },
       "images":[
@@ -45,11 +45,433 @@
       "date":"November, 2014",
       "stage":"Stage 1",
       "body":{
-        "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are given below.",
+        "situation":"YThe contest for chair of the House Appropriations Committee has divided the Republican Caucus.  The race involves two powerful personalities with different organizational strengths and ideologies.  To head the House Appropriations Committee is to hold a position of great power, as the incumbent helps shape the state budget and approves funds for district projects.  Observers agree that the race will be close.  Whoever wins is likely to reward his supporters and punish people who voted for his opponent.  He is also  likely to be the next Speaker.",
         "answers":[
-          {"entry":"Paula Martinez", "value":"1", "name":"vote"},
-          {"entry":"Dan Graves", "value":"2", "name":"vote"},
-          {"entry":"Erik Larson", "value":"3", "name":"vote"}
+          {"entry":"Ralph Jenkins",         "value":"1", "name":"1c", "response":"Your choice of Ralph Jenkins was not good.  He lost by a two-vote margin. You will have to find ways to get on Colbert's good side if you want to get funds for your pet projects."},
+          {"entry":"Fred Colbert",          "value":"2", "name":"1c", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
+          {"entry":"Abstain from voting",   "value":"3", "name":"1c", "response":"Your decision to not vote for Chair won you no friends and little respect.  The Gazette  criticized your lack of convictions and apparent desire to make a deal."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision1d":{
+      "header":"Time To Make Some Decisions",
+      "date":"November, 2014",
+      "stage":"Stage 1",
+      "body":{
+        "situation":"President Obama telephoned you today to inquire about whether you would be willing to vote for Rep. Seelig for Speaker.  He indicated that if you did he would see that you had a role to play on education issues in Washington.   Rep. Seelig stopped by your home to let you know that if you supported him you could chair the Appropriations Committee.  Will you stay with Peterson, the Republican leader, or vote for Democrat leader Seelig?",
+        "answers":[
+          {"entry":"Peterson for Speaker (Rep.)", "value":"1", "name":"1d", "response":"Republicans were pleased.  Peterson, in a private meeting, said you could chair one important committee and be on the Appropriations Committee. Democrats were disappointed but not surpised."},
+          {"entry":"Seelig for Speaker (Dem.)",   "value":"2", "name":"1d", "response":"Republicans went crazy with displeasure.  Governor Herberet called you a \"traitor to good government.\"  President Obama said you were an outstanding citizen.  Local newspapers criticized your \"turncoat attitude.\""},
+          {"entry":"EAbstain from voting",        "value":"3", "name":"1d", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision2a":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2014",
+      "stage":"Stage 2",
+      "body":{
+        "situation":"The Utah Retail Merchants Association has asked you to sponsor HB 240, which would provide significant tax credits for a period of up to five years for newly opened businesses.  The credit would not apply to branch operations, is not limited to a set number of partners, and does not provide extra incentives for minority ownership participation.  Will you sponsor the bill?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"2a", "response":"The business community appreciates your introducing HB 240. Minority leaders and union leaders have written questioning your intentions. The bill will also cost the state much needed revenue.  The Utah Education Association expressed their displeasure.  The Governor was quiet."},
+          {"entry":"No",  "value":"2", "name":"2a", "response":"The business community is upset with your refusal to introduce HB 240. They say they may as well have elected a Democrat.  Democratic leaders are pleased.  The Utah Liberals for Justice Organization has indicated they may make you their legislator of the year."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision2b":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2014",
+      "stage":"Stage 2",
+      "body":{
+        "situation":"Your administrative assistant has had difficulty scheduling everything you want to do.  He needs to know how many nights a week you are willing to spend working on legislative business?",
+        "answers":[
+          {"entry":"1 night a week",        "value":"1", "name":"2b", "response":"Your spouse expressed appreciation for your commitment to the family.  Your staff was dismayed that you weren't really committed to being re-elected."},
+          {"entry":"2 or 3 nights a week",  "value":"2", "name":"2b", "response":"Your family was concerned about the heavy commitment to House business but felt it was reasonable.  Staff felt they could schedule you adequately with that number of evenings for House business."},
+          {"entry":"4 nights a week",       "value":"3", "name":"2b", "response":"Your family was distressed with the few nights they will see you.  Staff was pleased."},
+          {"entry":"As many as needed to meet district demands", "value":"4", "name":"2b", "response":"You wife and kids were quite upset with your decision. Office staff was delighted.  Caucus campaign staff were very, very pleased as long as they didn't have to attend meetings with you."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision2c":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2014",
+      "stage":"Stage 2",
+      "body":{
+        "situation":"The Appropriation Committee on school aid has just reported out a bill requiring Utah to pull out of the \"No Child Left Behind\" federal law.   It will cost Utah  $120 million in federal money. The bill will cost the Districtville Schools $200,000 but will help make a statement in support of local control of schools. Chris Johnson, writer for the Districtville Gazette is on the phone, wanting you to know how you intend to vote?.  What do you say?",
+        "answers":[
+          {"entry":"\"I  plan to vote yes, What is $200,000 compared to freedom from the feds.\"", "value":"1", "name":"2c", "response":"The Districtville superintendent of schools was distressed with your vote.  The newspaper editorialized against  your position.  The school board president was \"outraged\" and wrote to you saying \"his $100 contribution to your campaign was wasted.\""},
+          {"entry":"\"I plan to vote no. Funding should be maintained for  Districtville in spite of the federal mandates.\"", "value":"2", "name":"2c", "response":"The local schools were pleased.  However,Tea Party leader, Samuel Tizzy, said that the vote might lead to your defeat at the next primary."},
+          {"entry":"\"I am planning on being out of town that week.\"", "value":"3", "name":"2c", "response":"The newspaper editorialized strongly against your lack of commitment.  They write \"Jones takes a hike after running on a platform of education reform.\"  The Mayor of Districtville called to say how disappointed he was in you."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision2d":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2014",
+      "stage":"Stage 2",
+      "body":{
+        "situation":"The governor's staff has indicated an interest in working with you.  They want to know if you are wiling to sponsor a bill \"reforming\" the education system by setting the standards for firing teachers now that tenure has been eliminated.  The governor's  legislative liaison said the governor would be \"mighty pleased\" if you would introduce the bill.  Will you sponsor the bill?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"2d", "response":"The Utah Association of Educators  held a press conference criticizing your bill.  A letter-writing campaign of 15,000 teachers has been initiated.  A minority teacher group told the press you were insensitive to the racism that will be experienced if the bill passes."},
+          {"entry":"No",  "value":"2", "name":"2d", "response":"The governor was unhappy with your decision not to introduce the bill that would implement tenure elimination.  His staff said you might not get any input on key appointments from your district.  Teachers in your district heard that you stood up for them and were pleased.  The Association of Minority Teachers may give you a plaque."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision3a":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2014",
+      "stage":"Stage 3",
+      "body":{
+        "situation":"The budget problem is significant.  The vote on the budget in the Appropriations Committee is this week.  One vote makes a difference.  The governor has asked for your support on a conservative, anti social service budget that slashes the number of state employees, cuts school aid by 2%, and reduces university funding by 5%.  Passage of this budget will cause layoffs at the local college.  Faculty are concerned.  Will you vote to report the budget from committee?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"3a", "response":"The governor and his staff were delighted.  The budget was reported from the committee by a one-vote margin.  You might get an appointment you desired for a big contributor.  The press blasted you for running as a \"moderate\" and supporting a conservative budget.  Local school board members said they may lead a march to Salt Lake City to  protest the budget."},
+          {"entry":"No",  "value":"2", "name":"3a", "response":"The budget failed by one vote.  The director of the budget said failure to enact this budget will lead to even more cutbacks.   Liberals are happy with your vote.  The Utah Association of Educators said you were \"a true friend of education.\"   Negotiations will start soon to rewrite the failed budget, taking a lot of your time."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision3b":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2014",
+      "stage":"Stage 3",
+      "body":{
+        "situation":"You have been approached by Fred Smithson, the influential chair of the Natural Resources  Committee.  He has asked you to pledge support for HB 295, which would increase the fines charged for polluting the environment by Utah businesses.  It will give Utah the \"toughest\" environmental law in the nation.  It may hurt the local fertilizer company which has threatened to go out of business.  It will raise the cost of \"doing business.\" Will you support it?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"3b", "response":"Representative Smithson was pleased. Environmentalists were thrilled.  Their lobbyist gave you a tree to show support. The Chamber of Commerce blasted you for possibly costing the district 500 jobs when Ajex Co. closes.  The governor told insiders that your decision put him on the defensive."},
+          {"entry":"No",  "value":"2", "name":"3b", "response":"Representative Smithson was unhappy you weren't more courageous. Business leaders in the district were delighted you didn't support the environmental bill. The Ajex Fertilizer Company will be able to stay in business. Passage would have cost 500 jobs. The governor called to thank you."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision3c":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2014",
+      "stage":"Stage 3",
+      "body":{
+        "situation":"A major financial contributor, Dr. Max Roper, has written asking for your help getting Medicaid reimbursement for his patients.  Dr. Roper runs a clinic for low-income residents needing psychological assistance.  The Department of Social Services has turned him down because of minimal quality control procedures.  He indicates that he will shut down the clinic if he can't get reimbursement.  Local press is interested. Do you want to commit staff to help?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"3c", "response":"Local press gave you front-page coverage for intervening for Dr. Roper.  \"Homeless People Helped\" was the headline.  The DSS director wasn't happy.  Their policy now under review."},
+          {"entry":"No",  "value":"2", "name":"3c", "response":"Staff was pleased you didn't take up their time working on a non-legislative issue.  Max Roper went to the press saying your opponent in the next election will get his support.  An editorial criticizes your lack of interest in local issues."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision3d":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2014",
+      "stage":"Stage 3",
+      "body":{
+        "situation":"Representative Ruff, a conservative Democrat, has requested that you schedule his bill reforming the unemployment compensation system. The bill makes a lot of sense, according to your staff. You and Ruff have been getting along well.  He is on the committee and has been helpful.  However, the chair of the Campaign Committee has requested that you \"hold up his bill\" because Ruff's district is \"targeted.\"  Do you schedule the bill?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"3d", "response":"Representative Ruff appreciates your scheduling the bill.  The Chamber of Commerce called to say thanks.  Your colleagues weren't as supportive.  The Campaign Committee chair was reported to have asked his staff, \"How much money did Jones want for the next campaign?\""},
+          {"entry":"No",  "value":"2", "name":"3d", "response":"Your decision not to schedule the Ruff bill was appreciated by the Campaign Committee staff.  The majority leader called to expressed his appreciation.  Local press questioned why this \"important bill\" wasn't being scheduled for debate."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision4a":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2016",
+      "stage":"Stage 4",
+      "body":{
+        "situation":"Dr. Max Roper is insistent in wanting more help.  Staff has found that DSS Director Miller isn't willing to budge.  They have done as much as they can.  Your administrative assistant has requested that you get directly involved by meeting with the DSS director.  Which option do you select to help the case?",
+        "answers":[
+          {"entry":"Meet personally with the DSS director and push for them to support Roper.", "value":"1", "name":"4a", "response":"The local press is delighted with your personal interest. The headline \"Senator Acts for Homeless\" sells well with both liberals and conservatives.  Your caseload increases substantially with news of your willingness to help."},
+          {"entry":"Let Roper fend for himself.", "value":"2", "name":"4a", "response":"Staff is happy to be done with the issue.  Roper was a \"pain the ____\" for your secretary who handled numerous calls from his clients.  This gives you time to work on the budget."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision4b":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2016",
+      "stage":"Stage 4",
+      "body":{
+        "situation":"Rep. Fjord is pushing a constitutional amendment that requires Utah schools to teach \"intelligent design\" as an equal theory with evolution. The amendment does not apply to charter schools or church schools.  The bill is up for a vote in the education committee.  Given the hospitality of the bill in the Education Committee, the Speaker has asked you to vote to refer the bill to the friendlier agricultural committee.  This will keep the \"far right\" members of the caucus happy.   He said it is ultimately unlikely to get the 2/3 votes needed.  How do you vote?",
+        "answers":[
+          {"entry":"You support the constitutional amendment and vote to report it to the floor, not the agricultural committee.", "value":"1", "name":"4b", "response":"The Speaker was not happy.  He wanted time to \"work the bill.\"      As a news report said, who knows what the full House will do with this piece of red meat?  Educators in your district were outraged.  The local paper editorialized against your vote.  The local conference of evangelical pastors endorsed your position."},
+          {"entry":"You vote \"yes\" to advance the amendment to the agriculture committee.", "value":"2", "name":"4b", "response":"The Speaker was very pleased.  It will help him manage the issue.   However, educators in your district were outraged.  The local paper editorialized against your vote.  The local conference of evangelical pastors endorsed your position."},
+          {"entry":"You tell the Speaker that you cannot support the constitutional amendment.  It is not good policy,science or politics.", "value":"3", "name":"4b", "response":"The Speaker was not happy with you.  The far right caucus members have asked him to \"discharge\" the committee of the bill.    Educators and the newspaper were pleased with your courage.  Local evangelical pastors expressed their concern with  your liberal humanistic views."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision4c":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2016",
+      "stage":"Stage 4",
+      "body":{
+        "situation":"Staff has recommended that you support Representative Rustem's amendment increasing the income tax by .1% to balance the budget.  It will help local schools district.  Approval would also insure passage of your amendment to increase aid to the college in Districtville. Additional revenue would help your district considerably.  The Governor has called to ask you to oppose the amendment.  What do you tell the Governor?",
+        "answers":[
+          {"entry":"\"With all due respect, you plan to vote for the amendment.\"",       "value":"1", "name":"4c", "response":"Your efforts to increase taxes and gain money for the college and schools were successful.  The budget director is threatening a gubernatorial veto.  You have just won the \"liberal of the year\" award from the school workers association."},
+          {"entry":"\"I'm a team player, Governor, I will vote against the amendment.\"", "value":"2", "name":"4c", "response":"Conservatives and business leaders are happy with your vote against the tax and spend policies of your colleagues.  The education community is upset.  Local press says you didn't show much courage by surrendering to \"nabobs of negativism.\""},
+          {"entry":"You will call the lobbyist from University of Disttrictville  representative and find out how to vote.", "value":"3", "name":"4c", "response":"The University of Disttrictville lobbyist asked for information about the amendment.  He wanted more time to study the issue saying this was news to him."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision4d":{
+      "header":"Time To Make Some Decisions",
+      "date":"January, 2016",
+      "stage":"Stage 4",
+      "body":{
+        "situation":"The governor has invited you and your spouse to have dinner with him and his wife.  Unfortunately, the date conflicts with a rally of physicians in your district urging medical liability reform.  More than 300 physicians are expected to attend.  The Utah Medical Society wants you to be the keynote speaker.  Your wife is interested in seeing the governor's mansion and meeting his wife.  What do you say to the governor?",
+        "answers":[
+          {"entry":"\"Yes, my spouse and I will join you for dinner at the mansion.\"", "value":"1", "name":"4d", "response":"The governor and Ann are looking forward  seeing you at the mansion.   You will be joining a group of 150 \"friends\" of the Governor.  Chances for a private conversation are rather slim."},
+          {"entry":"\"No, I appreciate your invitation, but I have important district business to attend to.\"", "value":"2", "name":"4d", "response":"The Utah Medical Society is pleased to learn you would rather help their cause than \"schmooze with the governor.\"  The rally was successful. ,Many doctors offered upi future campaign contributions.  Your spouse was not pleased, she was looking forward to the evening."},
+          {"entry":"\"No thanks, Gov. Maybe other time.\"    You are planning playing golf at Pinehurst #2 with lobbyists from Pope Foundation.", "value":"3", "name":"4d", "response":"You made everyone unhappy except the state Pope Foundation Executive Director.  You spouse commented she may break your favorite \"Taylor Made XLS\" driver!"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision5a":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2016",
+      "stage":"Stage 5",
+      "body":{
+        "situation":"Representative Smith has introduced a bill that allows cities to create special \"Tax Free Zones\" to encourage economic development and to save the typewriter manufacturing plant in North Districtville.   The tax break is likely to cost the state millions of dollars but will save 140 jobs in your district.  The Jetson family owns the largest typewriter company and the Districtivilel Gazette.  The governor has asked you not to schedule the bill because of it's effect on state revenue.  Will you agree to kill the bill?",
+        "answers":[
+          {"entry":"\"Yes, Governor, I'll see that the bill is killed in committee.\"", "value":"1", "name":"5a", "response":"The local paper criticizes your insensitivity to local industry for not introducing the bill to help the typewriter industry. It suggests that the governor has \"bought you off.\"  Unions and business leaders threaten to reduce campaign contributions.  The governor is silent."},
+          {"entry":"\"No,  I will do all I can to see the bill pass.\"", "value":"2", "name":"5a", "response":"The local paper editorializes in your behalf because you supported the typewriter industry. Union and business leaders are happy. The Salt Lake City News Observer editorialize against your bill because of cost.  The governor is livid."}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision5b":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2016",
+      "stage":"Stage 5",
+      "body":{
+        "situation":"A few months ago, you introduced a bill to increase aid for downtown Districtville. This is a big issue with the paper. The bill is stalled in Representative Fink's committee.   You have a bill that Fink and the governor want.  At the caucus, the Speaker turns to you and asks if you will \"move\" the Fink bill?  Fink won't budge on your bill. What do you do?",
+        "answers":[
+          {"entry":"Stand up to Fink and demand your bill in trade.", "value":"1", "name":"5b", "response":"City Council members were pleased to learn of your willingness to stand up for Districtville and not be pushed around.  Your colleagues took note of your willingness to exercise the power of the committee chair."},
+          {"entry":"Give in and report the bill.", "value":"2", "name":"5b", "response":"Your colleagues were pleased you caved in to caucus pressure. However, one representative was overheard saying as he left the room that you really \"wimped out\" on that one.  The governor was pleased that you were a \"team player\" and not too strong in your beliefs."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision5c":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2016",
+      "stage":"Stage 5",
+      "body":{
+        "situation":"The vote is before the House to refer the elimination of the Board of Regents to the hostile agriculture committee.  UNC Districtville Chancellor Pinder called to urge a \"yes\" vote.  The Chamber of Commerce is urging a \"NO\" vote as is Speaker Peterson.  How, do you vote?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"5c", "response":"Your vote killed the legislation for another two years.  The Districtville Gazette described your vote as \"ducking a tough issue.\"  The University community was pleased with your action.   An honorary degree might be in your future."},
+          {"entry":"No",  "value":"2", "name":"5c", "response":"The Director of the Pope Center for Higher Education was pleased with your vote to eliminate the Board of Regents'  He commented to the press that the \"Governor's should either 'toughen up' or lets eliminate them and let the legislature run things.\""}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision5d":{
+      "header":"Time To Make Some Decisions",
+      "date":"February, 2016",
+      "stage":"Stage 5",
+      "body":{
+        "situation":"The courts have ordered the legislature to redraw the boundaries of three house districts.  Because your district is not very compact and has too many people, the Speaker has recommended removing Potsdale from your district.  Potsdale is heavily Republican and it's loss may be significant in your re-election.   What do you tell the Speaker?",
+        "answers":[
+          {"entry":"\"Sure,  you are team player and are confident you can win no matter what you district looks like.\"", "value":"1", "name":"5d", "response":"The Speaker was very pleased. It will make it easier for him since he ran into stiff opposition from the adjacent representative who really wanted Potsdale."},
+          {"entry":"You offer an alternative plan in which you lose Potsdale and parts of south Districtville but pick up a number of independent precincts in North Districtville.", "value":"2", "name":"5d", "response":"Your creative idea was reviewed by staff.  The partisan staff liked the plan but felt it  may lead to more \"gerrymandering\" than before.  The Speaker thought it might satisfy the court and would see if he could sell it to the court administrator."},
+          {"entry":"You tell the Speaker \"absolutely not.\"   You have a special bond with the good voters of Potsdale and won't give them up without a fight.", "value":"3", "name":"5d", "response":"Your colleagues sympathized with your situation.    The Speaker offered to review the plan one more time with the staff rewriting the plan.  However, he was over heard commenting to his Chief of Staff that \"with that attitude Jones will just have to swallow hard and accept the new district lines.\""}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision6a":{
+      "header":"Time To Make Some Decisions",
+      "date":"October, 2016",
+      "stage":"Stage 6",
+      "body":{
+        "situation":"State and local press are asking you to answer questions about Dr. Roper's contribution and your involvement in his problem with the Department of Social Services.  At the press conference a reporter asks you why your campaign finance chair requested Dr.Roper to give you $5,000.  This was news to you.  How do you respond?",
+        "answers":[
+          {"entry":"Tell them you weren't aware of the request.",       "value":"1", "name":"6a", "response":"Honesty is nice but the press doesn't buy it.  Local papers criticize you for not knowing about staff activities. They \"smell\" a cover-up.  (Down in the polls.)"},
+          {"entry":"Take the 5th Amendment and ask for next question.", "value":"2", "name":"6a", "response":"After taking the 5th, the press conference degenerates further.  You wonder why you ever agreed to hold one. Local TV has you looking guilty. (Down in the polls.)"},
+          {"entry":"Say all representatives do constituent work and ask for contributions.", "value":"3", "name":"6a", "response":"Your response using a political science approach was about all could do.  The press didn't really buy it, but editorials suggest the whole system must change. (No change in the polls.)"}
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision6b":{
+      "header":"Time To Make Some Decisions",
+      "date":"October, 2016",
+      "stage":"Stage 6",
+      "body":{
+        "situation":"The Utah Manufacturers Association has asked you to introduce a bill overruling local city ordinances regulating the industrial waste saying it should be a state and federal issue. Following introduction, they would like to honor you at a special fund-raiser on your  behalf.  They believe they could raise about $20,000 for your next campaign.  Will you introduce the bill?",
+        "answers":[
+          {"entry":"Yes", "value":"1", "name":"6b", "response":"Unfortunately, your opponent finds out about the deal with the \"waste producers.\" TheUtah Association of Counties is outraged.  The attorney general threatens investigation.  The press mobilizes.  (Down significantly in the polls.)"},
+          {"entry":"No",  "value":"2", "name":"6b", "response":"You turn down the offer.  Good thinking.  Money isn't everything.  Local governments are pleased that you support their role.  The press approves of your ethics.  (Up in the polls.)"},
+          {"entry":"Offer to discuss in more detail once the first $5,000 contribution is made.", "value":"3", "name":"6b", "response":"\"Waste Deal\"  is leaked to the press by a janitor.  People aren't sure it's true.  Such a \"sleazy deal\" is questioned by the press.  You deny it. (Down badly in the polls.)"}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision6c":{
+      "header":"Time To Make Some Decisions",
+      "date":"October, 2016",
+      "stage":"Stage 6",
+      "body":{
+        "situation":"You need to organize a fund-raiser.  Staff has given you three choices.  Which do you select?",
+        "answers":[
+          {"entry":"Joint fund-raiser with other Appropriations Committee members.",      "value":"1", "name":"6c", "response":"Minority party thinking.  You don't need the others.  The lobbyists like it, though.  Jointly, you bring in $15,000. You are able to get $5,000 for your campaign."},
+          {"entry":"Ask the NC school board association to organize the event for you.",  "value":"2", "name":"6c", "response":"The school board association is willing.  Unfortunately, you forgot about the critical vote on school finance reform that week.  The local press is not impressed.  You got a bad editorial but made $8,000."},
+          {"entry":"Hold a lobbyist fund-raiser at the prestigious Alta Club with yourself as special guest.", "value":"3", "name":"6c", "response":"Roaring success.  Lobbyists turned out in droves to see an old friend.  You raised $12,000 and only got a little bad press."}
+
+        ]
+      },
+      "images":[
+        {
+          "name": "Img",
+          "url": "client/img/img.jpg",
+          "alt": "img"
+        }
+      ]
+    },
+    "decision6d":{
+      "header":"Time To Make Some Decisions",
+      "date":"October, 20164",
+      "stage":"Stage 6",
+      "body":{
+        "situation":"A major issue has developed one week before the election.  Your opponent vows he will serve only one term if he is elected and will not accept PAC money, which will free him from the special interest pressures causing you problems.  His TV ads are fantastic.  You must decide how to respond.",
+        "answers":[
+          {"entry":"Agree with him by vowing to serve only one more term and accept no more PAC money.", "value":"1", "name":"6d", "response":"You agree to term limits. Shrewd strategy.  It limits the damage from the ads. (Down only a little in the polls.)"},
+          {"entry":"Have your mother do a commercial for you saying how you were taught to hold on to a job.", "value":"2", "name":"6d", "response":"Interesting strategy.  Your mother looks better on TV than you do.  Seniors love it.  Your mother's popularity hits new high at her nursing home.  (Down only a little in polls.)"},
+          {"entry":"Attack your opponent for not having worked hard as a college professor.", "value":"3", "name":"6d", "response":"Poor strategy.  It turns out that this professor really does carry a full teaching load.  His reply ads of students speaking well of him help his campaign.  (Down in the polls.)"},
+          {"entry":"Double your effort, stressing your successes in the legislature.", "value":"4", "name":"6d", "response":"Doubling effort is good strategy.  You are the incumbent with good name identification.  No need to freak out at this time.  Your effort increases your chances.  (Up in the polls.)"}
         ]
       },
       "images":[
@@ -60,25 +482,5 @@
         }
       ]
     }
-  },
-  "decision1d":{
-    "header":"Time To Make Some Decisions",
-    "date":"November, 2014",
-    "stage":"Stage 1",
-    "body":{
-      "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are given below.",
-      "answers":[
-        {"entry":"Paula Martinez", "value":"1", "name":"vote"},
-        {"entry":"Dan Graves", "value":"2", "name":"vote"},
-        {"entry":"Erik Larson", "value":"3", "name":"vote"}
-      ]
-    },
-    "images":[
-      {
-        "name": "Img",
-        "url": "client/img/img.jpg",
-        "alt": "img"
-      }
-    ]
   }
 }

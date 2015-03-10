@@ -1,8 +1,10 @@
 <div class="decision-response">
     <h1>{{ content.header }}</h1>
-    <div ng-repeat="situation in content.body.situations" class="situationContainer">
-        <div>Original Question: {{ situation.question }}</div><br>
-        <div>Your Answer: {{ situation.choice }}</div><br>
-        <div>Response: {{ situation.response }}</div>
+    <h1>{{ content.stage }}</h1>
+
+    <div ng-repeat="question in content.body.questions" class="situationContainer">
+        <div>Original Question: {{ question.question }}</div><br>
+        <div>Your Answer: {{ question.choice }}</div><br>
+        <div>Response: {{ question.response }}</div>
     </div>
 </div>
