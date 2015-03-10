@@ -1,3 +1,17 @@
 <div class="effectiveness">
-    <h1>Effectiveness</h1>
+    <h1>{{ content.header }}</h1>
+    <h2>{{ content.subHeader }}</h2>
+    <div
+        data-ac-chart="'bar'"
+        data-ac-data="effData"
+        data-ac-config="config"
+        class="chart">
+      </div>
+    <paper-button></paper-button>
+    <style>
+        .chart {
+         width: 800px;
+         height: 500px;
+        }
+    </style>
 </div>

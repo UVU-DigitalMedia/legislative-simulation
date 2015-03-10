@@ -1,0 +1,45 @@
+{
+  "content":{
+    "header":"Effectiveness",
+    "subHeader":"How awesome you have been!",
+    "body":{
+      "p1":"You have four goals during this simulation. They are as follows:",
+      "goals":[
+        { "letter":"A","entry":"Winning Legislator of the Year"},
+        { "letter":"B","entry":"Getting re-elected"},
+        { "letter":"C","entry":"Being respected by your colleagues"},
+        { "letter":"D","entry":"Keeping You family intact"}
+      ],
+      "p2":"There are six Rounds.  The final round is the campaign.  At that time you will find out how well you did on accomplishing the four goals.  Good Luck!"
+    }
+  },
+  "effData" : {
+                "data": [
+                    {
+                      "x": "Family",
+                      "y": [4],
+                      "tooltip": "this is tooltip"
+                    },
+                    {
+                      "x": "Respect",
+                      "y": [6]
+                    },
+                    {
+                      "x": "District",
+                      "y": [10]
+                    },
+                    {
+                      "x": "Business",
+                      "y": [5]
+                    },
+                    {
+                      "x": "Staff",
+                      "y": [7]
+                    },
+                    {
+                      "x": "Ethics",
+                      "y": [3]
+                    }
+                ]
+            }
+}

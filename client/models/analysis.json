@@ -1,0 +1,22 @@
+{
+  "content":{
+    "header":"Election Analysis",
+    "body":{
+      "p1":"Here is your goal attainment",
+      "goals":[
+        { "letter":"A","entry":"Winning Legislator of the Year", "result":"Sorry, you were not selected as the National Conference of State Legislatures 'Outstanding Legislatorof the Year' award but your application and effort was appreciated."},
+        { "letter":"B","entry":"Getting re-elected","result":"You where not re-elected"},
+        { "letter":"C","entry":"Being respected by your colleagues","result":"You are about 'average' when it comes to respect from your colleagues."},
+        { "letter":"D","entry":"Keeping You family intact","result":"Your family relations couldn't be worse.  You were caught in Motel Six with an exotic dancer from the 'Boom Boom' room.  A divorce is likely."}
+      ],
+      "p2":"You did a great job representing the major interests in your district.  This helped you in your request for re-election.",
+      "p3":"You were about average in getting ready for your campaign.",
+      "p4":"You ignored the interests of the business community, hurting your chances of raising money for your campaign.",
+      "p5":"Your staff left you during the last year.  It hurt your chances of getting re-elected.",
+      "p6":"You ignored the Governor and his agenda.  This hurt you some in fundraising but not much in the election.",
+      "p7":"You were ethical enough to avoid problems but not in the upper 75%.",
+      "p8":"You did an outstanding job in raising money for the campaign without being unethical.",
+      "p9":"You did a good job in spending more than 80% of your funds in direct voter contact."
+    }
+  }
+}
