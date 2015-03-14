@@ -1,10 +1,11 @@
 <div class="news">
     <div class="titleCont news-paper">
-        <h1>{{ content.paper.title }}, {{ content.paper.day }}</h1>
+        <h1>{{ content.paper.title }}</h1>
     </div>
 
     <div class="informArea">
         <h2>{{ content.paper.header }}</h2>
+        <p> {{ content.paper.day }}</p>
         <div>
             <img ng-src="{{ content.paper.images[0].url }}" alt="content.paper.images[0].alt">
         </div>

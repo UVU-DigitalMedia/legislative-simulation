@@ -1,8 +1,21 @@
 body{font-family:'Lato', sans-serif;}
-h1{font-weight: 100; color:#fff;font-size: 3em; padding: 4.3% 0px 0px 70px;}
+h1{font-weight: 100;
+    color: #fff;
+    font-size: 2.6em;
+    padding: 6% 47px 0px 47px;
+    text-align: center;
+}
 h2{color: #fff;}
 
-.titleCont{margin: -33px -33px 0px -33px;background-position:center;background-repeat: no-repeat;height: 215px;box-shadow: 0px 0px 4px 1px #000;}
+
+
+.titleCont{margin: -33px -33px 0px -33px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 155px;
+    box-shadow: 0px 0px 4px 1px #000;
+}
+.titleCont p{color:#fff;}
 
 .titleCont.home{background-image: url("../img/congress1664x223.jpg");}
 .titleCont.intro{background-image: url("../img/insideDome1664x223.jpg");}
@@ -13,12 +26,12 @@ h2{color: #fff;}
 .titleCont.decision-response{background-image: url("../img/congress1664x223.jpg");}
 .titleCont.work-response{background-image: url("../img/work1664x223.jpg");}
 
-.informArea{margin: 0px -33px 0px -33px;padding: 20px 120px 20px 120px;box-sizing: border-box;}
+.informArea{padding: 0px 10px 0px 10px;box-sizing: border-box;}
 .informArea p{color:#fff}
 
-.actionArea{background: #ddd;color: #333;box-sizing: border-box;margin: 0px -33px 0px -33px;padding: 30px 30px 30px 100px;box-shadow: 0px 24px 4px -21px #747373 inset;}
-.actionArea p{color:#333;}
 
+.actionArea{background: #ddd;box-sizing: border-box;padding: 10px 10px 10px 10px;box-shadow: 0px 24px 4px -21px #747373 inset;}
+.actionArea p{color:#333;}
 
 core-toolbar{background: #00365f; color:#fff;}
 core-toolbar.main{
@@ -29,48 +42,30 @@ core-toolbar.main{
     background: -o-linear-gradient(left,  #00365f 59%,#000000 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left,  #00365f 59%,#000000 100%); /* IE10+ */
     background: linear-gradient(to right,  #00365f 59%,#000000 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00365f', endColorstr='#000000',GradientType=1 ); /* IE6-9 */d
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00365f', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
 }
 
-[main]{
-    background: #00365f;
-}
 
-[drawer]{
-    background:#eee;
-    color:#333;
-}
+[main]{background: #00365f;}
+[drawer]{background:#eee;color:#333;}
 
-.mainTitle{
-    text-decoration: none;
-    color: #fff;
-}
-.mainTitle:hover{
-    text-decoration: none;
-    color: #fff;
-}
-.mainTitle:visited{
-    text-decoration: none;
-    color: #fff;
-}
-.view{margin:2%;}
+.mainTitle{text-decoration: none;color: #fff;}
+.mainTitle:hover{text-decoration: none;color: #fff;}
+.mainTitle:visited{text-decoration: none;color: #fff;}
+
 
 .situationContainer{background: #aaa; margin:2%;padding:10px;}
 
-core-header-panel a:link, core-header-panel a:visited{color:#fff;}
-core-header-panel a:hover{color:#aaa;}
 
-paper-fab::shadow #ripple {
-    color: white;
-}
+
+paper-fab::shadow #ripple {color: white;}
 paper-fab{background: green;}
+paper-progress::shadow #activeProgress {background-color: #AE0000;}
 
 
-paper-progress::shadow #activeProgress {
-    background-color: #AE0000;
-}
 
 .startButton{background: green; color:#fff;padding: 0px 0px 0px 18px;}
 .startButton:hover{background: #006400; color:#fff;}
 .startButton a{color:#fff;text-decoration: none;}
 .startButton a:visited{color:#fff;text-decoration: none;}
+
