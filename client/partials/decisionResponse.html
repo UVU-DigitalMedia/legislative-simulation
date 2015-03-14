@@ -1,10 +1,15 @@
 <div class="decision-response">
-    <h1>{{ content.header }}</h1>
-    <h1>{{ content.stage }}</h1>
-
-    <div ng-repeat="question in content.body.questions" class="situationContainer">
-        <div>Original Question: {{ question.question }}</div><br>
-        <div>Your Answer: {{ question.choice }}</div><br>
-        <div>Response: {{ question.response }}</div>
+    <div class="titleCont decision-response">
+        <h1>{{ content.header }}</h1>
+    </div>
+    <div class="informArea">
+        <p>{{ content.date }},  {{ content.stage }}</p>
+    </div>
+    <div class="actionArea">
+        <div ng-repeat="question in content.body.questions" class="situationContainer">
+            <div>Original Question: {{ question.question }}</div><br>
+            <div>Your Answer: {{ question.choice }}</div><br>
+            <div>Response: {{ question.response }}</div>
+        </div>
     </div>
 </div>

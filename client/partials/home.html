@@ -1,7 +1,17 @@
 <div>
-    <h1>Home</h1>
-
-    <p>Welcome to the Legislative Trail!</p>
-    <paper-button><a href="#/intro/intro">Press Here to start</a></paper-button>
-
+    <div class="titleCont home">
+    <h1>{{ content.header }}Home </h1>
+    </div>
+    <div class="informArea">
+        <h2>
+            {{ content.sudheader }}Welcome to the Legislative Trail!
+        </h2>
+    </div>
+    <div class="actionArea">
+    <paper-button class="startButton">
+        <a href="#/intro/intro">{{ content.button }}Start
+            <core-icon icon="chevron-right"></core-icon>
+        </a>
+    </paper-button>
+    </div>
 </div>

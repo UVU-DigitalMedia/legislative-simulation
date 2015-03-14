@@ -1,12 +1,12 @@
 <div class="decisions">
+    <div class="titleCont decisions">
     <h1>{{ content.header }}</h1>
-    <p>{{ content.date }}</p>
-    <p>{{ content.stage }}</p>
-    <div>
-        <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
     </div>
-    <div>
-        <p>{{ content.body.situation }}</p>
+    <div class="informArea">
+        <p>{{ content.date }},  {{ content.stage }}</p>
+        <h2>{{ content.body.situation }}</h2>
+    </div>
+    <div class="actionArea">
         <paper-radio-group >
             <paper-radio-button  ng-click="saveAnswer(answer.entry, answer.name, answer.response)" name="{{ answer.value }}" label="{{ answer.entry }}" ng-repeat="answer in content.body.answers" ></paper-radio-button>
         </paper-radio-group>
