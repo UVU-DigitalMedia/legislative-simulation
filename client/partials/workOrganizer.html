@@ -1,16 +1,18 @@
 <div class="work-organizer">
-    <h1>{{ content.header }}</h1>
-    <p>{{ content.date }}</p>
-    <p>{{ content.stage }}</p>
-    <div>
-        <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
+    <div class="titleCont work-organizer">
+        <h1>{{ content.header }}</h1>
     </div>
-    <div ng-repeat="situation in content.body.situations ">
+    <div class="informArea">
+        <p>{{ content.date }},  {{ content.stage }}</p>
+    </div>
 
-        <input type="checkbox" ng-model="checkbox.answer" ng-change="checkChanged(checkbox, situation.name ,situation.entry, situation.response)" ng-disabled="checked==limit && !checkbox.answer">
-        <!--<paper-checkbox ng-model="checkbox.answer" ng-change="checkChanged(checkbox)" ng-disabled="checked==limit && !checkbox.answer"></paper-checkbox>-->
-        <div verticle layout>
-            <p>{{ situation.entry }}</p>
+    <div class="actionArea">
+        <div ng-repeat="situation in content.body.situations ">
+
+            <input type="checkbox" ng-model="checkbox.answer" ng-change="checkChanged(checkbox, situation.name ,situation.entry, situation.response)" ng-disabled="checked==limit && !checkbox.answer">
+            <div verticle layout>
+                <p>{{ situation.entry }}</p>
+            </div>
         </div>
     </div>
 </div>

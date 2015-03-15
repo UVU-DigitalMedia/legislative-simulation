@@ -1,10 +1,14 @@
 <div class="work-response">
-
+<div class="titleCont work-response">
     <h1>{{ content.header }}</h1>
+</div>
+    <div class="informArea">
+    </div>
+    <div class="actionArea">
     <div ng-repeat="situation in content.body.situations" class="situationContainer">
         <div>Your chosen action: {{ situation.activityChoosen }}</div><br>
         <div>Response: {{ situation.response }}</div>
     </div>
-
+    </div>
 
 </div>

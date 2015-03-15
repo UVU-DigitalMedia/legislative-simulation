@@ -1,13 +1,21 @@
 <div class="intro">
-    <h1>{{ content.header }}</h1>
-    <h2>{{ content.subHeader }}</h2>
-    <img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">
-    <div>
-        <p>{{ content.body.p1 }}</p>
+    <div class="titleCont intro">
+        <h1>{{ content.header }}: </h1>
+    </div>
+
+    <div class="informArea">
+        <h2>{{ content.subHeader }}</h2>
+        <h2>{{ content.body.p1 }}</h2>
+
+    </div>
+
+    <div class="actionArea">
         <div ng-repeat="goal in content.body.goals">
             <p>{{ goal.letter }}) {{ goal.entry }}</p>
         </div>
         <p>{{ content.body.p2 }}</p>
+        <!--todo add next button-->
     </div>
-    <paper-button></paper-button>
+    <!--<img ng-src="{{ content.images[0].url }}" alt="{{ content.images[0].alt }}">-->
+
 </div>

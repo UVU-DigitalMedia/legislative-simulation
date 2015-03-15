@@ -253,7 +253,6 @@ angular.module('controllers',['angularCharts'])
                         /*stages 1 - 6*/
                         case "1":
                             $scope.content = $scope.decisionResponseContent.decisionResponse1;
-                            console.log($scope.content);
                             //todo make service that collects local and builds single "answer object
                             //todo change question too
                             //todo cleanup json objects, have them be a full build
@@ -269,12 +268,9 @@ angular.module('controllers',['angularCharts'])
 
                             $scope.content.body.questions[3].choice = localStorage['1d'];
                             $scope.content.body.questions[3].response = localStorage['1dResponse'];
-
-
                             break;
                         case "2":
                             $scope.content = $scope.decisionResponseContent.decisionResponse2;
-                            console.log($scope.content)
 
                             $scope.content.body.questions[0].choice = localStorage['2a'];
                             $scope.content.body.questions[0].response = localStorage['2aResponse'];
@@ -303,7 +299,8 @@ angular.module('controllers',['angularCharts'])
                             $scope.content.body.questions[3].choice = localStorage['3d'];
                             $scope.content.body.questions[3].response = localStorage['3dResponse'];
                             break;
-                        case "4":$scope.content = $scope.decisionResponseContent.decisionResponse4;
+                        case "4":
+                            $scope.content = $scope.decisionResponseContent.decisionResponse4;
                             $scope.content.body.questions[0].choice = localStorage['4a'];
                             $scope.content.body.questions[0].response = localStorage['4aResponse'];
 
@@ -316,7 +313,8 @@ angular.module('controllers',['angularCharts'])
                             $scope.content.body.questions[3].choice = localStorage['4d'];
                             $scope.content.body.questions[3].response = localStorage['4dResponse'];
                             break;
-                        case "5":$scope.content = $scope.decisionResponseContent.decisionResponse5;
+                        case "5":
+                            $scope.content = $scope.decisionResponseContent.decisionResponse5;
                             $scope.content.body.questions[0].choice = localStorage['5a'];
                             $scope.content.body.questions[0].response = localStorage['5aResponse'];
 
@@ -329,7 +327,8 @@ angular.module('controllers',['angularCharts'])
                             $scope.content.body.questions[3].choice = localStorage['5d'];
                             $scope.content.body.questions[3].response = localStorage['5dResponse'];
                             break;
-                        case "6":$scope.content = $scope.decisionResponseContent.decisionResponse6;
+                        case "6":
+                            $scope.content = $scope.decisionResponseContent.decisionResponse6;
                             $scope.content.body.questions[0].choice = localStorage['6a'];
                             $scope.content.body.questions[0].response = localStorage['6aResponse'];
 

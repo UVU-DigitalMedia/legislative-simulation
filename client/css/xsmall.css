@@ -1,38 +1,71 @@
-core-toolbar {
-    background: #333;
+body{font-family:'Lato', sans-serif;}
+h1{font-weight: 100;
     color: #fff;
+    font-size: 2.6em;
+    padding: 6% 47px 0px 47px;
+    text-align: center;
 }
-
-[main]{
-    background: #ddd;
-}
-
-[drawer]{
-    background:#eee;
-    color:#333;
-}
+h2{color: #fff;}
 
 
-.mainTitle{
-    text-decoration: none;
-    color: #fff;
+
+.titleCont{margin: -33px -33px 0px -33px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 155px;
+    box-shadow: 0px 0px 4px 1px #000;
 }
-.mainTitle:hover{
-    text-decoration: none;
-    color: #fff;
+.titleCont p{color:#fff;}
+
+.titleCont.home{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.intro{background-image: url("../img/insideDome1664x223.jpg");}
+.titleCont.situation{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.news-paper{background-image: url("../img/newspaper1664x223.jpg");}
+.titleCont.decisions{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.work-organizer{background-image: url("../img/work1664x223.jpg");}
+.titleCont.decision-response{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.work-response{background-image: url("../img/work1664x223.jpg");}
+
+.informArea{padding: 0px 10px 0px 10px;box-sizing: border-box;}
+.informArea p{color:#fff}
+
+
+.actionArea{background: #ddd;box-sizing: border-box;padding: 10px 10px 10px 10px;box-shadow: 0px 24px 4px -21px #747373 inset;}
+.actionArea p{color:#333;}
+
+core-toolbar{background: #00365f; color:#fff;}
+core-toolbar.main{
+    background: #00365f; /* Old browsers */
+    background: -moz-linear-gradient(left,  #00365f 59%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(59%,#00365f), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #00365f 59%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #00365f 59%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #00365f 59%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to right,  #00365f 59%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00365f', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
 }
-.mainTitle:visited{
-    text-decoration: none;
-    color: #fff;
-}
-.view{margin:2%;}
+
+
+[main]{background: #00365f;}
+[drawer]{background:#eee;color:#333;}
+
+.mainTitle{text-decoration: none;color: #fff;}
+.mainTitle:hover{text-decoration: none;color: #fff;}
+.mainTitle:visited{text-decoration: none;color: #fff;}
+
 
 .situationContainer{background: #aaa; margin:2%;padding:10px;}
 
-core-header-panel a:link, core-header-panel a:visited{color:#fff;}
-core-header-panel a:hover{color:#aaa;}
 
-paper-fab::shadow #ripple {
-    color: white;
-}
+
+paper-fab::shadow #ripple {color: white;}
 paper-fab{background: green;}
+paper-progress::shadow #activeProgress {background-color: #AE0000;}
+
+
+
+.startButton{background: green; color:#fff;padding: 0px 0px 0px 18px;}
+.startButton:hover{background: #006400; color:#fff;}
+.startButton a{color:#fff;text-decoration: none;}
+.startButton a:visited{color:#fff;text-decoration: none;}
+
