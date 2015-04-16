@@ -31,12 +31,12 @@
         "images":[
           {
             "name": "news1",
-            "url": "client/img/news1.jpg",
+            "url": "img/news1.jpg",
             "alt": "GOP Celebrates victory"
           },
           {
             "name": "Representative pic",
-            "url": "client/img/representitive.jpg",
+            "url": "img/representitive.jpg",
             "alt": "Ken Jones (R-Districtville)"
           }
         ]
@@ -73,12 +73,12 @@
         "images":[
           {
             "name": "news1",
-            "url": "client/img/news1.jpg",
+            "url": "img/news1.jpg",
             "alt": "GOP Celebrates victory"
           },
           {
             "name": "Representative pic",
-            "url": "client/img/representitive.jpg",
+            "url": "img/representitive.jpg",
             "alt": "ken Jones (R-Districtville)"
           }
         ]
@@ -115,12 +115,12 @@
         "images":[
           {
             "name": "news1",
-            "url": "client/img/news1.jpg",
+            "url": "img/news1.jpg",
             "alt": "GOP Celebrates victory"
           },
           {
             "name": "Representative pic",
-            "url": "client/img/representitive.jpg",
+            "url": "img/representitive.jpg",
             "alt": "ken Jones (R-Districtville)"
           }
         ]
@@ -157,12 +157,12 @@
         "images":[
           {
             "name": "news1",
-            "url": "client/img/news1.jpg",
+            "url": "img/news1.jpg",
             "alt": "GOP Celebrates victory"
           },
           {
             "name": "Representative pic",
-            "url": "client/img/representitive.jpg",
+            "url": "img/representitive.jpg",
             "alt": "ken Jones (R-Districtville)"
           }
         ]
@@ -199,12 +199,12 @@
         "images":[
           {
             "name": "news1",
-            "url": "client/img/news1.jpg",
+            "url": "img/news1.jpg",
             "alt": "GOP Celebrates victory"
           },
           {
             "name": "Representative pic",
-            "url": "client/img/representitive.jpg",
+            "url": "img/representitive.jpg",
             "alt": "ken Jones (R-Districtville)"
           }
         ]
@@ -241,12 +241,12 @@
         "images":[
           {
             "name": "news1",
-            "url": "client/img/news1.jpg",
+            "url": "img/news1.jpg",
             "alt": "GOP Celebrates victory"
           },
           {
             "name": "Representative pic",
-            "url": "client/img/representitive.jpg",
+            "url": "img/representitive.jpg",
             "alt": "ken Jones (R-Districtville)"
           }
         ]
