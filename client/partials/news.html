@@ -6,12 +6,12 @@
     <div class="informArea">
         <h2>{{ content.paper.header }}</h2>
         <p> {{ content.paper.day }}</p>
-        <div>
+        <!--<div>
             <img ng-src="{{ content.paper.images[0].url }}" alt="content.paper.images[0].alt">
-        </div>
+        </div>-->
     </div>
     <div class="actionArea">
-        <div ng-repeat="article in content.paper.articles">
+        <div ng-repeat="article in content.paper.articles" class="articleCont">
             <img ng-src="{{ article.imgURL }}" alt="{{ article.imgALT }}">
             <h3>{{ article.title }}</h3>
             <p>{{ article.p1 }}</p>

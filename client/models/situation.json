@@ -3,15 +3,15 @@
     "header":"Jones begins legislative term",
     "body":{
       "name":"Kenneth Jones",
-      "p1":"You have been elected to a two year term in the Utah House of  Represenatives.",
-      "p2":"The Utah House is bitterly divided along ideological lines.  Your moderate views will make it a challenge to be effective.",
+      "p1":"You have been elected to a two year term in the Utah House of Representatives.",
+      "p2":"The Utah House is bitterly divided along ideological lines. Your moderate views will make it a challenge to be effective.",
       "p3":"Good Luck!"
     },
     "images":[
       {
         "name": "legislator (You??)",
-        "url": "client/img/politician.jpg",
-        "alt": "Map of Utah District 38"
+        "url": "client/img/kennethJones.jpg",
+        "alt": "Kenneth Jones"
       }
     ],
     "district":"Utah 38th District"

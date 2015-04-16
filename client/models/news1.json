@@ -4,28 +4,39 @@
       "paper":{
         "day":"November, 2014",
         "title":"Districtville Gazette",
-        "header":"Republicans Keep Control",
+        "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
           {
             "title":"DEMOCRATS ALMOST PULL HUGE UPSET",
             "p1":"In an astonishing \"photo finish,\" the Utah House of Representatives almost became Democratically controlled.  The 75 member house split 38 Republican and 37 Democratic.  According to analyst Dan Jones, \"this was an intense effort on the part of Democrats to find an independently minded Republican who will bolt his party to form a majority coalition with the Democrats.\" ",
-            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience."
+            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience.",
+            "imgURL":"client/img/article1a.jpg",
+            "imgALT":"article1a"
+
           },
           {
             "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\""
+            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "imgURL":"client/img/article1b.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"JONES TO PLAY A KEY ROLE IN LEGISLATURE",
-            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House."
+            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House.",
+            "imgURL":"client/img/article1c.jpg",
+            "imgALT":"article1c"
           },
           {
             "title":"TAX REFORM MAY DOMINATE THE LEGISLATIVE AGENDA",
-            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\""
+            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\"",
+            "imgURL":"client/img/article1d.jpg",
+            "imgALT":"article1d"
           },
           {
             "title":"DEMOCRATIC LEADER ANNOUNCES GOALS",
-            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.  Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\""
+            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.  Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\"",
+            "imgURL":"client/img/article1e.jpg",
+            "imgALT":"article1e"
           }
         ],
         "images":[
@@ -46,28 +57,38 @@
       "paper":{
         "day":"November, 2014",
         "title":"Stage 2",
-        "header":"Republicans Keep Control",
+        "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
           {
             "title":"DEMOCRATS ALMOST PULL HUGE UPSET",
             "p1":"In an astonishing \"photo finish,\" the Utah House of Representatives almost became Democratically controlled.  The 75 member house split 38 Republican and 37 Democratic.  According to analyst Dan Jones, \"this was an intense effort on the part of Democrats to find an independently minded Republican who will bolt his party to form a majority coalition with the Democrats.\" ",
-            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience."
+            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience.",
+            "imgURL":"client/img/article1a.jpg",
+            "imgALT":"article1a"
           },
           {
             "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\""
+            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "imgURL":"client/img/article1b.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"JONES TO PLAY A KEY ROLE IN LEGISLATURE",
-            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House."
+            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House.",
+            "imgURL":"client/img/article1c.jpg",
+            "imgALT":"article1c"
           },
           {
             "title":"TAX REFORM MAY DOMINATE THE LEGISLATIVE AGENDA",
-            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\""
+            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\"",
+            "imgURL":"client/img/article1d.jpg",
+            "imgALT":"article1d"
           },
           {
             "title":"DEMOCRATIC LEADER ANNOUNCES GOALS",
-            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\""
+            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\"",
+            "imgURL":"client/img/article1e.jpg",
+            "imgALT":"article1e"
           }
         ],
         "images":[
@@ -88,28 +109,38 @@
       "paper":{
         "day":"November, 2014",
         "title":"Stage 3",
-        "header":"Republicans Keep Control",
+        "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
           {
             "title":"DEMOCRATS ALMOST PULL HUGE UPSET",
             "p1":"In an astonishing \"photo finish,\" the Utah House of Representatives almost became Democratically controlled.  The 75 member house split 38 Republican and 37 Democratic.  According to analyst Dan Jones, \"this was an intense effort on the part of Democrats to find an independently minded Republican who will bolt his party to form a majority coalition with the Democrats.\" ",
-            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience."
+            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience.",
+            "imgURL":"client/img/article1a.jpg",
+            "imgALT":"article1a"
           },
           {
             "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\""
+            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "imgURL":"client/img/article1b.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"JONES TO PLAY A KEY ROLE IN LEGISLATURE",
-            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House."
+            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House.",
+            "imgURL":"client/img/article1c.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"TAX REFORM MAY DOMINATE THE LEGISLATIVE AGENDA",
-            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\""
+            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\"",
+            "imgURL":"client/img/article1d.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"DEMOCRATIC LEADER ANNOUNCES GOALS",
-            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\""
+            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\"",
+            "imgURL":"client/img/article1e.jpg",
+            "imgALT":"article1b"
           }
         ],
         "images":[
@@ -130,28 +161,38 @@
       "paper":{
         "day":"November, 2014",
         "title":"Stage 4",
-        "header":"Republicans Keep Control",
+        "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
           {
             "title":"DEMOCRATS ALMOST PULL HUGE UPSET",
             "p1":"In an astonishing \"photo finish,\" the Utah House of Representatives almost became Democratically controlled.  The 75 member house split 38 Republican and 37 Democratic.  According to analyst Dan Jones, \"this was an intense effort on the part of Democrats to find an independently minded Republican who will bolt his party to form a majority coalition with the Democrats.\" ",
-            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience."
+            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience.",
+            "imgURL":"client/img/article1a.jpg",
+            "imgALT":"article1a"
           },
           {
             "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\""
+            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "imgURL":"client/img/article1b.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"JONES TO PLAY A KEY ROLE IN LEGISLATURE",
-            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House."
+            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House.",
+            "imgURL":"client/img/article1c.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"TAX REFORM MAY DOMINATE THE LEGISLATIVE AGENDA",
-            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\""
+            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\"",
+            "imgURL":"client/img/article1d.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"DEMOCRATIC LEADER ANNOUNCES GOALS",
-            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\""
+            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\"",
+            "imgURL":"client/img/article1e.jpg",
+            "imgALT":"article1b"
           }
         ],
         "images":[
@@ -172,28 +213,38 @@
       "paper":{
         "day":"November, 2014",
         "title":"Stage 5",
-        "header":"Republicans Keep Control",
+        "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
           {
             "title":"DEMOCRATS ALMOST PULL HUGE UPSET",
             "p1":"In an astonishing \"photo finish,\" the Utah House of Representatives almost became Democratically controlled.  The 75 member house split 38 Republican and 37 Democratic.  According to analyst Dan Jones, \"this was an intense effort on the part of Democrats to find an independently minded Republican who will bolt his party to form a majority coalition with the Democrats.\" ",
-            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience."
+            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience.",
+            "imgURL":"client/img/article1a.jpg",
+            "imgALT":"article1a"
           },
           {
             "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\""
+            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "imgURL":"client/img/article1b.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"JONES TO PLAY A KEY ROLE IN LEGISLATURE",
-            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House."
+            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House.",
+            "imgURL":"client/img/article1c.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"TAX REFORM MAY DOMINATE THE LEGISLATIVE AGENDA",
-            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\""
+            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\"",
+            "imgURL":"client/img/article1d.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"DEMOCRATIC LEADER ANNOUNCES GOALS",
-            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\""
+            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\"",
+            "imgURL":"client/img/article1e.jpg",
+            "imgALT":"article1b"
           }
         ],
         "images":[
@@ -214,28 +265,38 @@
       "paper":{
         "day":"November, 2014",
         "title":"Stage 6",
-        "header":"Republicans Keep Control",
+        "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
           {
             "title":"DEMOCRATS ALMOST PULL HUGE UPSET",
             "p1":"In an astonishing \"photo finish,\" the Utah House of Representatives almost became Democratically controlled.  The 75 member house split 38 Republican and 37 Democratic.  According to analyst Dan Jones, \"this was an intense effort on the part of Democrats to find an independently minded Republican who will bolt his party to form a majority coalition with the Democrats.\" ",
-            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience."
+            "p2":"Democratic Leader Rep. Jennifer Seelig (D-Salt Lake City) said today that \"what we need is a brave Republican like Rep. Jones to help us.\"  Republican Leader Val Peterson responded that he wasn't worried because Representative Jones will vote his conscience.",
+            "imgURL":"client/img/article1a.jpg",
+            "imgALT":"article1a"
           },
           {
             "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\""
+            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "imgURL":"client/img/article1b.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"JONES TO PLAY A KEY ROLE IN LEGISLATURE",
-            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House."
+            "p1":"With the House of Representatives nearly evenly split between Republicans and Democrats, the surprise election of Kenneth Jones places the independent-minded Jones in the middle of a major power struggle.  Jones won his seat by out campaigning his opponent and by winning Tea Party supporters .  The re-election of Jones is critical if Republicans are to keep win control of the House.",
+            "imgURL":"client/img/article1c.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"TAX REFORM MAY DOMINATE THE LEGISLATIVE AGENDA",
-            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\""
+            "p1":"Governor Hisbert today told the Utah Tax Payers Association he thought \"the chances are good\"  that his agenda would include making furthis tax reductions.    According to the Governor's press secretary Crystal Feldman , \"we will ask for a furthis reduction in business taxes to become more competitive with other states.\"",
+            "imgURL":"client/img/article1d.jpg",
+            "imgALT":"article1b"
           },
           {
             "title":"DEMOCRATIC LEADER ANNOUNCES GOALS",
-            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\""
+            "p1":"House Democrats re-elected Janet Seelig (D- Salt Lake)  as their leader last night at the downtown Mariott.   Seelig immediately announced that revising liquor laws, job training, education, and providing health care for the poor will be his caucuses' top priorities.  He furthis urged Republicans not to \"make fools of themselves\" by pushing \"extremist social issues.\"",
+            "imgURL":"client/img/article1e.jpg",
+            "imgALT":"article1b"
           }
         ],
         "images":[

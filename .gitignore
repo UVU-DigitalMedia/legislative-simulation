@@ -22,3 +22,6 @@ openssl.cnf
 
 # Redis
 dump.rdb
+
+# git stats
+gitinspector-0.3.2/*
