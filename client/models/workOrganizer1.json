@@ -15,7 +15,7 @@
       "images":[
         {
           "name": "Img",
-          "url": "client/img/img.jpg",
+          "url": "img/img.jpg",
           "alt": "img"
         }
       ]
@@ -35,7 +35,7 @@
       "images":[
         {
           "name": "Img",
-          "url": "client/img/img.jpg",
+          "url": "img/img.jpg",
           "alt": "img"
         }
       ]
@@ -55,7 +55,7 @@
       "images":[
         {
           "name": "Img",
-          "url": "client/img/img.jpg",
+          "url": "img/img.jpg",
           "alt": "img"
         }
       ]
@@ -75,7 +75,7 @@
       "images":[
         {
           "name": "Img",
-          "url": "client/img/img.jpg",
+          "url": "img/img.jpg",
           "alt": "img"
         }
       ]
@@ -95,7 +95,7 @@
       "images":[
         {
           "name": "Img",
-          "url": "client/img/img.jpg",
+          "url": "img/img.jpg",
           "alt": "img"
         }
       ]
@@ -115,7 +115,7 @@
       "images":[
         {
           "name": "Img",
-          "url": "client/img/img.jpg",
+          "url": "img/img.jpg",
           "alt": "img"
         }
       ]

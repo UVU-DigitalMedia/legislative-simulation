@@ -12,7 +12,7 @@
     "images":[
       {
         "name": "District map",
-        "url": "client/img/district_map.jpg",
+        "url": "img/district_map.jpg",
         "alt": "A map of the district"
       }
     ]
