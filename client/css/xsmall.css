@@ -69,3 +69,32 @@ paper-progress::shadow #activeProgress {background-color: #AE0000;}
 .startButton a{color:#fff;text-decoration: none;}
 .startButton a:visited{color:#fff;text-decoration: none;}
 
+
+.situation img{  margin: 30px 0px 0px 0px;border: 7px solid #fff;box-shadow: 2px 2px 2px #111;border-radius: 0px;}
+
+.news .articleCont {  margin: 20px 30px 0px 30px;min-height: 153px;background: #fff;padding: 20px 20px 20px 20px;border-radius: 8px;box-shadow: 1px 1px 2px -1px #323232;}
+.news .actionArea img{  background: #333;float: left;margin: 0px 20px 10px 0px;border-radius: 4px;box-shadow: 1px 1px 2px 0px #000;}
+.news .actionArea h3{  margin: 0;}
+
+.work-organizer .actionArea .questionCont {margin: 20px 0px 20px 0px;}
+
+
+/*checkbox quick fix*/
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:23px;
+    height:23px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/checkboxSprite.png) -263px -88px no-repeat;
+    background-size: 449px;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background: url(../img/checkboxSprite.png) -163px -88px no-repeat;
+    background-size: 449px;
+}

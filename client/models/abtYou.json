@@ -11,7 +11,7 @@
     "images":[
       {
         "name": "Kenneth Jones",
-        "url": "img/kenneth.jpg",
+        "url": "../img/kenneth.jpg",
         "alt": "Profile pic of Kenneth Jones"
       }
     ]

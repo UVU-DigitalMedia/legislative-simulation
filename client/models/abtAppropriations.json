@@ -7,14 +7,14 @@
         {
           "name":"Fred Colbert",
           "info":"Fred Colbert is one of the more flamboyant members of the House.  Elected in 2004, he represents Beauford  County.   He is known as the leader of the \"Young Turks,\" who wish to align public spending with district needs.  He has substantial following, especially among less senior Republicans.  Colbert is chair of the Judiciary Committee.  He is frequently interviewed by the press and is popular guest of \"Off the Record.\"   Colbert campaign for you in the last election.",
-          "imgUrl":"img/fredColbert.jpg",
+          "imgUrl":"../img/fredColbert.jpg",
           "imgAlt":"Appropriations committee chair candidate Fred Colbert"
 
         },
         {
           "name":"Ralph Jenkins",
           "info":"Ralph Jenkins is an eight term veteran from Cumberland County.   He is a leader of what is referred to as the \"old guard.\"  Jenkins likes like-minded House Republicans who favor the status quo and wish to preserve the current power relationships within the caucus.   He is a conservative anti-spending Republican.    He is known for his skill in political infighting and his knowledge of the budget.   Jenkins may also chair the newly created reapportionment committee.",
-          "imgUrl":"img/fredColbert.jpg",
+          "imgUrl":"../img/fredColbert.jpg",
           "imgAlt":"Appropriations committee chair candidate Ralph Jenkins"
         }
       ]

@@ -49,7 +49,7 @@
     {"name":"decUpdate",    "url":"#/stage/decisionResponse/5", "value":51},
     {"name":"workRes",      "url":"#/stage/workResponse/5",     "value":52},
 
-    {"name":"campSpending", "url":"#/campSpending",             "value":53},
+    {"name":"campSpending", "url":"#/stage/campSpending",       "value":53},
 
     {"name":"news6",         "url":"#/stage/news/6",            "value":10},
     {"name":"decisions6A",  "url":"#/stage/decisions/6a",       "value":10},

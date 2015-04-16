@@ -7,11 +7,10 @@
     </div>
 
     <div class="actionArea">
-        <div ng-repeat="situation in content.body.situations ">
-
-            <input type="checkbox" ng-model="checkbox.answer" ng-change="checkChanged(checkbox, situation.name ,situation.entry, situation.response)" ng-disabled="checked==limit && !checkbox.answer">
-            <div verticle layout>
-                <p>{{ situation.entry }}</p>
+        <div ng-repeat="situation in content.body.situations " class="questionCont">
+            <div verticle layout class="cbCont">
+                    <input id="{{ situation.name }}" type="checkbox" ng-model="checkbox.answer" ng-change="checkChanged(checkbox, situation.name ,situation.entry, situation.response)" ng-disabled="checked==limit && !checkbox.answer">
+                    <label for="{{ situation.name }}"><span></span>{{ situation.entry }}</label>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
         "images": [
           {
             "name": "person you voted on",
-            "url": "img/votedStaff.jpg",
+            "url": "../img/votedStaff.jpg",
             "alt": "Person you voted on"
           }
         ]
@@ -21,7 +21,7 @@
         "images": [
           {
             "name": "person you voted on",
-            "url": "img/votedStaff.jpg",
+            "url": "../img/votedStaff.jpg",
             "alt": "Person you voted on"
           }
         ]
@@ -35,7 +35,7 @@
         "images": [
           {
             "name": "person you voted on",
-            "url": "img/votedStaff.jpg",
+            "url": "../img/votedStaff.jpg",
             "alt": "Person you voted on"
           }
         ]
@@ -49,7 +49,7 @@
         "images": [
           {
             "name": "person you voted on",
-            "url": "img/votedStaff.jpg",
+            "url": "../img/votedStaff.jpg",
             "alt": "Person you voted on"
           }
         ]
@@ -63,7 +63,7 @@
         "images": [
           {
             "name": "person you voted on",
-            "url": "img/votedStaff.jpg",
+            "url": "../img/votedStaff.jpg",
             "alt": "Person you voted on"
           }
         ]
@@ -77,7 +77,7 @@
         "images": [
           {
             "name": "person you voted on",
-            "url": "img/votedStaff.jpg",
+            "url": "../img/votedStaff.jpg",
             "alt": "Person you voted on"
           }
         ]

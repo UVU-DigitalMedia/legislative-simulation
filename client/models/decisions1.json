@@ -5,7 +5,7 @@
       "date":"November, 2014",
       "stage":"Stage 1",
       "body":{
-        "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are given below.",
+        "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are in the menu.",
         "answers":[
           {"entry":"Paula Martinez",  "value":"1", "name":"1a", "response":"The Hispanic Coalition and the National Organization for Women were pleased  you selected me.  Salt Lake City leaders weren't sure you didn't need a more  experienced insider.  Local Tea Party Chair, Samuel Tizzy told the press \"what is Jones thinking?\"  However, you know his is a little \"goofy.\""},
           {"entry":"Dan Graves",      "value":"2", "name":"1a", "response":"Speaker Peterson was pleased you hired me.  I heard he told others that \"Jones is off to a good start.\"   Rep. Jenkins called to wish you well."},

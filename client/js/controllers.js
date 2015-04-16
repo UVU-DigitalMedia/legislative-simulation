@@ -387,6 +387,19 @@ angular.module('controllers',['angularCharts'])
                 });
                 break;
 
+            case 'campSpending':
+                //set partial for all workResponse pages
+                $scope.currentContInclude = {"url": "partials/campSpending.html"};
+
+                //get workResponse model
+                var campSpendingModel = DataService.getModel('campSpending');
+                campSpendingModel.get(function(content){
+                    $scope.campSpendingContent = content.content;
+                });
+
+                break;
+
+
             case 'effectiveness':
 
             $scope.config = {
