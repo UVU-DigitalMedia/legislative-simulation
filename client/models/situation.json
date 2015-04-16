@@ -10,7 +10,7 @@
     "images":[
       {
         "name": "legislator (You??)",
-        "url": "client/img/kennethJones.jpg",
+        "url": "../img/kennethJones.jpg",
         "alt": "Kenneth Jones"
       }
     ],
