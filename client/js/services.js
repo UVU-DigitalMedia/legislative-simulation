@@ -3,7 +3,7 @@ angular.module('services',['ngResource'])
         return {
             getModel: function(fileName){
                 fileName = fileName + '.json';
-                return $resource('client/models/:file',{file:fileName});
+                return $resource('models/:file',{file:fileName});
             },
             getWorkResponses: function(stageNumber){
 

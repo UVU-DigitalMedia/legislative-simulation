@@ -2,7 +2,7 @@
 node_modules
 docs
 coverage
-bower_components
+client/bower_components
 
 # OS and IDE specific
 .DS_Store
