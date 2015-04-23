@@ -60,13 +60,13 @@
     {"name":"decUpdate",    "url":"#/stage/decisionResponse/6", "value":10},
     {"name":"workRes",      "url":"#/stage/workResponse/6",     "value":10},
 
-    {"name":"vote",         "url":"#/vote",                     "value":10},
+    {"name":"vote",         "url":"#/stage/vote",                     "value":10},
 
-    {"name":"effectiveness","url":"#/effectiveness",            "value":10},
-    {"name":"analysis",     "url":"#/analysis",                 "value":10},
-    {"name":"voteResults",  "url":"#/voteResults",              "value":10},
+    {"name":"effectiveness","url":"#/stage/effectiveness",            "value":10},
+    {"name":"analysis",     "url":"#/stage/analysis",                 "value":10},
+    {"name":"voteResults",  "url":"#/stage/voteResults",              "value":10},
 
-    {"name":"thankyou",     "url":"#/thankyou",                 "value":10},
-    {"name":"credits",      "url":"#/credits",                  "value":10}
+    {"name":"thankyou",     "url":"#/stage/thankyou",                 "value":10},
+    {"name":"credits",      "url":"#/stage/credits",                  "value":10}
   ]
 }

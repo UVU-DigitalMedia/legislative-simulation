@@ -1,8 +1,28 @@
+/* min-width:64.0625em */
+
+/*----- Site Globals -----*/
+/*------------------------*/
 
 h1{font-weight: 100;color: #fff;font-size: 3em;padding: 4.3% 0px 0px 0px;text-align: center;}
 
+/*Polymer overrides*/
+core-header-panel a:link, core-header-panel a:visited{color:#fff;}
+core-header-panel a:hover{color:#aaa;}
+
+/*checkbox quick fix*/
 
 
+
+
+
+
+
+/*----- Sections -----*/
+/*--------------------*/
+
+/*-- app main title --*/
+
+/*-- Page Headers --*/
 .titleCont.home{background-image: url("../img/congress1664x223.jpg");}
 .titleCont.intro{background-image: url("../img/insideDome1664x223.jpg");}
 .titleCont.situation{background-image: url("../img/congress1664x223.jpg");}
@@ -12,17 +32,32 @@ h1{font-weight: 100;color: #fff;font-size: 3em;padding: 4.3% 0px 0px 0px;text-al
 .titleCont.decision-response{background-image: url("../img/congress1664x223.jpg");}
 .titleCont.work-response{background-image: url("../img/work1664x223.jpg");}
 
+/*-- Section body : upper (inform) area --*/
 .informArea{padding: 0px 10px 0px 70px;box-sizing: border-box;}
 
-.actionArea{background: #ddd;
-    box-sizing: border-box;
-    padding: 10px 140px 10px 140px;
-    box-shadow: 0px 24px 4px -21px #747373 inset;
-}
-
-core-header-panel a:link, core-header-panel a:visited{color:#fff;}
-core-header-panel a:hover{color:#aaa;}
+/*-- Section body : lower (answer/action) area --*/
+.actionArea{background: #ddd;box-sizing: border-box;padding: 10px 140px 10px 140px;box-shadow: 0px 24px 4px -21px #747373 inset;}
 
 
 
 
+/*----- Pages -----*/
+/*-----------------*/
+
+/*-- Start page --*/
+
+/*-- Intro page --*/
+
+/*-- Situation page --*/
+
+/*-- News page --*/
+
+/*-- Decisions page --*/
+
+/*-- Work organizer page --*/
+
+/*-- Decision response page --*/
+
+/*-- Work response page --*/
+
+/*-- Campaign spending page --*/

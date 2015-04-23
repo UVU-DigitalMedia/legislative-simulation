@@ -1,24 +1,16 @@
 angular.module('controllers',['angularCharts'])
 
     .controller('navigationCtrl', ['$routeParams', '$scope', '$location', 'DataService', function ($routeParams, $scope, $location, DataService){
+
         //determine progress %, next and previous page, and provide link to each
         $scope.$on('$routeChangeSuccess', function() {
 
             //Get map of site (for linear progress)
             var navProgress = DataService.getModel('progressModel');
 
-            navPromise = navProgress.get();
-
-            //get current url path
-            var param = "#" + $location.path();
-            $scope.progress = {};
-
-            //todo logic that takes the 'about' info pages out of the main flow of the program so you can review them and not loose your place
-            //todo logic that stops progress if conditions aren't met (decisions are not selected etc)
-
-            //make sure the data is back before we use it.
-            navPromise.$promise.then(function (content) {
-                $scope.progMap = content.order;
+            //wait for promise fulfillment
+            navProgress.get().$promise.then(function (content) {
+                    $scope.progMap = content.order;
 
                 //find current route param index # in map
                 for (var i=0; i < $scope.progMap.length; i++){
@@ -30,33 +22,42 @@ angular.module('controllers',['angularCharts'])
                         $scope.progress.value = $scope.progMap[i].value;
                     }
                 }
-            })
+            });
+
+            //get current url path
+            var param = "#" + $location.path();
+            $scope.progress = {};
+
+            //todo logic that takes the 'about' info pages out of the main flow of the program so you can review them and not loose your place
+            //todo logic that stops progress if conditions aren't met (decisions are not selected etc)
+
+
         })
     }])
-
     .controller('HomeController', ['$routeParams', '$scope', 'DataService', function ($routeParams, $scope, DataService){
+
+        var model;
         //direct to home if no further value otherwise direct to respective partial
         if(!$routeParams.val1){
             $scope.currentContInclude = {"url": "partials/home.html"};
             //todo logic to deactivate back and forward(green) button on home page
         }else {
+            //determine the route
             switch ($routeParams.val1) {
-                case 'intro':
-                    //get model
+
+                case 'intro'://set model and view
+                    //set current partial (pulled into the template)
                     $scope.currentContInclude = {"url": "partials/intro.html"};
-                    var model = DataService.getModel('intro');
-                    model.get(function (content) {
-                        $scope.content = content.content;
-                    });
+
+                    //get corresponding json and attach to $scope
+                    model = DataService.getModel('intro');
+                    model.get(function (content) {$scope.content = content.content;});
                     break;
 
-                case 'situation':
-                    //get model
+                case 'situation'://set model and view
                     $scope.currentContInclude = {"url": "partials/situation.html"};
-                    var model = DataService.getModel('situation');
-                    model.get(function (content) {
-                        $scope.content = content.content;
-                    });
+                    model = DataService.getModel('situation');
+                    model.get(function (content) {$scope.content = content.content;});
                     break;
 
                 default :
@@ -66,41 +67,30 @@ angular.module('controllers',['angularCharts'])
     }])
 
     .controller('InfoController', ['$routeParams','$scope','DataService', function($routeParams, $scope, DataService){
+        var model;
         switch ($routeParams.val1) {
-            case 'abtYou':
-                //get model
+            case 'abtYou'://set model and view
                 $scope.currentContInclude = {"url": "partials/abtYou.html"};
-                var model = DataService.getModel('abtYou');
-                model.get(function(content){
-                    $scope.content = content.content;
-                });
+                model = DataService.getModel('abtYou');
+                model.get(function(content){ $scope.content = content.content; });
                 break;
 
-            case 'abtDistrict':
-                //get model
+            case 'abtDistrict'://set model and view
                 $scope.currentContInclude = {"url": "partials/abtDistrict.html"};
-                var model = DataService.getModel('abtDistrict');
-                model.get(function(content){
-                    $scope.content = content.content;
-                });
+                model = DataService.getModel('abtDistrict');
+                model.get(function(content){$scope.content = content.content;});
                 break;
 
-            case 'abtAppropriations':
-                //get model
+            case 'abtAppropriations'://set model and view
                 $scope.currentContInclude = {"url": "partials/abtAppropriations.html"};
-                var model = DataService.getModel('abtAppropriations');
-                model.get(function(content){
-                    $scope.content = content.content;
-                });
+                model = DataService.getModel('abtAppropriations');
+                model.get(function(content){$scope.content = content.content;});
                 break;
 
-            case 'abtStaff':
-                //get model
+            case 'abtStaff'://set model and view
                 $scope.currentContInclude = {"url": "partials/abtStaff.html"};
-                var model = DataService.getModel('abtStaff');
-                model.get(function(content){
-                    $scope.content = content.content;
-                });
+                model = DataService.getModel('abtStaff');
+                model.get(function(content){$scope.content = content.content;});
                 break;
 
             default :
@@ -135,30 +125,29 @@ angular.module('controllers',['angularCharts'])
 
         //add checked value to localStorage
         function addValue(question, entry, answer){
+            var response;
             localStorage[question] = entry;
-            var response = question + 'Response';
+            response = question + 'Response';
             localStorage[response] = answer;
         }
         //remove checked value
         function removeValue(question, answer){
+            var response;
             delete localStorage[question];
-            var response = question + 'Response';
+            response = question + 'Response';
             delete localStorage[response];
         }
 
         //redirect to respective partial
         switch ($routeParams.val1) {
-            case 'news':
-                //set partial for all news
+            case 'news'://set model and view
                 $scope.currentContInclude = {"url": "partials/news.html"};
-
-                //get model
                 var newsModel = DataService.getModel('news1');
-                newsModel.get(function(content){
-                    $scope.newsContent = content.content;
+                newsModel.get(function(content){$scope.newsContent = content.content;
 
                     //conjoin relevant section of model to the scope for binding (depending on what stage it is)
                     //todo Fill out news model with real info
+                    //todo make dynamic as opposed to a switch
                     switch($routeParams.val2){
                         /*stages 1 - 6*/
                         case "1":$scope.content = $scope.newsContent.news1;break;
@@ -172,16 +161,13 @@ angular.module('controllers',['angularCharts'])
                 });
                 break;
 
-            case 'decisions':
-                //set partial for all decisions pages
+            case 'decisions'://set model and view
                 $scope.currentContInclude = {"url": "partials/decisions.html"};
-
-                //get decisions model
                 var decisionsModel = DataService.getModel('decisions1');
-                decisionsModel.get(function(content){
-                    $scope.decisionsModelContent = content.content;
+                decisionsModel.get(function(content){ $scope.decisionsModelContent = content.content;
 
                     //conjoin relevant section of model to the scope for binding (depending on what stage it is)
+                    //todo make dynamic as opposed to a switch
                     switch($routeParams.val2){
                         /*stage 1*/
                         case "1a":$scope.content = $scope.decisionsModelContent.decision1a;break;
@@ -218,17 +204,14 @@ angular.module('controllers',['angularCharts'])
                 });
                 break;
 
-            case 'workOrganizer':
-                //set partial for all workOrganizer pages
+            case 'workOrganizer'://set model and view
                 $scope.currentContInclude = {"url": "partials/workOrganizer.html"};
-
-                //get workOrganizer model
                 var workOrganizerModel = DataService.getModel('workOrganizer1');
-                workOrganizerModel.get(function(content){
-                    $scope.workOrganizerContent = content.content;
+                workOrganizerModel.get(function(content){ $scope.workOrganizerContent = content.content;
 
                     //conjoin relevant section of model to the scope for binding (depending on what stage it is)
                     //todo Fill out workOrganizer model with real info
+                    //todo make dynamic as opposed to a switch
                     switch ($routeParams.val2){
                         /*stages 1 - 6*/
                         case "1":$scope.content = $scope.workOrganizerContent.workDecision1;break;
@@ -242,17 +225,13 @@ angular.module('controllers',['angularCharts'])
                 });
                 break;
 
-            case 'decisionResponse':
-                //set partial for all decisionResponse pages
+            case 'decisionResponse'://set model and view
                 $scope.currentContInclude = {"url": "partials/decisionResponse.html"};
-
-                //get decisionResponse model
                 var decisionResponseModel = DataService.getModel('decisionResponse');
-                decisionResponseModel.get(function(content){
-                    $scope.decisionResponseContent = content.content;
-
+                decisionResponseModel.get(function(content){ $scope.decisionResponseContent = content.content;
 
                     //conjoin relevant section of model to the scope for binding (depending on what stage it is)
+                    //todo make dynamic as opposed to switch
                     switch ($routeParams.val2){
                         /*stages 1 - 6*/
                         case "1":
@@ -260,7 +239,6 @@ angular.module('controllers',['angularCharts'])
                             //todo make service that collects local and builds single "answer object
                             //todo change question too
                             //todo cleanup json objects, have them be a full build
-
                             $scope.content.body.questions[0].choice = localStorage['1a'];
                             $scope.content.body.questions[0].response = localStorage['1aResponse'];
 
@@ -350,17 +328,14 @@ angular.module('controllers',['angularCharts'])
                 });
                 break;
 
-            case 'workResponse':
-                //set partial for all workResponse pages
+            case 'workResponse'://set model and view
                 $scope.currentContInclude = {"url": "partials/workResponse.html"};
-
-                //get workResponse model
                 var workResponseModel = DataService.getModel('workResponse');
-                workResponseModel.get(function(content){
-                    $scope.workResponseContent = content.content;
+                workResponseModel.get(function(content){ $scope.workResponseContent = content.content;
 
                     //conjoin relevant section of model to the scope for binding (depending on what stage it is)
                     //todo Fill out workResponse model with real info
+                    //todo make dynamic as opposed to switch
                     switch ($routeParams.val2){
                         /*stages 1 - 6*/
                         case "1":$scope.content = $scope.workResponseContent.workResponse1;
@@ -387,16 +362,19 @@ angular.module('controllers',['angularCharts'])
                 });
                 break;
 
-            case 'campSpending':
-                //set partial for all workResponse pages
+            case 'campSpending'://set model and view
                 $scope.currentContInclude = {"url": "partials/campSpending.html"};
-
-                //get workResponse model
                 var campSpendingModel = DataService.getModel('campSpending');
-                campSpendingModel.get(function(content){
-                    $scope.campSpendingContent = content.content;
+                campSpendingModel.get(function(content){ $scope.campSpendingContent = content.content;
                 });
 
+                break;
+
+        //todo create campaign spending case/model/bindings -- probably in a new controller, 'PostStageing' or 'results' or something
+            case 'vote'://set model and view
+                $scope.currentContInclude = {"url": "partials/vote.html"};
+                var model = DataService.getModel('vote');
+                model.get(function (content) {$scope.content = content.content;});
                 break;
 
 
@@ -415,7 +393,7 @@ angular.module('controllers',['angularCharts'])
                 }
               };
 
-                //get effectiveness model
+                //set model and view
                 $scope.currentContInclude = {"url": "partials/effectiveness.html"};
                     var model = DataService.getModel('effectiveness');
                     model.get(function (content) {
@@ -424,25 +402,37 @@ angular.module('controllers',['angularCharts'])
                     });
                 break;
 
-            case 'analysis':
+            case 'analysis'://set model and view
                     $scope.currentContInclude = {"url": "partials/analysis.html"};
                     var model = DataService.getModel('analysis');
-                    model.get(function (content) {
-                        $scope.content = content.content;
-                    });
+                    model.get(function (content) {$scope.content = content.content;});
                     break;
 
-            case 'results':
+            case 'results'://set model and view
                     $scope.currentContInclude = {"url": "partials/results.html"};
                     var model = DataService.getModel('results');
-                    model.get(function (content) {
-                        $scope.content = content.content;
-                    });
+                    model.get(function (content) {$scope.content = content.content;});
                     break;
 
-            //todo create campaign spending case/model/bindings
+            case 'voteResults'://set model and view
+                $scope.currentContInclude = {"url": "partials/voteResults.html"};
+                var model = DataService.getModel('voteResults');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
 
-            //possibly in a new controller, PostStageing or results or something
+            case 'thankyou'://set model and view
+                $scope.currentContInclude = {"url": "partials/thankyou.html"};
+                var model = DataService.getModel('thankyou');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
+
+            case 'credits'://set model and view
+                $scope.currentContInclude = {"url": "partials/credits.html"};
+                var model = DataService.getModel('credits');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
+
+
             //todo create vote case/model/bindings
             //todo create analysis case/model/bindings
             //todo create voteResults case/model/bindings
