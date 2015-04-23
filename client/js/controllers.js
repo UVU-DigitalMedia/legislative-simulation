@@ -370,9 +370,15 @@ angular.module('controllers',['angularCharts'])
 
                 break;
 
+        //todo create campaign spending case/model/bindings -- probably in a new controller, 'PostStageing' or 'results' or something
+            case 'vote'://set model and view
+                $scope.currentContInclude = {"url": "partials/vote.html"};
+                var model = DataService.getModel('vote');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
+
 
             case 'effectiveness':
-
 
             $scope.config = {
                 tooltips: true,
@@ -408,7 +414,25 @@ angular.module('controllers',['angularCharts'])
                     model.get(function (content) {$scope.content = content.content;});
                     break;
 
-            //todo create campaign spending case/model/bindings - possibly in a new controller, PostStageing or results or something
+            case 'voteResults'://set model and view
+                $scope.currentContInclude = {"url": "partials/voteResults.html"};
+                var model = DataService.getModel('voteResults');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
+
+            case 'thankyou'://set model and view
+                $scope.currentContInclude = {"url": "partials/thankyou.html"};
+                var model = DataService.getModel('thankyou');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
+
+            case 'credits'://set model and view
+                $scope.currentContInclude = {"url": "partials/credits.html"};
+                var model = DataService.getModel('credits');
+                model.get(function (content) {$scope.content = content.content;});
+                break;
+
+
             //todo create vote case/model/bindings
             //todo create analysis case/model/bindings
             //todo create voteResults case/model/bindings

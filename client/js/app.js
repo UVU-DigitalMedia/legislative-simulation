@@ -19,6 +19,7 @@ app.config(['$routeProvider',function($routeProvider){
         .when('/stage/:val1',{templateUrl: 'templates/stages.html', controller:'StageController'})
         .when('/stage/:val1/:val2',{templateUrl: 'templates/stages.html', controller:'StageController'})
 
+
         //todo create post-stages routing (analytics, results, etc)
         .otherwise('/');
 }]);
