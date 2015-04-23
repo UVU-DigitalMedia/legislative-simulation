@@ -1,10 +1,12 @@
 angular.module('services',['ngResource'])
     .factory('DataService', ['$resource', function($resource){
         return {
+            //for getting .json files
             getModel: function(fileName){
                 fileName = fileName + '.json';
                 return $resource('models/:file',{file:fileName});
             },
+            //for
             getWorkResponses: function(stageNumber){
 
                 /*var questionNamea =  stageNumber+ "a";

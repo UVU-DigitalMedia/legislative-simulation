@@ -1,38 +1,18 @@
+/* smaller than: 30em */
+
+/*----- Site Globals -----*/
+/*------------------------*/
+
 body{font-family:'Lato', sans-serif;}
-h1{font-weight: 100;
-    color: #fff;
-    font-size: 2.6em;
-    padding: 6% 47px 0px 47px;
-    text-align: center;
-}
+h1{font-weight: 100;color: #fff;font-size: 2.6em;padding: 6% 47px 0px 47px;text-align: center;}
 h2{color: #fff;}
 
-
-
-.titleCont{margin: -33px -33px 0px -33px;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 155px;
-    box-shadow: 0px 0px 4px 1px #000;
-}
-.titleCont p{color:#fff;}
-
-.titleCont.home{background-image: url("../img/congress1664x223.jpg");}
-.titleCont.intro{background-image: url("../img/insideDome1664x223.jpg");}
-.titleCont.situation{background-image: url("../img/congress1664x223.jpg");}
-.titleCont.news-paper{background-image: url("../img/newspaper1664x223.jpg");}
-.titleCont.decisions{background-image: url("../img/congress1664x223.jpg");}
-.titleCont.work-organizer{background-image: url("../img/work1664x223.jpg");}
-.titleCont.decision-response{background-image: url("../img/congress1664x223.jpg");}
-.titleCont.work-response{background-image: url("../img/work1664x223.jpg");}
-
-.informArea{padding: 0px 10px 0px 10px;box-sizing: border-box;}
-.informArea p{color:#fff}
-
-
-.actionArea{background: #ddd;box-sizing: border-box;padding: 10px 10px 10px 10px;box-shadow: 0px 24px 4px -21px #747373 inset;}
-.actionArea p{color:#333;}
-
+/*Polymer overrides*/
+[main]{background: #00365f;}
+[drawer]{background:#eee;color:#333;}
+paper-fab::shadow #ripple {color: white;}
+paper-fab{background: green;}
+paper-progress::shadow #activeProgress {background-color: #AE0000;}
 core-toolbar{background: #00365f; color:#fff;}
 core-toolbar.main{
     background: #00365f; /* Old browsers */
@@ -42,59 +22,83 @@ core-toolbar.main{
     background: -o-linear-gradient(left,  #00365f 59%,#000000 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left,  #00365f 59%,#000000 100%); /* IE10+ */
     background: linear-gradient(to right,  #00365f 59%,#000000 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00365f', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
-}
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00365f', endColorstr='#000000',GradientType=1 ); /* IE6-9 */}
+
+/*checkbox quick fix*/
+input[type="checkbox"] {display: none;}
+input[type="checkbox"] + label span {display:inline-block;width:23px;height:23px;margin:-1px 4px 0 0;vertical-align:middle;background:url(../img/checkboxSprite.png) -263px -88px no-repeat;background-size: 449px;cursor:pointer;}
+input[type="checkbox"]:checked + label span {background: url(../img/checkboxSprite.png) -163px -88px no-repeat;background-size: 449px;}
 
 
-[main]{background: #00365f;}
-[drawer]{background:#eee;color:#333;}
 
+
+
+
+
+/*----- Sections -----*/
+/*--------------------*/
+
+/*-- app main title --*/
 .mainTitle{text-decoration: none;color: #fff;}
 .mainTitle:hover{text-decoration: none;color: #fff;}
 .mainTitle:visited{text-decoration: none;color: #fff;}
 
+/*-- Page Headers --*/
+.titleCont{margin: -33px -33px 0px -33px;background-position: center;background-repeat: no-repeat;height: 155px;box-shadow: 0px 0px 4px 1px #000;}
+.titleCont p{color:#fff;}
+.titleCont.home{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.intro{background-image: url("../img/insideDome1664x223.jpg");}
+.titleCont.situation{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.news-paper{background-image: url("../img/newspaper1664x223.jpg");}
+.titleCont.decisions{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.work-organizer{background-image: url("../img/work1664x223.jpg");}
+.titleCont.decision-response{background-image: url("../img/congress1664x223.jpg");}
+.titleCont.work-response{background-image: url("../img/work1664x223.jpg");}
 
-.situationContainer{background: #aaa; margin:2%;padding:10px;}
+/*-- Section body : upper (inform) area --*/
+.informArea{padding: 0px 10px 0px 10px;box-sizing: border-box;}
+.informArea p{color:#fff}
+
+
+/*-- Section body : lower (answer/action) area --*/
+.actionArea{background: #ddd;box-sizing: border-box;padding: 10px 10px 10px 10px;box-shadow: 0px 24px 4px -21px #747373 inset;}
+.actionArea p{color:#333;}
 
 
 
-paper-fab::shadow #ripple {color: white;}
-paper-fab{background: green;}
-paper-progress::shadow #activeProgress {background-color: #AE0000;}
 
 
 
+
+/*----- Pages -----*/
+/*-----------------*/
+
+/*-- Start page --*/
 .startButton{background: green; color:#fff;padding: 0px 0px 0px 18px;}
 .startButton:hover{background: #006400; color:#fff;}
 .startButton a{color:#fff;text-decoration: none;}
 .startButton a:visited{color:#fff;text-decoration: none;}
 
+/*-- Intro page --*/
 
+/*-- Situation page --*/
+.situationContainer{background: #aaa; margin:2%;padding:10px;}
 .situation img{  margin: 30px 0px 0px 0px;border: 7px solid #fff;box-shadow: 2px 2px 2px #111;border-radius: 0px;}
 
+/*-- News page --*/
 .news .articleCont {  margin: 20px 30px 0px 30px;min-height: 153px;background: #fff;padding: 20px 20px 20px 20px;border-radius: 8px;box-shadow: 1px 1px 2px -1px #323232;}
 .news .actionArea img{  background: #333;float: left;margin: 0px 20px 10px 0px;border-radius: 4px;box-shadow: 1px 1px 2px 0px #000;}
 .news .actionArea h3{  margin: 0;}
 
+/*-- Decisions page --*/
+
+/*-- Work organizer page --*/
 .work-organizer .actionArea .questionCont {margin: 20px 0px 20px 0px;}
 
+/*-- Decision response page --*/
 
-/*checkbox quick fix*/
-input[type="checkbox"] {
-    display: none;
-}
+/*-- Work response page --*/
 
-input[type="checkbox"] + label span {
-    display:inline-block;
-    width:23px;
-    height:23px;
-    margin:-1px 4px 0 0;
-    vertical-align:middle;
-    background:url(../img/checkboxSprite.png) -263px -88px no-repeat;
-    background-size: 449px;
-    cursor:pointer;
-}
-input[type="checkbox"]:checked + label span {
-    background: url(../img/checkboxSprite.png) -163px -88px no-repeat;
-    background-size: 449px;
-}
+/*-- Campaign spending page --*/
+
+/*-- Analytics... --*/

@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
+
+    <!--todo make title a binding-->
     <title>Legislative Simulation</title>
 
     <!--Web-compnents pollyfill-->
+    <!--todo Identify and grab only the used polymer components(when finished with app), right now they all come in for ease of use, but has a big footprint(can reduce bower core and paper elements)-->
+    <!--todo use vulcanize with gulp to process polymer to production code-->
     <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     <link rel="import" href="bower_components/core-elements/core-elements.html">
     <link rel="import" href="bower_components/paper-elements/paper-elements.html">
@@ -16,7 +20,6 @@
     <script defer src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-
 
 
     <!-- Stylesheets -->
@@ -28,15 +31,14 @@
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 
+    <!--todo add redirect page for anything < ie9-->
     <!-- add redirect?? --> <!--[if lte IE 8]><script type="text/javascript">window.location = "redirect.html";</script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
 
 
 </head>
 <body fullbleed layout vertical ng-controller="HomeController">
-
 <core-drawer-panel responsiveWidth="1024px">
-
     <!--Main Navigation-->
     <core-header-panel drawer>
         <core-toolbar>Menu</core-toolbar>
@@ -60,33 +62,32 @@
             <paper-progress ng-controller="navigationCtrl" class="top fit" value="{{ progress.value }}"></paper-progress>
         </core-toolbar>
 
-
-        <!--Main View-->
+        <!--Main View (pulls in template - determined in app.js)-->
         <div ng-view class="view"></div>
 
     </core-header-panel>
-
 </core-drawer-panel>
 
 
 
-
+<!--angular scripts-->
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-route.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-resource.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-animate.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.min.js"></script>
 
+<!--d3 scripts-->
+<script data-require="d3@*" data-semver="3.3.11" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.js"></script>
+<script type="text/javascript" src="https://rawgit.com/chinmaymk/angular-charts/bower/dist/angular-charts.min.js"></script>
 
-<!-- run through gulp and combine/minify -->
+
+<!--custom scripts-->
+<!--todo run through gulp and combine/minify -->
 <script src="js/app.js"></script>
 <script src="js/controllers.js"></script>
 <script src="js/services.js"></script>
 <script src="js/directives.js"></script>
-<script data-require="d3@*" data-semver="3.3.11" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.js"></script>
-<script type="text/javascript" src="https://rawgit.com/chinmaymk/angular-charts/bower/dist/angular-charts.min.js"></script>
+
 </body>
-
-
-
 </html>
