@@ -9,11 +9,13 @@ angular.module('services',['ngResource'])
             //for
             getWorkResponses: function(stageNumber){
 
+                //todo rethink this whole service - plug into backend...
                 /*var questionNamea =  stageNumber+ "a";
                 var questionNameb =  stageNumber+ "b";
                 var questionNamec =  stageNumber+ "c";
                 var questionNamed =  stageNumber+ "d";*/
 
+                //format naming convention
                 var answerNamea = "work" + stageNumber+ "a";
                 var answerNameb = "work" + stageNumber+ "b";
                 var answerNamec = "work" + stageNumber+ "c";
@@ -23,6 +25,7 @@ angular.module('services',['ngResource'])
                 var responseNameb = "work" + stageNumber+ "bResponse";
                 var responseNamec = "work" + stageNumber+ "cResponse";
                 var responseNamed = "work" + stageNumber+ "dResponse";
+
 
                 /*var questions = [questionNamea,questionNameb,questionNamec,questionNamed];*/
                 var answers = [answerNamea,answerNameb,answerNamec,answerNamed];

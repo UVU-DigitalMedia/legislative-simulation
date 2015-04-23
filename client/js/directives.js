@@ -1,4 +1,4 @@
 angular.module('directives',[])
-    .directive('someDirective', [function(){
-
+    .directive('questionDirective', [function(){
+        //todo create question directives - multiple choice, multiple answer, true/false
     }]);
