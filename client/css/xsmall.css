@@ -88,6 +88,7 @@ input[type="checkbox"]:checked + label span {background: url(../img/checkboxSpri
 
 /*-- News page --*/
 .news .articleCont {  margin: 20px 30px 0px 30px;min-height: 153px;background: #fff;padding: 20px 20px 20px 20px;border-radius: 8px;box-shadow: 1px 1px 2px -1px #323232;}
+.news .articleCont h3{color:#333;}
 .news .actionArea img{  background: #333;float: left;margin: 0px 20px 10px 0px;border-radius: 4px;box-shadow: 1px 1px 2px 0px #000;}
 .news .actionArea h3{  margin: 0;}
 

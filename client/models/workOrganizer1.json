@@ -2,13 +2,13 @@
   "content":{
     "workDecision1":{
       "header":"Work Organizer",
-      "date":"November, 2014",
+      "date":"November, 2015",
       "stage":"Stage 1",
       "body":{
         "situations":[
           {"entry":"Visit plant gates next week thanking workers for their support.", "value":"1", "name":"work1a", "response":"The plant gate idea was a cute plan, but workers wondered why a Republican was wasting his time."},
           {"entry":"Meet with influential lobbyists in Salt Lake City.", "value":"2", "name":"work1b", "response":"Lobbyists enjoyed your company.  Three lobbyists said their PACs could contribute $5,000 to your campaign."},
-          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind and Teacher Tenure.\"", "value":"3", "name":"work1c", "response":"The caucus was packed.  It was good you were there.  Your passionate statements for school finance reform may have an effect."},
+          {"entry":"Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind\" and \"Teacher Tenure.\"", "value":"3", "name":"work1c", "response":"The caucus was packed.  It was good you were there.  Your passionate statements for school finance reform may have an effect."},
           {"entry":"Visit city halls introducing your constituent service plan.", "value":"4", "name":"work1d", "response":"City officials were astonished at your presence.  No Representative had visited a town hall meeting in years.  They appreciated it."}
         ]
       },
@@ -22,7 +22,7 @@
     },
     "workDecision2":{
       "header":"Work Organizer",
-      "date":"January, 2015",
+      "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
         "situations":[
@@ -42,7 +42,7 @@
     },
     "workDecision3":{
       "header":"Work Organizer",
-      "date":"February, 2014",
+      "date":"February, 2016",
       "stage":"Stage 3",
       "body":{
         "situations":[
@@ -62,7 +62,7 @@
     },
     "workDecision4":{
       "header":"Work Organizer",
-      "date":"January, 2016",
+      "date":"January, 2017",
       "stage":"Stage 4",
       "body":{
         "situations":[
@@ -82,7 +82,7 @@
     },
     "workDecision5":{
       "header":"Work Organizer",
-      "date":"February, 2016",
+      "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
         "situations":[
@@ -102,7 +102,7 @@
     },
     "workDecision6":{
       "header":"Work Organizer",
-      "date":"October, 2016",
+      "date":"October, 2018",
       "stage":"Stage 6",
       "body":{
         "situations":[
