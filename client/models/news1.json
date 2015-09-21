@@ -2,7 +2,7 @@
   "content":{
     "news1":{
       "paper":{
-        "day":"November, 2014",
+        "day":"November, 2015",
         "title":"Districtville Gazette",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
@@ -55,7 +55,7 @@
     },
     "news2":{
       "paper":{
-        "day":"November, 2014",
+        "day":"January, 2016",
         "title":"Stage 2",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
@@ -107,7 +107,7 @@
     },
     "news3":{
       "paper":{
-        "day":"November, 2014",
+        "day":"February, 2016",
         "title":"Stage 3",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
@@ -159,7 +159,7 @@
     },
     "news4":{
       "paper":{
-        "day":"November, 2014",
+        "day":"January, 2017",
         "title":"Stage 4",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
@@ -211,7 +211,7 @@
     },
     "news5":{
       "paper":{
-        "day":"November, 2014",
+        "day":"February, 2017",
         "title":"Stage 5",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
@@ -263,7 +263,7 @@
     },
     "news6":{
       "paper":{
-        "day":"November, 2014",
+        "day":"October, 2018",
         "title":"Stage 6",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[

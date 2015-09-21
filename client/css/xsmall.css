@@ -5,7 +5,8 @@
 
 body{font-family:'Lato', sans-serif;}
 h1{font-weight: 100;color: #fff;font-size: 2.6em;padding: 6% 47px 0px 47px;text-align: center;}
-h2{color: #fff;}
+h2{color: #fff;padding: 0px 10px 0px 70px;}
+h3{color: #fff;}
 
 /*Polymer overrides*/
 [main]{background: #00365f;}
@@ -87,6 +88,7 @@ input[type="checkbox"]:checked + label span {background: url(../img/checkboxSpri
 
 /*-- News page --*/
 .news .articleCont {  margin: 20px 30px 0px 30px;min-height: 153px;background: #fff;padding: 20px 20px 20px 20px;border-radius: 8px;box-shadow: 1px 1px 2px -1px #323232;}
+.news .articleCont h3{color:#333;}
 .news .actionArea img{  background: #333;float: left;margin: 0px 20px 10px 0px;border-radius: 4px;box-shadow: 1px 1px 2px 0px #000;}
 .news .actionArea h3{  margin: 0;}
 
@@ -102,3 +104,15 @@ input[type="checkbox"]:checked + label span {background: url(../img/checkboxSpri
 /*-- Campaign spending page --*/
 
 /*-- Analytics... --*/
+
+/*-- About appropriations page --*/
+.candidateCont {padding:0px 10px 0px 70px;}
+.candidateCont p{color:#fff;}
+
+/*-- About appropriations page --*/
+.abt-district {padding:0px 10px 0px 70px;}
+.abt-district p{color:#fff;}
+
+/*-- About you page --*/
+.abt-you {padding:0px 10px 0px 70px;}
+.abt-you p{color:#fff;}
