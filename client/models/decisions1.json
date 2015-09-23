@@ -2,7 +2,7 @@
   "content":{
     "decision1a":{
       "header":"Time To Make Some Decisions",
-      "date":"November, 2014",
+      "date":"November, 2015",
       "stage":"Stage 1",
       "body":{
         "situation":"You need to hire staff for your office. You must choose one of the following teams of people to head your staff.  Their brief biographies are in the menu.",
@@ -22,7 +22,7 @@
     },
     "decision1b":{
       "header":"Time To Make Some Decisions",
-      "date":"November, 2014",
+      "date":"November, 2015",
       "stage":"Stage 1",
       "body":{
         "situation":"You just got a call from Representative Dunne, a twelve-year veteran and chair of the new Ways and Means Committee, who says he will intervene with the Speaker to help you get better office space and more staff if you support his property tax cut of 35% with the money to be replaced by state general funds.  Will you agree to vote for his legislation?",
@@ -42,10 +42,10 @@
     },
     "decision1c":{
       "header":"Time To Make Some Decisions",
-      "date":"November, 2014",
+      "date":"November, 2015",
       "stage":"Stage 1",
       "body":{
-        "situation":"YThe contest for chair of the House Appropriations Committee has divided the Republican Caucus.  The race involves two powerful personalities with different organizational strengths and ideologies.  To head the House Appropriations Committee is to hold a position of great power, as the incumbent helps shape the state budget and approves funds for district projects.  Observers agree that the race will be close.  Whoever wins is likely to reward his supporters and punish people who voted for his opponent.  He is also  likely to be the next Speaker.",
+        "situation":"The contest for chair of the House Appropriations Committee has divided the Republican Caucus.  The race involves two powerful personalities with different organizational strengths and ideologies.  To head the House Appropriations Committee is to hold a position of great power, as the incumbent helps shape the state budget and approves funds for district projects.  Observers agree that the race will be close.  Whoever wins is likely to reward his supporters and punish people who voted for his opponent.  He is also  likely to be the next Speaker.",
         "answers":[
           {"entry":"Ralph Jenkins",         "value":"1", "name":"1c", "response":"Your choice of Ralph Jenkins was not good.  He lost by a two-vote margin. You will have to find ways to get on Colbert's good side if you want to get funds for your pet projects."},
           {"entry":"Fred Colbert",          "value":"2", "name":"1c", "response":"Good move.  \"Young Turk\" Colbert won by two votes.  He should be able to help you get legislation passed and to assist in your efforts to become a legislative leader."},
@@ -62,14 +62,14 @@
     },
     "decision1d":{
       "header":"Time To Make Some Decisions",
-      "date":"November, 2014",
+      "date":"November, 2015",
       "stage":"Stage 1",
       "body":{
         "situation":"President Obama telephoned you today to inquire about whether you would be willing to vote for Rep. Seelig for Speaker.  He indicated that if you did he would see that you had a role to play on education issues in Washington.   Rep. Seelig stopped by your home to let you know that if you supported him you could chair the Appropriations Committee.  Will you stay with Peterson, the Republican leader, or vote for Democrat leader Seelig?",
         "answers":[
           {"entry":"Peterson for Speaker (Rep.)", "value":"1", "name":"1d", "response":"Republicans were pleased.  Peterson, in a private meeting, said you could chair one important committee and be on the Appropriations Committee. Democrats were disappointed but not surpised."},
           {"entry":"Seelig for Speaker (Dem.)",   "value":"2", "name":"1d", "response":"Republicans went crazy with displeasure.  Governor Herberet called you a \"traitor to good government.\"  President Obama said you were an outstanding citizen.  Local newspapers criticized your \"turncoat attitude.\""},
-          {"entry":"EAbstain from voting",        "value":"3", "name":"1d", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
+          {"entry":"Abstain from voting",        "value":"3", "name":"1d", "response":"Both sides were greatly upset.  The vote for Speaker had to be delayed until other votes were rounded up.  All of the members of the House thought you were a major league \"chicken.\""}
         ]
       },
       "images":[
@@ -82,7 +82,7 @@
     },
     "decision2a":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2014",
+      "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
         "situation":"The Utah Retail Merchants Association has asked you to sponsor HB 240, which would provide significant tax credits for a period of up to five years for newly opened businesses.  The credit would not apply to branch operations, is not limited to a set number of partners, and does not provide extra incentives for minority ownership participation.  Will you sponsor the bill?",
@@ -101,7 +101,7 @@
     },
     "decision2b":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2014",
+      "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
         "situation":"Your administrative assistant has had difficulty scheduling everything you want to do.  He needs to know how many nights a week you are willing to spend working on legislative business?",
@@ -123,7 +123,7 @@
     },
     "decision2c":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2014",
+      "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
         "situation":"The Appropriation Committee on school aid has just reported out a bill requiring Utah to pull out of the \"No Child Left Behind\" federal law.   It will cost Utah  $120 million in federal money. The bill will cost the Districtville Schools $200,000 but will help make a statement in support of local control of schools. Chris Johnson, writer for the Districtville Gazette is on the phone, wanting you to know how you intend to vote?.  What do you say?",
@@ -143,7 +143,7 @@
     },
     "decision2d":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2014",
+      "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
         "situation":"The governor's staff has indicated an interest in working with you.  They want to know if you are wiling to sponsor a bill \"reforming\" the education system by setting the standards for firing teachers now that tenure has been eliminated.  The governor's  legislative liaison said the governor would be \"mighty pleased\" if you would introduce the bill.  Will you sponsor the bill?",
@@ -162,7 +162,7 @@
     },
     "decision3a":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2014",
+      "date":"February, 2016",
       "stage":"Stage 3",
       "body":{
         "situation":"The budget problem is significant.  The vote on the budget in the Appropriations Committee is this week.  One vote makes a difference.  The governor has asked for your support on a conservative, anti social service budget that slashes the number of state employees, cuts school aid by 2%, and reduces university funding by 5%.  Passage of this budget will cause layoffs at the local college.  Faculty are concerned.  Will you vote to report the budget from committee?",
@@ -181,7 +181,7 @@
     },
     "decision3b":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2014",
+      "date":"February, 2016",
       "stage":"Stage 3",
       "body":{
         "situation":"You have been approached by Fred Smithson, the influential chair of the Natural Resources  Committee.  He has asked you to pledge support for HB 295, which would increase the fines charged for polluting the environment by Utah businesses.  It will give Utah the \"toughest\" environmental law in the nation.  It may hurt the local fertilizer company which has threatened to go out of business.  It will raise the cost of \"doing business.\" Will you support it?",
@@ -201,7 +201,7 @@
     },
     "decision3c":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2014",
+      "date":"February, 2016",
       "stage":"Stage 3",
       "body":{
         "situation":"A major financial contributor, Dr. Max Roper, has written asking for your help getting Medicaid reimbursement for his patients.  Dr. Roper runs a clinic for low-income residents needing psychological assistance.  The Department of Social Services has turned him down because of minimal quality control procedures.  He indicates that he will shut down the clinic if he can't get reimbursement.  Local press is interested. Do you want to commit staff to help?",
@@ -221,7 +221,7 @@
     },
     "decision3d":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2014",
+      "date":"February, 2016",
       "stage":"Stage 3",
       "body":{
         "situation":"Representative Ruff, a conservative Democrat, has requested that you schedule his bill reforming the unemployment compensation system. The bill makes a lot of sense, according to your staff. You and Ruff have been getting along well.  He is on the committee and has been helpful.  However, the chair of the Campaign Committee has requested that you \"hold up his bill\" because Ruff's district is \"targeted.\"  Do you schedule the bill?",
@@ -240,7 +240,7 @@
     },
     "decision4a":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2016",
+      "date":"January, 2017",
       "stage":"Stage 4",
       "body":{
         "situation":"Dr. Max Roper is insistent in wanting more help.  Staff has found that DSS Director Miller isn't willing to budge.  They have done as much as they can.  Your administrative assistant has requested that you get directly involved by meeting with the DSS director.  Which option do you select to help the case?",
@@ -259,7 +259,7 @@
     },
     "decision4b":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2016",
+      "date":"January, 2017",
       "stage":"Stage 4",
       "body":{
         "situation":"Rep. Fjord is pushing a constitutional amendment that requires Utah schools to teach \"intelligent design\" as an equal theory with evolution. The amendment does not apply to charter schools or church schools.  The bill is up for a vote in the education committee.  Given the hospitality of the bill in the Education Committee, the Speaker has asked you to vote to refer the bill to the friendlier agricultural committee.  This will keep the \"far right\" members of the caucus happy.   He said it is ultimately unlikely to get the 2/3 votes needed.  How do you vote?",
@@ -280,7 +280,7 @@
     },
     "decision4c":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2016",
+      "date":"January, 2017",
       "stage":"Stage 4",
       "body":{
         "situation":"Staff has recommended that you support Representative Rustem's amendment increasing the income tax by .1% to balance the budget.  It will help local schools district.  Approval would also insure passage of your amendment to increase aid to the college in Districtville. Additional revenue would help your district considerably.  The Governor has called to ask you to oppose the amendment.  What do you tell the Governor?",
@@ -301,7 +301,7 @@
     },
     "decision4d":{
       "header":"Time To Make Some Decisions",
-      "date":"January, 2016",
+      "date":"January, 2017",
       "stage":"Stage 4",
       "body":{
         "situation":"The governor has invited you and your spouse to have dinner with him and his wife.  Unfortunately, the date conflicts with a rally of physicians in your district urging medical liability reform.  More than 300 physicians are expected to attend.  The Utah Medical Society wants you to be the keynote speaker.  Your wife is interested in seeing the governor's mansion and meeting his wife.  What do you say to the governor?",
@@ -321,7 +321,7 @@
     },
     "decision5a":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2016",
+      "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
         "situation":"Representative Smith has introduced a bill that allows cities to create special \"Tax Free Zones\" to encourage economic development and to save the typewriter manufacturing plant in North Districtville.   The tax break is likely to cost the state millions of dollars but will save 140 jobs in your district.  The Jetson family owns the largest typewriter company and the Districtivilel Gazette.  The governor has asked you not to schedule the bill because of it's effect on state revenue.  Will you agree to kill the bill?",
@@ -340,7 +340,7 @@
     },
     "decision5b":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2016",
+      "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
         "situation":"A few months ago, you introduced a bill to increase aid for downtown Districtville. This is a big issue with the paper. The bill is stalled in Representative Fink's committee.   You have a bill that Fink and the governor want.  At the caucus, the Speaker turns to you and asks if you will \"move\" the Fink bill?  Fink won't budge on your bill. What do you do?",
@@ -360,7 +360,7 @@
     },
     "decision5c":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2016",
+      "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
         "situation":"The vote is before the House to refer the elimination of the Board of Regents to the hostile agriculture committee.  UNC Districtville Chancellor Pinder called to urge a \"yes\" vote.  The Chamber of Commerce is urging a \"NO\" vote as is Speaker Peterson.  How, do you vote?",
@@ -380,7 +380,7 @@
     },
     "decision5d":{
       "header":"Time To Make Some Decisions",
-      "date":"February, 2016",
+      "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
         "situation":"The courts have ordered the legislature to redraw the boundaries of three house districts.  Because your district is not very compact and has too many people, the Speaker has recommended removing Potsdale from your district.  Potsdale is heavily Republican and it's loss may be significant in your re-election.   What do you tell the Speaker?",
@@ -401,7 +401,7 @@
     },
     "decision6a":{
       "header":"Time To Make Some Decisions",
-      "date":"October, 2016",
+      "date":"October, 2018",
       "stage":"Stage 6",
       "body":{
         "situation":"State and local press are asking you to answer questions about Dr. Roper's contribution and your involvement in his problem with the Department of Social Services.  At the press conference a reporter asks you why your campaign finance chair requested Dr.Roper to give you $5,000.  This was news to you.  How do you respond?",
@@ -421,7 +421,7 @@
     },
     "decision6b":{
       "header":"Time To Make Some Decisions",
-      "date":"October, 2016",
+      "date":"October, 2018",
       "stage":"Stage 6",
       "body":{
         "situation":"The Utah Manufacturers Association has asked you to introduce a bill overruling local city ordinances regulating the industrial waste saying it should be a state and federal issue. Following introduction, they would like to honor you at a special fund-raiser on your  behalf.  They believe they could raise about $20,000 for your next campaign.  Will you introduce the bill?",
@@ -442,7 +442,7 @@
     },
     "decision6c":{
       "header":"Time To Make Some Decisions",
-      "date":"October, 2016",
+      "date":"October, 2018",
       "stage":"Stage 6",
       "body":{
         "situation":"You need to organize a fund-raiser.  Staff has given you three choices.  Which do you select?",
@@ -463,7 +463,7 @@
     },
     "decision6d":{
       "header":"Time To Make Some Decisions",
-      "date":"October, 20164",
+      "date":"October, 2018",
       "stage":"Stage 6",
       "body":{
         "situation":"A major issue has developed one week before the election.  Your opponent vows he will serve only one term if he is elected and will not accept PAC money, which will free him from the special interest pressures causing you problems.  His TV ads are fantastic.  You must decide how to respond.",

@@ -12,22 +12,9 @@
     "images":[
       {
         "name": "District map",
-        "url": "../img/district_map.jpg",
+        "url": "../img/districtMap.jpg",
         "alt": "A map of the district"
       }
     ]
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
