@@ -393,6 +393,48 @@ angular.module('controllers',['angularCharts'])
                 }
               };
 
+              $scope.data = {
+                series: ['Actual','Maximum'],
+                data: [
+                                {
+                                  x: "Family",
+                                  y: [4,10]
+                                },
+                                {
+                                  x: "Respect",
+                                  y: [6]
+                                },
+                                {
+                                  x: "District",
+                                  y: [10]
+                                },
+                                {
+                                  x: "Press",
+                                  y: [10]
+                                },
+                                {
+                                  x: "Campaign",
+                                  y: [10]
+                                },
+                                {
+                                  x: "Business",
+                                  y: [5]
+                                },
+                                {
+                                  x: "Staff",
+                                  y: [7]
+                                },
+                                {
+                                  x: "Ethics",
+                                  y: [3]
+                                },
+                                {
+                                  x: "Money",
+                                  y: [3]
+                                }
+                            ]
+                        };
+
                 //set model and view
                 $scope.currentContInclude = {"url": "partials/effectiveness.html"};
                     var model = DataService.getModel('effectiveness');

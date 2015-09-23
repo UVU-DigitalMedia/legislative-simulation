@@ -12,34 +12,6 @@
       ],
       "p2":"There are six Rounds.  The final round is the campaign.  At that time you will find out how well you did on accomplishing the four goals.  Good Luck!"
     }
-  },
-  "effData" : {
-                "data": [
-                    {
-                      "x": "Family",
-                      "y": [4],
-                      "tooltip": "this is tooltip"
-                    },
-                    {
-                      "x": "Respect",
-                      "y": [6]
-                    },
-                    {
-                      "x": "District",
-                      "y": [10]
-                    },
-                    {
-                      "x": "Business",
-                      "y": [5]
-                    },
-                    {
-                      "x": "Staff",
-                      "y": [7]
-                    },
-                    {
-                      "x": "Ethics",
-                      "y": [3]
-                    }
-                ]
-            }
+  }
+
 }
