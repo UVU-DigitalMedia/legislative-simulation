@@ -65,9 +65,23 @@ This assumes that you have the above software already installed an up-to-date.
   ```bash
   npm start
   ```
-  
+
 OR
 
   ```bash
   nodemon server.js
   ```
+
+
+#End to End Tests
+
+1. Fallow the instructions to install Protractor here: https://angular.github.io/protractor/#/
+
+2. Make sure that WebDriver-Manager is running (this should have been installed when protractor was installed)
+
+  ````bash
+  webdriver-manager start
+  ````
+
+3. Run npm test
+
