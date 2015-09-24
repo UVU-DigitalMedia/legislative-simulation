@@ -27,8 +27,8 @@
       "body":{
         "situation":"You just got a call from Representative Dunne, a twelve-year veteran and chair of the new Ways and Means Committee, who says he will intervene with the Speaker to help you get better office space and more staff if you support his property tax cut of 35% with the money to be replaced by state general funds.  Will you agree to vote for his legislation?",
         "answers":[
-          {"entry":"yes",   "value":"1", "name":"1b", "response":"Local Democratic moderates who supported you were outraged that your first legislative act was to cut taxes. Dunne is not respected.  Fortunately, the Republican leader didn't know of the deal."},
-          {"entry":"no",    "value":"2", "name":"1b", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."}
+          {"entry":"Yes",   "value":"1", "name":"1b", "response":"Local Democratic moderates who supported you were outraged that your first legislative act was to cut taxes. Dunne is not respected.  Fortunately, the Republican leader didn't know of the deal."},
+          {"entry":"No",    "value":"2", "name":"1b", "response":"Your refusal of the deal with Dunne was appreciated by the Republican leader."}
 
         ]
       },
@@ -266,7 +266,7 @@
         "answers":[
           {"entry":"You support the constitutional amendment and vote to report it to the floor, not the agricultural committee.", "value":"1", "name":"4b", "response":"The Speaker was not happy.  He wanted time to \"work the bill.\"      As a news report said, who knows what the full House will do with this piece of red meat?  Educators in your district were outraged.  The local paper editorialized against your vote.  The local conference of evangelical pastors endorsed your position."},
           {"entry":"You vote \"yes\" to advance the amendment to the agriculture committee.", "value":"2", "name":"4b", "response":"The Speaker was very pleased.  It will help him manage the issue.   However, educators in your district were outraged.  The local paper editorialized against your vote.  The local conference of evangelical pastors endorsed your position."},
-          {"entry":"You tell the Speaker that you cannot support the constitutional amendment.  It is not good policy,science or politics.", "value":"3", "name":"4b", "response":"The Speaker was not happy with you.  The far right caucus members have asked him to \"discharge\" the committee of the bill.    Educators and the newspaper were pleased with your courage.  Local evangelical pastors expressed their concern with  your liberal humanistic views."}
+          {"entry":"You tell the Speaker that you cannot support the constitutional amendment.  It is not good policy, science or politics.", "value":"3", "name":"4b", "response":"The Speaker was not happy with you.  The far right caucus members have asked him to \"discharge\" the committee of the bill.    Educators and the newspaper were pleased with your courage.  Local evangelical pastors expressed their concern with  your liberal humanistic views."}
 
         ]
       },
@@ -287,7 +287,7 @@
         "answers":[
           {"entry":"\"With all due respect, you plan to vote for the amendment.\"",       "value":"1", "name":"4c", "response":"Your efforts to increase taxes and gain money for the college and schools were successful.  The budget director is threatening a gubernatorial veto.  You have just won the \"liberal of the year\" award from the school workers association."},
           {"entry":"\"I'm a team player, Governor, I will vote against the amendment.\"", "value":"2", "name":"4c", "response":"Conservatives and business leaders are happy with your vote against the tax and spend policies of your colleagues.  The education community is upset.  Local press says you didn't show much courage by surrendering to \"nabobs of negativism.\""},
-          {"entry":"You will call the lobbyist from University of Disttrictville  representative and find out how to vote.", "value":"3", "name":"4c", "response":"The University of Disttrictville lobbyist asked for information about the amendment.  He wanted more time to study the issue saying this was news to him."}
+          {"entry":"You will call the lobbyist from University of Disttrictville representative and find out how to vote.", "value":"3", "name":"4c", "response":"The University of Disttrictville lobbyist asked for information about the amendment.  He wanted more time to study the issue saying this was news to him."}
 
         ]
       },
@@ -308,7 +308,7 @@
         "answers":[
           {"entry":"\"Yes, my spouse and I will join you for dinner at the mansion.\"", "value":"1", "name":"4d", "response":"The governor and Ann are looking forward  seeing you at the mansion.   You will be joining a group of 150 \"friends\" of the Governor.  Chances for a private conversation are rather slim."},
           {"entry":"\"No, I appreciate your invitation, but I have important district business to attend to.\"", "value":"2", "name":"4d", "response":"The Utah Medical Society is pleased to learn you would rather help their cause than \"schmooze with the governor.\"  The rally was successful. ,Many doctors offered upi future campaign contributions.  Your spouse was not pleased, she was looking forward to the evening."},
-          {"entry":"\"No thanks, Gov. Maybe other time.\"    You are planning playing golf at Pinehurst #2 with lobbyists from Pope Foundation.", "value":"3", "name":"4d", "response":"You made everyone unhappy except the state Pope Foundation Executive Director.  You spouse commented she may break your favorite \"Taylor Made XLS\" driver!"}
+          {"entry":"\"No thanks, Gov. Maybe another time.\"  You are planning playing golf at Pinehurst #2 with lobbyists from Pope Foundation.", "value":"3", "name":"4d", "response":"You made everyone unhappy except the state Pope Foundation Executive Director.  You spouse commented she may break your favorite \"Taylor Made XLS\" driver!"}
         ]
       },
       "images":[
@@ -385,9 +385,9 @@
       "body":{
         "situation":"The courts have ordered the legislature to redraw the boundaries of three house districts.  Because your district is not very compact and has too many people, the Speaker has recommended removing Potsdale from your district.  Potsdale is heavily Republican and it's loss may be significant in your re-election.   What do you tell the Speaker?",
         "answers":[
-          {"entry":"\"Sure,  you are team player and are confident you can win no matter what you district looks like.\"", "value":"1", "name":"5d", "response":"The Speaker was very pleased. It will make it easier for him since he ran into stiff opposition from the adjacent representative who really wanted Potsdale."},
+          {"entry":"\"Sure, you are a team player and are confident you can win no matter what your district looks like.\"", "value":"1", "name":"5d", "response":"The Speaker was very pleased. It will make it easier for him since he ran into stiff opposition from the adjacent representative who really wanted Potsdale."},
           {"entry":"You offer an alternative plan in which you lose Potsdale and parts of south Districtville but pick up a number of independent precincts in North Districtville.", "value":"2", "name":"5d", "response":"Your creative idea was reviewed by staff.  The partisan staff liked the plan but felt it  may lead to more \"gerrymandering\" than before.  The Speaker thought it might satisfy the court and would see if he could sell it to the court administrator."},
-          {"entry":"You tell the Speaker \"absolutely not.\"   You have a special bond with the good voters of Potsdale and won't give them up without a fight.", "value":"3", "name":"5d", "response":"Your colleagues sympathized with your situation.    The Speaker offered to review the plan one more time with the staff rewriting the plan.  However, he was over heard commenting to his Chief of Staff that \"with that attitude Jones will just have to swallow hard and accept the new district lines.\""}
+          {"entry":"You tell the Speaker \"absolutely not.\"  You have a special bond with the good voters of Potsdale and won't give them up without a fight.", "value":"3", "name":"5d", "response":"Your colleagues sympathized with your situation.    The Speaker offered to review the plan one more time with the staff rewriting the plan.  However, he was over heard commenting to his Chief of Staff that \"with that attitude Jones will just have to swallow hard and accept the new district lines.\""}
 
         ]
       },

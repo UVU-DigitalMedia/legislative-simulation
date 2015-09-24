@@ -101,6 +101,7 @@ angular.module('controllers',['angularCharts'])
     .controller('StageController', ['$routeParams','$scope', 'DataService', function($routeParams, $scope, DataService){
         //declare answers object
         $scope.answers={};
+        $scope.family = $scope.respect = $scope.district = $scope.press = $scope.campaign = $scope.business = $scope.staff = $scope.governor = $scope.ethics = $scope.money = 0;
 
         //save answer and response on selection
         $scope.saveAnswer = function(entry, question, answer){
@@ -393,47 +394,299 @@ angular.module('controllers',['angularCharts'])
                 }
               };
 
+            //save answer and response on selection
+            $scope.evalAnswers = function(){
+              console.log(localStorage['1a']);
+              switch (localStorage['1a']){
+                  case "Paula Martinez":$scope.district += 2;
+                      console.log($scope.district);
+                      break;
+                  case "Dan Graves":$scope.respect += 3;
+                      $scope.governor += 1;
+                      $scope.money += 1;
+                      break;
+                  case "Erik Larson":$scope.district += 2;
+                      $scope.campaign += 3;
+                      break;
+                    }
+              switch (localStorage['1b']){
+                  case "Yes":$scope.campaign += 1;
+                      break;
+                  case "No":$scope.respect += 3;
+                      $scope.district += 2;
+                      break;
+                    }
+              switch (localStorage['1c']){
+                  case "Ralph Jenkins":$scope.respect += 1;
+                      break;
+                  case "Fred Colbert":$scope.respect += 1;
+                      $scope.district += 3;
+                      $scope.press += 3;
+                      $scope.campaign += 1;
+                      break;
+                    }
+              switch (localStorage['1d']){
+                  case "Peterson for Speaker (Rep.)":$scope.respect += 3;
+                  $scope.respect += 3;
+                  $scope.respect += 3;
+                      break;
+                  case "Seelig for Speaker (Dem.)":$scope.respect += 1;
+                      $scope.district += 3;
+                      $scope.press += 3;
+                      $scope.campaign += 1;
+                      $scope.governor += 3;
+                      break;
+                    }
+              switch (localStorage['2a']){
+                  case "Yes":$scope.district += 3;
+                  $scope.business += 3;
+                      break;
+                  case "No":$scope.press += 3;
+                      break;
+                    }
+              switch (localStorage['2b']){
+                  case "1 night a week":$scope.family += 3;
+                      break;
+                  case "2 or 3 nights a week":$scope.family += 2;
+                      break;
+                  case "4 nights a week":$scope.respect += 1;
+                      $scope.district += 3;
+                      $scope.campaign += 3;
+                      $scope.governor += 2;
+                      break;
+                  case "As many as needed to meet district demands":$scope.respect += 3;
+                      $scope.district += 3;
+                      $scope.campaign += 3;
+                      $scope.staff += 3;
+                      break;
+                    }
+              switch (localStorage['2c']){
+                  case "\"I  plan to vote yes, What is $200,000 compared to fredom from the feds.\"":$scope.respect += 2;
+                      $scope.press += 3;
+                      $scope.campaign += 2;
+                      break;
+                  case "\"I plan to vote no. Funding should be maintained for  Districtville inspite of the federal mandates.\"":$scope.district += 3;
+                      $scope.press += 3;
+                      $scope.campaign += 1;
+                      $scope.money += 2;
+                      break;
+                    }
+              switch (localStorage['2d']){
+                  case "Yes":$scope.business += 3;
+                  $scope.governor += 3;
+                      break;
+                  case "No":$scope.district += 3;
+                  $scope.press += 3;
+                  $scope.campaign += 2;
+                      break;
+                    }
+              switch (localStorage['3a']){
+                  case "Yes":$scope.respect += 3;
+                  $scope.business += 3;
+                  $scope.governor += 3;
+                      break;
+                  case "No":$scope.district += 3;
+                  $scope.press += 1;
+                  $scope.staff += 3;
+                      break;
+                    }
+              switch (localStorage['3b']){
+                  case "Yes":$scope.press += 3;
+                      break;
+                  case "No":$scope.district += 2;
+                  $scope.campaign += 1;
+                  $scope.business += 3;
+                  $scope.governoe += 3;
+                  $scope.money += 1;
+                      break;
+                    }
+              switch (localStorage['3c']){
+                  case "Yes":$scope.district += 3;
+                  $scope.press += 3;
+                  $scope.money += 1;
+                      break;
+                  case "No":
+                  $scope.staff += 3;
+                      break;
+                    }
+              switch (localStorage['3d']){
+                  case "Yes":$scope.district += 2;
+                  $scope.business += 3;
+                      break;
+                  case "No":$scope.respect += 3;
+                      break;
+                    }
+              switch (localStorage['4a']){
+                  case "Meet personally with the DSS director and push for them to support Roper.":$scope.money += 2;
+                      break;
+                  case "Let Roper fend for himself.":$scope.press += 3;
+                      $scope.ethics += 3;
+                      $scope.money += 3;
+                      break;
+                    }
+              switch (localStorage['4b']){
+                  case "You vote \"yes\" to advance the amendment to the agriculture committee.":$scope.respect += 3;
+                      $scope.campaign += 2;
+                      break;
+                  case "You tell the Speaker that you cannot support the constitutional amendment.  It is not good policy, science or politics.":$scope.district += 3;
+                      $scope.press += 3;
+                      $scope.campaign += 2;
+                      break;
+                    }
+              switch (localStorage['4c']){
+                  case "\"With all due respect, you plan to vote for the amendment.\"":$scope.district += 2;
+                      $scope.press += 3;
+                      $scope.campaign += 2;
+                      $scope.money += 3;
+                      break;
+                  case "\"I'm a team player, Governor, I will vote against the amendment.\"":$scope.business += 2;
+                      $scope.staff += 3;
+                      $scope.governor += 3;
+                      break;
+                  case "You will call the lobbyist from University of Disttrictville representative and find out how to vote.":$scope.district += 1;
+                      $scope.money += 3;
+                      break;
+                    }
+              switch (localStorage['4d']){
+                  case "\"Yes, my spouse and I will join you for dinner at the mansion.\"":$scope.family += 3;
+                  $scope.governor += 2;
+                      break;
+                  case "\"No, I appreciate your invitation, but I have important district business to attend to.\"":$scope.respect += 3;
+                  $scope.district += 2;
+                  $scope.campaign += 2;
+                  $scope.business += 3;
+                  $scope.money += 1;
+                      break;
+                  case "\"No thanks, Gov. Maybe another time.\"  You are planning playing golf at Pinehurst #2 with lobbyists from Pope Foundation.":$scope.business += 1;
+                  $scope.money += 2;
+                      break;
+                    }
+              switch (localStorage['5a']){
+                  case "\"Yes, Governor, I'll see that the bill is killed in committee.\"":$scope.respect += 3;
+                  $scope.governor += 3;
+                      break;
+                  case "\"No,  I will do all I can to see the bill pass.\"":$scope.district += 3;
+                  $scope.press +=3;
+                  $scope.business += 3;
+                      break;
+                    }
+              switch (localStorage['5b']){
+                  case "Stand up to Fink and demand your bill in trade.":$scope.respect += 3;
+                  $scope.district += 3;
+                  $scope.campaign += 3;
+                  $scope.staff += 3;
+                      break;
+                  case "Give in and report the bill.":$scope.governor += 3;
+                  $scope.money += 3;
+                      break;
+                    }
+              switch (localStorage['5c']){
+                  case "Yes":$scope.respect += 3;
+                  $scope.business += 3;
+                      break;
+                  case "No":$scope.district += 3;
+                  $scope.campaign += 3;
+                  $scope.money += 1;
+                      break;
+                    }
+              switch (localStorage['5d']){
+                  case "\"Sure, you are a team player and are confident you can win no matter what your district looks like.\"":$scope.respect += 3;
+                      break;
+                  case "You offer an alternative plan in which you lose Potsdale and parts of south Districtville but pick up a number of independent precincts in North Districtville.":$scope.respect += 2;
+                  $scope.district += 3;
+                  $scope.press += 2;
+                  $scope.campaign += 2;
+                      break;
+                  case "You tell the Speaker \"absolutely not.\"  You have a special bond with the good voters of Potsdale and won't give them up without a fight.":$scope.district += 3;
+                  $scope.campaign += 3;
+                      break;
+                    }
+              switch (localStorage['6a']){
+                  case "Say all representatives do constituent work and ask for contributions.":$scope.press += 3;
+                  $scope.campaign += 3;
+                      break;
+                    }
+              switch (localStorage['6b']){
+                  case "Yes":$scope.money += 3;
+                  $scope.business += 1;
+                      break;
+                  case "No":$scope.respect += 3;
+                  $scope.press += 3;
+                  $scope.ethics += 3;
+                  $scope.money += 1;
+                      break;
+                    }
+              switch (localStorage['6c']){
+                  case "Joint fund-raiser with other Appropriations Committee members.":$scope.ethics += 3;
+                  $scope.money += 2;
+                      break;
+                  case "Ask the NC school board association to organize the event for you.":$scope.money += 2;
+                      break;
+                  case "Hold a lobbyist fund-raiser at the prestigious Alta Club with yourself as special guest.":$scope.campaign += 3;
+                  $scope.ethics += 3;
+                  $scope.money += 3;
+                      break;
+                    }
+              switch (localStorage['6d']){
+                  case "Agree with him by vowing to serve only one more term and accept no more PAC money.":$scope.press += 2;
+                  $scope.campaign += 3;
+                  $scope.ethics += 1;
+                  $scope.money += 3;
+                      break;
+                  case "Have your mother do a commercial for you saying how you were taught to hold on to a job.":$scope.campaign += 3;
+                      break;
+                  case "Double your effort, stressing your successes in the legislature.":$scope.respect += 3;
+                  $scope.campaign += 3;
+                      break;
+                    }
+
               $scope.data = {
-                series: ['Actual','Maximum'],
                 data: [
-                                {
-                                  x: "Family",
-                                  y: [4,10]
-                                },
-                                {
-                                  x: "Respect",
-                                  y: [6]
-                                },
-                                {
-                                  x: "District",
-                                  y: [10]
-                                },
-                                {
-                                  x: "Press",
-                                  y: [10]
-                                },
-                                {
-                                  x: "Campaign",
-                                  y: [10]
-                                },
-                                {
-                                  x: "Business",
-                                  y: [5]
-                                },
-                                {
-                                  x: "Staff",
-                                  y: [7]
-                                },
-                                {
-                                  x: "Ethics",
-                                  y: [3]
-                                },
-                                {
-                                  x: "Money",
-                                  y: [3]
-                                }
-                            ]
-                        };
+                  {
+                    x: "Family",
+                    y: [$scope.family]
+                  },
+                  {
+                    x: "Respect",
+                    y: [$scope.respect]
+                  },
+                  {
+                    x: "District",
+                    y: [$scope.district]
+                  },
+                  {
+                    x: "Press",
+                    y: [$scope.press]
+                  },
+                  {
+                    x: "Campaign",
+                    y: [$scope.campaign]
+                  },
+                  {
+                    x: "Business",
+                    y: [$scope.business]
+                  },
+                  {
+                    x: "Staff",
+                    y: [$scope.staff]
+                  },
+                  {
+                    x: "Governor",
+                    y: [$scope.governor]
+                  },
+                  {
+                    x: "Ethics",
+                    y: [$scope.ethics]
+                  },
+                  {
+                    x: "Money",
+                    y: [$scope.money]
+                  }
+              ]
+          };
+        };
+
+
 
                 //set model and view
                 $scope.currentContInclude = {"url": "partials/effectiveness.html"};
