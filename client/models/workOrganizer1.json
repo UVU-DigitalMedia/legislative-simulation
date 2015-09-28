@@ -48,7 +48,7 @@
         "situations":[
           {"entry":"Take your family on a short vacation.", "value":"1", "name":"work3a", "response":"The family had a great time in Bermuda.  The snorkeling was great, and your wife loved the time with you."},
           {"entry":"Meet with the governor to review the bills you have introduced.", "value":"2", "name":"work3b", "response":"The time spent on your legislation was well worth it.  They  will have a greater chance of avoiding a veto."},
-          {"entry":"Send a questionnaire to your district", "value":"3", "name":"work3c", "response":"The questionnaire was loved by constituents.  More than 3,000 filled it out and mailed it in."},
+          {"entry":"Send a questionnaire to your district.", "value":"3", "name":"work3c", "response":"The questionnaire was loved by constituents.  More than 3,000 filled it out and mailed it in."},
           {"entry":"Meet with lobbyists interested in education issues.", "value":"4", "name":"work3d", "response":"The lobbyist meeting went well.  Their respect for you increases daily."}
         ]
       },

@@ -639,6 +639,97 @@ angular.module('controllers',['angularCharts'])
                   $scope.campaign += 3;
                       break;
                     }
+                    // now calculate the effectiveness values for all the work organizer choices they made
+              if (localStorage['work1a'] === "Visit plant gates next week thanking workers for their support.") {
+                $scope.district += 3;
+                $scope.campaign += 1;
+              }
+              if (localStorage['work1b'] ===  "Meet wtih influential lobbyists in Salt Lake City.") {
+                $scope.respect += 3;
+                $scope.money += 2;
+              }
+              if (localStorage['work1c'] ===  "Attend caucus retreat where you will discuss school reform issues including \"No Child Left Behind\" and \"Teacher Tenure.\"") {
+                $scope.district += 3;
+                $scope.press += 1;
+              }
+              if (localStorage['work1d'] ===  "Visit city halls introducing your constituent service plan.") {
+                $scope.district += 3;
+                $scope.campaign += 1;
+              }
+              if (localStorage['work2a'] ===  "Conduct research on the bills you are going to introduce.") {
+                $scope.respect += 3;
+              }
+              if (localStorage['work2b'] ===  "Attend a PTA meeting in Suburbia to discuss \"No Child Left Behind.\"") {
+                $scope.district += 3;
+              }
+              if (localStorage['work2c'] ===  "Pay attention to staff priorities and concerns.") {
+                $scope.campaign += 1;
+              }
+              if (localStorage['work2d'] ===  "Visit Washington to discuss state budget problems with the congressional delegation.") {
+                $scope.respect += 1;
+                $scope.campaign += 1;
+              }
+              if (localStorage['work3a'] ===  "Take your family on a short vacation.") {
+                $scope.family += 3;
+              }
+              if (localStorage['work3b'] ===  "Meet with the governor to review the bills you have introduced.") {
+                $scope.respect += 3;
+                $scope.governor += 3;
+              }
+              if (localStorage['work3c'] ===  "Send a questionnaire to your district.") {
+                $scope.district += 3;
+                $scope.campaign += 3;
+              }
+              if (localStorage['work3d'] ===  "Meet with lobbyists interested in education issues.") {
+                $scope.respect += 3;
+                $scope.district += 2;
+                $scope.staff += 1;
+              }
+              if (localStorage['work4a'] ===  "Meet with staff about their concerns.") {
+                $scope.campaign += 2;
+                $scope.staff += 3;
+              }
+              if (localStorage['work4b'] ===  "Organize a hearing at University of Disttrictville to discuss tuition levels.") {
+                $scope.district += 3;
+                $scope.campaign += 1;
+              }
+              if (localStorage['work4c'] ===  "Send a \"franked\" mail to your district.") {
+                $scope.district += 3;
+              }
+              if (localStorage['work4d'] ===  "Organize a fund-raiser.") {
+                $scope.campaign += 3;
+                $scope.money += 3;
+              }
+              if (localStorage['work5b'] ===  "Hold committee hearings throughout the state.") {
+                $scope.respect += 3;
+                $scope.press += 2;
+                $scope.campaign += 1;
+              }
+              if (localStorage['work5c'] ===  "Hold a fund-raiser.") {
+                $scope.campaign += 3;
+                $scope.money += 3;
+              }
+              if (localStorage['work5d'] ===  "Meet with constituents.") {
+                $scope.district += 3;
+                $scope.campaign += 2;
+              }
+              if (localStorage['work6a'] ===  "Attend a Republican \"get out the vote\" rally on campus.") {
+                $scope.district += 2;
+                $scope.campaign += 2;
+              }
+              if (localStorage['work6b'] ===  "Go door to door in swing precincts.") {
+                $scope.district += 1;
+                $scope.campaign += 3;
+              }
+              if (localStorage['work6c'] ===  "Campaign with Governor Herbert in Republican neighborhoods.") {
+                $scope.press += 2;
+                $scope.campaign += 1;
+                $scope.governor += 1;
+              }
+              if (localStorage['work6d'] ===  "Organize a fund-raiser for a last minute television blitz.") {
+                $scope.campaign += 3;
+                $scope.money += 3;
+              }
 
               $scope.data = {
                 data: [
