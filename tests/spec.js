@@ -50,7 +50,7 @@ describe('Legislative Simulation App', function() {
         nextButton.click();
 
         expect(responseDivs.get(0).getText()).toContain('Your Answer: Paula Martinez');
-        expect(responseDivs.get(1).getText()).toContain('Your Answer: yes');
+        expect(responseDivs.get(1).getText()).toContain('Your Answer: Yes');
         expect(responseDivs.get(2).getText()).toContain('Your Answer: Ralph Jenkins');
         expect(responseDivs.get(3).getText()).toContain('Your Answer: Peterson for Speaker (Rep.)');
 
