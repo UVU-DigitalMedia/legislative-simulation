@@ -3,12 +3,12 @@
     <h1>{{ content.header }}</h1>
     </div>
     <div class="informArea">
-        <p>{{ content.date }},  {{ content.stage }}</p>
+        <p>{{ content.date }}</p>
         <h2>{{ content.body.situation }}</h2>
     </div>
     <div class="actionArea">
         <paper-radio-group >
-            <paper-radio-button  ng-click="saveAnswer(answer.entry, answer.name, answer.response)" name="{{ answer.value }}" label="{{ answer.entry }}" ng-repeat="answer in content.body.answers" ></paper-radio-button>
+            <paper-radio-button ng-click="saveAnswer(answer.entry, answer.name, answer.response)" name="{{ answer.value }}" label="{{ answer.entry }}" ng-repeat="answer in content.body.answers" ></paper-radio-button>
         </paper-radio-group>
     </div>
 </div>

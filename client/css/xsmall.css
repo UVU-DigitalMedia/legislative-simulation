@@ -82,6 +82,21 @@ input[type="checkbox"]:checked + label span {background: url(../img/checkboxSpri
 
 /*-- Intro page --*/
 
+.core-item:hover{cursor:pointer;}
+
+html /deep/ .size-position {
+      position: fixed;
+      top: 40px;
+      left: 240px;
+      width: 700px;
+      height: 900px;
+      overflow: auto;
+    }
+
+.navInstructions{
+  color: red;
+}
+
 /*-- Situation page --*/
 .situationContainer{background: #aaa; margin:2%;padding:10px;}
 .situation img{  margin: 30px 0px 0px 0px;border: 7px solid #fff;box-shadow: 2px 2px 2px #111;border-radius: 0px;}
@@ -105,11 +120,16 @@ input[type="checkbox"]:checked + label span {background: url(../img/checkboxSpri
 
 /*-- Analytics... --*/
 
+.effectivenessButton {
+  background: green;
+  color: #fff;
+}
+
 /*-- About appropriations page --*/
 .candidateCont {padding:0px 10px 0px 70px;}
 .candidateCont p{color:#fff;}
 
-/*-- About appropriations page --*/
+/*-- About district page --*/
 .abt-district {padding:0px 10px 0px 70px;}
 .abt-district p{color:#fff;}
 

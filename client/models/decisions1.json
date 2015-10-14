@@ -126,7 +126,7 @@
       "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
-        "situation":"The Appropriation Committee on school aid has just reported out a bill requiring Utah to pull out of the \"No Child Left Behind\" federal law.   It will cost Utah  $120 million in federal money. The bill will cost the Districtville Schools $200,000 but will help make a statement in support of local control of schools. Chris Johnson, writer for the Districtville Gazette is on the phone, wanting you to know how you intend to vote?.  What do you say?",
+        "situation":"The Appropriation Committee on school aid has just reported out a bill requiring Utah to pull out of the \"No Child Left Behind\" federal law.   It will cost Utah  $120 million in federal money. The bill will cost the Districtville Schools $200,000 but will help make a statement in support of local control of schools. Chris Johnson, writer for the Districtville Gazette is on the phone, wanting you to know how you intend to vote.  What do you say?",
         "answers":[
           {"entry":"\"I  plan to vote yes, What is $200,000 compared to freedom from the feds.\"", "value":"1", "name":"2c", "response":"The Districtville superintendent of schools was distressed with your vote.  The newspaper editorialized against  your position.  The school board president was \"outraged\" and wrote to you saying \"his $100 contribution to your campaign was wasted.\""},
           {"entry":"\"I plan to vote no. Funding should be maintained for  Districtville in spite of the federal mandates.\"", "value":"2", "name":"2c", "response":"The local schools were pleased.  However,Tea Party leader, Samuel Tizzy, said that the vote might lead to your defeat at the next primary."},
@@ -363,7 +363,7 @@
       "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
-        "situation":"The vote is before the House to refer the elimination of the Board of Regents to the hostile agriculture committee.  UNC Districtville Chancellor Pinder called to urge a \"yes\" vote.  The Chamber of Commerce is urging a \"NO\" vote as is Speaker Peterson.  How, do you vote?",
+        "situation":"The vote is before the House to refer the elimination of the Board of Regents to the hostile agriculture committee.  Districtville Chancellor Pinder called to urge a \"yes\" vote.  The Chamber of Commerce is urging a \"NO\" vote as is Speaker Peterson.  How, do you vote?",
         "answers":[
           {"entry":"Yes", "value":"1", "name":"5c", "response":"Your vote killed the legislation for another two years.  The Districtville Gazette described your vote as \"ducking a tough issue.\"  The University community was pleased with your action.   An honorary degree might be in your future."},
           {"entry":"No",  "value":"2", "name":"5c", "response":"The Director of the Pope Center for Higher Education was pleased with your vote to eliminate the Board of Regents'  He commented to the press that the \"Governor's should either 'toughen up' or lets eliminate them and let the legislature run things.\""}

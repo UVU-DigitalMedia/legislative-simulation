@@ -87,7 +87,7 @@
       "body":{
         "situations":[
           {"entry":"Organize your congressional campaign.", "value":"1", "name":"work5a", "response":"Your congressional campaign got off to a good start.  Forty people showed up to organize the campaign.  House Republicans are very upset."},
-          {"entry":"Hold committee hearings throughout the state.", "value":"2", "name":"work5b", "response":"Thecommittee hearings in Murphy was sparsely attended.  You got three column inches in the newspaper saying the committee was there.  You were not mentioned."},
+          {"entry":"Hold committee hearings throughout the state.", "value":"2", "name":"work5b", "response":"The committee hearings in Murphy was sparsely attended.  You got three column inches in the newspaper saying the committee was there.  You were not mentioned."},
           {"entry":"Hold a fund-raiser.", "value":"3", "name":"work5c", "response":"The fund-raiser was a success.  An additional $30,000 was brought in."},
           {"entry":"Meet with constituents.", "value":"4", "name":"work5d", "response":"Your district townhall meetings were great.  Your idea of having two-way video from the high school to the middle school was featured in the newspaper."}
         ]

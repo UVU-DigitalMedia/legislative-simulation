@@ -5,6 +5,10 @@ var app = angular.module('app', [
     'ngRoute'
 ]);
 
+app.run(function($rootScope) {
+  $rootScope.navDisabled = false;
+});
+
 app.config(['$routeProvider',function($routeProvider){
     $routeProvider
         .when('/',{templateUrl: 'templates/intro.html', controller:'HomeController'})

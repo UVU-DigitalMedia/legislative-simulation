@@ -1,42 +1,93 @@
 angular.module('controllers',['angularCharts'])
 
-    .controller('navigationCtrl', ['$routeParams', '$scope', '$location', 'DataService', function ($routeParams, $scope, $location, DataService){
-
-        //determine progress %, next and previous page, and provide link to each
-        $scope.$on('$routeChangeSuccess', function() {
-
-            //Get map of site (for linear progress)
-            var navProgress = DataService.getModel('progressModel');
-
-            //wait for promise fulfillment
-            navProgress.get().$promise.then(function (content) {
-                    $scope.progMap = content.order;
-
-                //find current route param index # in map
-                for (var i=0; i < $scope.progMap.length; i++){
-                    if($scope.progMap[i].url === param){
-
-                        //post next previous and value to view
-                        $scope.progress.next = $scope.progMap[i + 1].url;
-                        $scope.progress.previous = $scope.progMap[i - 1].url;
-                        $scope.progress.value = $scope.progMap[i].value;
-                    }
-                }
-            });
-
-            //get current url path
-            var param = "#" + $location.path();
-            $scope.progress = {};
-
-            //todo logic that takes the 'about' info pages out of the main flow of the program so you can review them and not loose your place
-            //todo logic that stops progress if conditions aren't met (decisions are not selected etc)
-
-
-        })
-    }])
     .controller('HomeController', ['$routeParams', '$scope', 'DataService', function ($routeParams, $scope, DataService){
 
         var model;
+
+        $scope.about = {
+
+            "abtYou": {
+                "header": "About",
+                "name": "Kenneth Jones ",
+                "body": {
+                    "p1": "Kenneth Jones is a successful businessman (social media marketing) from the suburban community of North Districtville.  He is very proud of his ancestry, as his family first located in Utah in the 1840s.",
+                    "p2": "He served on the Bunko County Commission prior to being elected to the legislature.  He is known to be rather \"volitile\" and expresses his opinions freely.",
+                    "p3": "Jones is known as an moderate but with a deep distrust of big government programs.  His typical speech is about how local communities should set policy.  This makes him acceptable to Tea Party supporters.",
+                    "p4": "He is married and has grown children.  His wife,  Annebel, is a teacher in the local school district."
+                },
+                "images": [
+                    {
+                        "name": "Kenneth Jones",
+                        "url": "../img/kennethJones.jpg",
+                        "alt": "Profile pic of Kenneth Jones"
+                    }
+                ]
+            },
+            "abtDistrict": {
+                "header": "About the District",
+                "body": {
+                    "p1": "The Utah 38th House District includes the northern half of the city of Districtville and the immediate suburbs of North Districtville and Potsdale.",
+                    "p2": "The politics of the 38th is quite varied.  Districtville is very liberal where anything goes.  It is surrounded by traditional conservative LDS church members.   Jones won the election by carrying North Districtville and winning Potsdale by a very large margin.",
+                    "p3": "Districtville houses the University of Districtville, also known as the fighting \"Weasels.\" The city is home to a burgeoning music industry and a federal agency specializing in climate research.",
+                    "p4": "The big issue in the 38th is support for education and the university.  Voters are concerned about declining test scores and safety in the schools.",
+                    "p5": "The biggest industry is tourism with over a million visitors spending time and money in the region.   The powerful business leaders are largely from the tourist industry."
+                },
+                "images": [
+                    {
+                        "name": "District map",
+                        "url": "../img/districtMap.jpg",
+                        "alt": "A map of the district"
+                    }
+                ]
+            },
+            "abtAppropriations": {
+                "header": "About the Appropriations Chair",
+                "body": {
+                    "title": "Republican Leaders",
+                    "candidates": [
+                        {
+                            "name": "Fred Colbert",
+                            "info": "Fred Colbert is one of the more flamboyant members of the House.  Elected in 2004, he represents Beauford  County.   He is known as the leader of the \"Young Turks,\" who wish to align public spending with district needs.  He has substantial following, especially among less senior Republicans.  Colbert is chair of the Judiciary Committee.  He is frequently interviewed by the press and is popular guest of \"Off the Record.\"   Colbert campaigned for you in the last election.",
+                            "imgUrl": "../img/colbert.jpg",
+                            "imgAlt": "Appropriations committee chair candidate Fred Colbert"
+                        },
+                        {
+                            "name": "Ralph Jenkins",
+                            "info": "Ralph Jenkins is an eight term veteran from Cumberland County.   He is a leader of what is referred to as the \"old guard.\"  Jenkins likes like-minded House Republicans who favor the status quo and wish to preserve the current power relationships within the caucus.   He is a conservative anti-spending Republican.    He is known for his skill in political infighting and his knowledge of the budget.   Jenkins may also chair the newly created reapportionment committee.",
+                            "imgUrl": "../img/Jenkins.jpg",
+                            "imgAlt": "Appropriations committee chair candidate Ralph Jenkins"
+                        }
+                    ]
+                }
+            },
+            "abtStaff": {
+                "header": "About the Staff",
+                "body": {
+                    "title": "",
+                    "candidates": [
+                        {
+                            "name": "Paula Martinez",
+                            "info": "Paula Martinez has been active in district politics for some time.  She is 41 years old and is a partner in a local law firm.  She is the current chair of the Disrictville Hispanic Association.  Martinez is well connected with the minority community which makes up 20% of the voting population.",
+                            "imgUrl": "../img/Martinez.jpg",
+                            "imgAlt": "Appropriations committee chair candidate Fred Colbert"
+                        },
+                        {
+                            "name": "Dan Graves",
+                            "info": "Dan Graves is a long time Capitol staffer. Graves is 54 years old.   He has a law degree and considerable experience in drafting legislation.  Graves has worked for the national and state Republican parties.  He is an expert in the state budget as he currently works for Rep. Jenkins, Chair of the House Appropriations Committee",
+                            "imgUrl": "../img/Graves.jpg",
+                            "imgAlt": "Appropriations committee chair candidate Ralph Jenkins"
+                        },
+                        {
+                            "name": "Erik Larson",
+                            "info": "Erik Larson was a major player in your election campaign.   Larson, 25, has been a journalist and helped design and write your campaign literature.  He is also an activist with the Tea Party activists in the region.  He has great skills in crafting electioneering strategies.",
+                            "imgUrl": "../img/Larson.jpg",
+                            "imgAlt": "Appropriations committee chair candidate Ralph Jenkins"
+                        }
+                    ]
+                }
+            }
+        };
+
         //direct to home if no further value otherwise direct to respective partial
         if(!$routeParams.val1){
             $scope.currentContInclude = {"url": "partials/home.html"};
@@ -66,78 +117,58 @@ angular.module('controllers',['angularCharts'])
         }
     }])
 
-    .controller('InfoController', ['$routeParams','$scope','DataService', function($routeParams, $scope, DataService){
-        var model;
-        switch ($routeParams.val1) {
-            case 'abtYou'://set model and view
-                $scope.currentContInclude = {"url": "partials/abtYou.html"};
-                model = DataService.getModel('abtYou');
-                model.get(function(content){ $scope.content = content.content; });
-                break;
+    .controller('StageController', ['$routeParams','$scope', '$rootScope', '$location', 'DataService', function($routeParams, $scope, $rootScope, $location, DataService){
 
-            case 'abtDistrict'://set model and view
-                $scope.currentContInclude = {"url": "partials/abtDistrict.html"};
-                model = DataService.getModel('abtDistrict');
-                model.get(function(content){$scope.content = content.content;});
-                break;
+      //determine progress %, next and previous page, and provide link to each
+      $scope.$on('$routeChangeSuccess', function() {
 
-            case 'abtAppropriations'://set model and view
-                $scope.currentContInclude = {"url": "partials/abtAppropriations.html"};
-                model = DataService.getModel('abtAppropriations');
-                model.get(function(content){$scope.content = content.content;});
-                break;
+          //Get map of site (for linear progress)
+          var navProgress = DataService.getModel('progressModel');
 
-            case 'abtStaff'://set model and view
-                $scope.currentContInclude = {"url": "partials/abtStaff.html"};
-                model = DataService.getModel('abtStaff');
-                model.get(function(content){$scope.content = content.content;});
-                break;
+          //wait for promise fulfillment
+          navProgress.get().$promise.then(function (content) {
+                  $scope.progMap = content.order;
 
-            default :
-                console.log('infoctrl switch err');
+              //find current route param index # in map
+              for (var i=0; i < $scope.progMap.length; i++){
+                  if($scope.progMap[i].url === param){
+                      //post next previous and value to view
+                        $scope.progress.next = $scope.progMap[i + 1].url;
+                        if(i > 0) $scope.progress.previous = $scope.progMap[i - 1].url
+                        $scope.progress.value = $scope.progMap[i].value;
+                      }
+                  }
+          });
+
+          //get current url path
+
+          var param = "#" + $location.path();
+          $scope.progress = {};
+          //var curPage = $scope.progMap[i].url;
+          if((param.indexOf("decisions") != -1) || (param.indexOf("workOrganizer") != -1)) {
+            // we are on a page where a decision must be selected before progressing
+            $rootScope.navDisabled = true;
+        }else {
+          $rootScope.navDisabled = false;
+          // if (!$scope.$$phase) { // check if digest already in progress
+          //   $scope.$applyAsync(); // launch digest;
+          // }
         }
-    }])
 
-    .controller('StageController', ['$routeParams','$scope', 'DataService', function($routeParams, $scope, DataService){
+
+          //todo logic that takes the 'about' info pages out of the main flow of the program so you can review them and not loose your place
+            // completed by making modal paper-dialog components inside index.html
+          //todo logic that stops progress if conditions aren't met (decisions are not selected etc)
+
+
+
+      });
+
         //declare answers object
         $scope.answers={};
         $scope.family = $scope.respect = $scope.district = $scope.press = $scope.campaign = $scope.business = $scope.staff = $scope.governor = $scope.ethics = $scope.money = 0;
 
-        //save answer and response on selection
-        $scope.saveAnswer = function(entry, question, answer){
-            localStorage[question] = entry;
-            var response = question + 'Response';
-            localStorage[response] = answer;
-        };
 
-        //limit check boxes to 2, add/remove from local storage
-        $scope.checkboxs = [];
-        $scope.limit = 2;
-        $scope.checked = 0;
-        $scope.checkChanged = function(checkbox, questionName, entry, response){
-            if(checkbox.answer){
-                $scope.checked++;
-                addValue(questionName, entry, response)
-            }else{
-                $scope.checked--;
-                removeValue(questionName, entry, response)
-            }
-        };
-
-        //add checked value to localStorage
-        function addValue(question, entry, answer){
-            var response;
-            localStorage[question] = entry;
-            response = question + 'Response';
-            localStorage[response] = answer;
-        }
-        //remove checked value
-        function removeValue(question, answer){
-            var response;
-            delete localStorage[question];
-            response = question + 'Response';
-            delete localStorage[response];
-        }
 
         //redirect to respective partial
         switch ($routeParams.val1) {
@@ -731,48 +762,66 @@ angular.module('controllers',['angularCharts'])
                 $scope.money += 3;
               }
 
-              $scope.data = {
+              $scope.pct1 = $scope.family / 9;
+              $scope.pct2 = $scope.respect / 62;
+              $scope.pct3 = $scope.district / 75;
+              $scope.pct4 = $scope.press / 50;
+              $scope.pct5 = $scope.campaign / 61;
+              $scope.pct6 = $scope.business / 27;
+              $scope.pct7 = $scope.staff / 24;
+              $scope.pct8 = $scope.governor / 32;
+              $scope.pct9 = $scope.ethics / 10;
+              $scope.pct10 = $scope.money / 38;
+
+              $scope.overallScore = (3 * $scope.pct1) + (10 * $scope.pct2) + (40 * $scope.pct3)
+               + (10 * $scope.pct4) + (10 * $scope.pct5) + (5 * $scope.pct6) + (3 * $scope.pct7)
+                + (4 * $scope.pct8) + (5 * $scope.pct9) + (10 * $scope.pct10);
+
+              console.log("overallScore is: " + $scope.overallScore);
+              console.log("pct10 is: " + $scope.pct10);
+
+              $scope.data = { // raw numbers must be divided by max possible values Sederburg set up for each category
                 data: [
                   {
                     x: "Family",
-                    y: [$scope.family]
+                    y: [Math.trunc(($scope.family / 9) * 100)]
                   },
                   {
                     x: "Respect",
-                    y: [$scope.respect]
+                    y: [Math.trunc(($scope.respect / 62) * 100)]
                   },
                   {
                     x: "District",
-                    y: [$scope.district]
+                    y: [Math.trunc(($scope.district / 75) * 100)]
                   },
-                  {
+                  /*{
                     x: "Press",
-                    y: [$scope.press]
+                    y: [$scope.press / 50]
                   },
                   {
                     x: "Campaign",
-                    y: [$scope.campaign]
-                  },
+                    y: [$scope.campaign / 61]
+                  },*/
                   {
                     x: "Business",
-                    y: [$scope.business]
+                    y: [Math.trunc(($scope.business / 27) * 100)]
                   },
                   {
                     x: "Staff",
-                    y: [$scope.staff]
+                    y: [Math.trunc(($scope.staff / 24) * 100)]
                   },
-                  {
+                  /*{
                     x: "Governor",
-                    y: [$scope.governor]
-                  },
+                    y: [$scope.governor / 32]
+                  },*/
                   {
                     x: "Ethics",
-                    y: [$scope.ethics]
+                    y: [Math.trunc(($scope.ethics / 10) * 100)]
                   },
-                  {
+                  /*{
                     x: "Money",
-                    y: [$scope.money]
-                  }
+                    y: [$scope.money / 38]
+                  }*/
               ]
           };
         };
@@ -828,4 +877,57 @@ angular.module('controllers',['angularCharts'])
             default :
                 console.log('stagectrl switch err');
         }
-    }]);
+
+    //save answer and response on selection
+    $scope.saveAnswer = function(entry, question, answer){
+        localStorage[question] = entry;
+        var response = question + 'Response';
+        localStorage[response] = answer;
+        checkSelected(question);
+    };
+
+    //limit check boxes to 2, add/remove from local storage
+    $scope.checkboxs = [];
+    $scope.limit = 2;
+    $scope.checked = 0;
+    $scope.checkChanged = function(checkbox, questionName, entry, response){
+        if(checkbox.answer){
+            $scope.checked++;
+            addValue(questionName, entry, response)
+        }else{
+            $scope.checked--;
+            removeValue(questionName, entry, response)
+        }
+    };
+
+    //add checked value to localStorage
+    function addValue(question, entry, answer){
+        var response;
+        localStorage[question] = entry;
+        response = question + 'Response';
+        localStorage[response] = answer;
+        checkSelected(question);
+    }
+    //remove checked value
+    function removeValue(question, answer){
+        var response;
+        delete localStorage[question];
+        response = question + 'Response';
+        delete localStorage[response];
+        checkSelected(question);
+    }
+
+    function checkSelected(question) {
+      if(question.indexOf("work") != -1) {
+        // we need 2 of the work response checkboxes checked
+        if ($scope.checked === 2) {
+          $rootScope.navDisabled = false;
+        } else {
+        $rootScope.navDisabled = true;
+        }
+      } else {
+          $rootScope.navDisabled = false;
+        }
+    }
+
+}]);
