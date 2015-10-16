@@ -419,10 +419,11 @@ angular.module('controllers',['angularCharts'])
                 mouseout: function() {},
                 click: function() {},
                 legend: {
-                  display: true,
+                  display: false,
                   //could be 'left, right'
                   position: 'right'
-                }
+                },
+                colors: ['steelBlue']
               };
 
             //save answer and response on selection

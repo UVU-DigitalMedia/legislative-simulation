@@ -1,17 +1,16 @@
 <div class="effectiveness">
     <h1>{{ content.header }}</h1>
     <h2>{{ content.subHeader }}</h2>
-    <div
+    <div>
+    <div 
         ac-chart="'bar'"
         ac-data="data"
         ac-config="config"
         class="chart">
       </div>
+    <div class="effectResults">
+      <p>You did great</p>
+    </div>
+  </div>
     <paper-button raised class="effectivenessButton" ng-click="evalAnswers()">Calculate Effectiveness</paper-button>
-    <style>
-        .chart {
-         width: 900px;
-         height: 600px;
-        }
-    </style>
 </div>

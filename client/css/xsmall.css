@@ -120,9 +120,35 @@ html /deep/ .size-position {
 
 /*-- Analytics... --*/
 
+.chart {
+ width: 60%;
+ height: 600px;
+ float: left;
+ background-color: #eee;
+ margin-left: 8px;
+ border-radius: 8px;
+ box-shadow: 1px 1px 2px -1px #323232;
+}
+
+.effectResults {  margin-right: 8px;
+  padding: 20px;
+  min-height: 153px;
+  background: #eee;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px -1px #323232;
+  width: 380px;
+  height: 560px;
+  float: right;
+}
+
+.effectiveness {
+  margin: 0 auto;
+}
+
 .effectivenessButton {
   background: green;
   color: #fff;
+  margin: 20px 20px 20px 200px;
 }
 
 /*-- About appropriations page --*/
