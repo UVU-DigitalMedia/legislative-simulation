@@ -141,8 +141,23 @@ html /deep/ .size-position {
   float: right;
 }
 
+.goalResults {
+  margin-right: 8px;
+    padding: 20px;
+    min-height: 153px;
+    width: 380px;
+    height: 560px;
+    float: right;
+}
+
 .effectiveness {
   margin: 0 auto;
+}
+
+.effectiveness p {
+  color: #fff;
+  font-size: 1.3em;
+  margin-left: 20px;
 }
 
 .effectivenessButton {

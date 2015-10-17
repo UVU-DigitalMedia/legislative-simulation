@@ -2,14 +2,21 @@
     <h1>{{ content.header }}</h1>
     <h2>{{ content.subHeader }}</h2>
     <div>
-    <div 
+    <div
         ac-chart="'bar'"
         ac-data="data"
         ac-config="config"
         class="chart">
       </div>
     <div class="effectResults">
-      <p>You did great</p>
+      <p>{{effDistrict}}</p>
+      <p>{{effPress}}</p>
+      <p>{{effCampaign}}</p>
+      <p>{{effBusiness}}</p>
+      <p>{{effStaff}}</p>
+      <p>{{effGovernor}}</p>
+      <p>{{effEthics}}</p>
+      <p>{{effMoney}}</p>
     </div>
   </div>
     <paper-button raised class="effectivenessButton" ng-click="evalAnswers()">Calculate Effectiveness</paper-button>

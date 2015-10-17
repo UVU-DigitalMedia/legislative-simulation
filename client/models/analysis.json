@@ -1,13 +1,13 @@
 {
   "content":{
-    "header":"Election Analysis",
+    "header":"Goal Analysis",
     "body":{
-      "p1":"Here is your goal attainment",
+      "p1":"As you began your work as a legislator, you set the following four goals:",
       "goals":[
-        { "letter":"A","entry":"Winning Legislator of the Year", "result":"Sorry, you were not selected as the National Conference of State Legislatures 'Outstanding Legislatorof the Year' award but your application and effort was appreciated."},
-        { "letter":"B","entry":"Getting re-elected","result":"You where not re-elected"},
-        { "letter":"C","entry":"Being respected by your colleagues","result":"You are about 'average' when it comes to respect from your colleagues."},
-        { "letter":"D","entry":"Keeping You family intact","result":"Your family relations couldn't be worse.  You were caught in Motel Six with an exotic dancer from the 'Boom Boom' room.  A divorce is likely."}
+        { "letter":"A","entry":"Winning Legislator of the Year"},
+        { "letter":"B","entry":"Getting re-elected"},
+        { "letter":"C","entry":"Being respected by your colleagues"},
+        { "letter":"D","entry":"Keeping You family intact"}
       ],
       "p2":"You did a great job representing the major interests in your district.  This helped you in your request for re-election.",
       "p3":"You were about average in getting ready for your campaign.",

@@ -166,9 +166,22 @@ angular.module('controllers',['angularCharts'])
 
         //declare answers object
         $scope.answers={};
+        $scope.effFamily = $scope.effRespect = $scope.effDistrict = $scope.effPress = $scope.effCampaign = $scope.effBusiness = $scope.effStaff = $scope.effGovernor = $scope.effEthics = $scope.effMoney = "";
         $scope.family = $scope.respect = $scope.district = $scope.press = $scope.campaign = $scope.business = $scope.staff = $scope.governor = $scope.ethics = $scope.money = 0;
 
-
+        $scope.config = {
+            tooltips: true,
+            labels: false,
+            mouseover: function() {},
+            mouseout: function() {},
+            click: function() {},
+            legend: {
+              display: false,
+              //could be 'left, right'
+              position: 'right'
+            },
+            colors: ['steelBlue']
+          };
 
         //redirect to respective partial
         switch ($routeParams.val1) {
@@ -412,23 +425,60 @@ angular.module('controllers',['angularCharts'])
 
             case 'effectiveness':
 
-            $scope.config = {
-                tooltips: true,
-                labels: false,
-                mouseover: function() {},
-                mouseout: function() {},
-                click: function() {},
-                legend: {
-                  display: false,
-                  //could be 'left, right'
-                  position: 'right'
-                },
-                colors: ['steelBlue']
-              };
 
             //save answer and response on selection
             $scope.evalAnswers = function(){
-              console.log(localStorage['1a']);
+
+              populateScopeFromStorage();
+
+              $scope.data = { // raw numbers must be divided by max possible values Sederburg set up for each category
+                data: [
+                /*  {
+                    x: "Family",
+                    y: [Math.trunc(($scope.family / 9) * 100)]
+                  },
+                  {
+                    x: "Respect",
+                    y: [Math.trunc(($scope.respect / 62) * 100)]
+                  },*/
+                  {
+                    x: "District",
+                    y: [Math.trunc(($scope.district / 75) * 100)]
+                  },
+                  {
+                    x: "Press",
+                    y: [Math.trunc(($scope.press / 50) * 100)]
+                  },
+                  {
+                    x: "Campaign",
+                    y: [Math.trunc(($scope.campaign / 61) * 100)]
+                  },
+                  {
+                    x: "Business",
+                    y: [Math.trunc(($scope.business / 27) * 100)]
+                  },
+                  {
+                    x: "Staff",
+                    y: [Math.trunc(($scope.staff / 24) * 100)]
+                  },
+                  {
+                    x: "Governor",
+                    y: [Math.trunc(($scope.governor / 32) * 100)]
+                  },
+                  {
+                    x: "Ethics",
+                    y: [Math.trunc(($scope.ethics / 10) * 100)]
+                  },
+                  {
+                    x: "Money",
+                    y: [Math.trunc(($scope.money / 38) * 100)]
+                  }
+              ]
+          };
+          effectivenessFeedback();
+        };
+
+            function populateScopeFromStorage() {
               switch (localStorage['1a']){
                   case "Paula Martinez":$scope.district += 2;
                       console.log($scope.district);
@@ -762,7 +812,6 @@ angular.module('controllers',['angularCharts'])
                 $scope.campaign += 3;
                 $scope.money += 3;
               }
-
               $scope.pct1 = $scope.family / 9;
               $scope.pct2 = $scope.respect / 62;
               $scope.pct3 = $scope.district / 75;
@@ -778,54 +827,90 @@ angular.module('controllers',['angularCharts'])
                + (10 * $scope.pct4) + (10 * $scope.pct5) + (5 * $scope.pct6) + (3 * $scope.pct7)
                 + (4 * $scope.pct8) + (5 * $scope.pct9) + (10 * $scope.pct10);
 
-              console.log("overallScore is: " + $scope.overallScore);
-              console.log("pct10 is: " + $scope.pct10);
+            };
 
-              $scope.data = { // raw numbers must be divided by max possible values Sederburg set up for each category
-                data: [
-                  {
-                    x: "Family",
-                    y: [Math.trunc(($scope.family / 9) * 100)]
-                  },
-                  {
-                    x: "Respect",
-                    y: [Math.trunc(($scope.respect / 62) * 100)]
-                  },
-                  {
-                    x: "District",
-                    y: [Math.trunc(($scope.district / 75) * 100)]
-                  },
-                  /*{
-                    x: "Press",
-                    y: [$scope.press / 50]
-                  },
-                  {
-                    x: "Campaign",
-                    y: [$scope.campaign / 61]
-                  },*/
-                  {
-                    x: "Business",
-                    y: [Math.trunc(($scope.business / 27) * 100)]
-                  },
-                  {
-                    x: "Staff",
-                    y: [Math.trunc(($scope.staff / 24) * 100)]
-                  },
-                  /*{
-                    x: "Governor",
-                    y: [$scope.governor / 32]
-                  },*/
-                  {
-                    x: "Ethics",
-                    y: [Math.trunc(($scope.ethics / 10) * 100)]
-                  },
-                  /*{
-                    x: "Money",
-                    y: [$scope.money / 38]
-                  }*/
-              ]
-          };
-        };
+        function effectivenessFeedback() {
+          console.log("District percent is: " + $scope.pct3);
+          if (($scope.pct3 * 100) < 35) {
+            $scope.effDistrict = "You ignored your district characteristics.  This hurt when it came to re-election.";
+          }
+          if ((($scope.pct3 * 100) >= 35) && (($scope.pct3 * 100) < 50)) {
+            $scope.effDistrict = "You were about average when it came to representing the interests of your district."
+          }
+          if (($scope.pct3 * 100) > 49) {
+            $scope.effDistrict = "You did a great job representing the major interests in your district.  This helped you in your request for re-election."
+          }
+          console.log("Press percent is: " + $scope.pct4);
+          if (($scope.pct4 * 100) < 50) {
+            $scope.effPress = "You ignored the press much too often.  The Districtville Gazette editorialized that you \"didn't really understand the public nature of the job.\"";
+          }
+          if ((($scope.pct4 * 100) >= 50) && (($scope.pct4 * 100) < 63)) {
+            $scope.effPress = "You did a good job in paying attention to the press.  This helped when it came time for re-electon."
+          }
+          if (($scope.pct4 * 100) > 62) {
+            $scope.effPress = "You did a good job in paying attention to the press.  This helped when it came time for re-electon."
+          }
+          console.log("Campaign percent is: " + $scope.pct5);
+          if (($scope.pct5 * 100) < 50) {
+            $scope.effCampaign = "Your poor decision-making limited your ability to organize a good campaign.";
+          }
+          if ((($scope.pct5 * 100) >= 50) && (($scope.pct5 * 100) < 75)) {
+            $scope.effCampaign = "You were about average in getting ready for your campaign."
+          }
+          if (($scope.pct5 * 100) > 74) {
+            $scope.effCampaign = "You did an outstanding job in getting organized for your re-election campaign."
+          }
+          console.log("Business percent is: " + $scope.pct6);
+          if (($scope.pct6 * 100) < 50) {
+            $scope.effBusiness = "You ignored the interests of the business community, hurting your chances of raising money for your campaign.";
+          }
+          if ((($scope.pct6 * 100) >= 50) && (($scope.pct6 * 100) < 75)) {
+            $scope.effBusiness = "You paid enough attention to busines interests to avoid controversy and help raise adequate campaign funds."
+          }
+          if (($scope.pct6 * 100) > 74) {
+            $scope.effBusiness = "The business community was very supportive of you.  Their support helped in raising money for your re-election campaign."
+          }
+          console.log("Staff percent is: " + $scope.pct7);
+          if (($scope.pct7 * 100) < 50) {
+            $scope.effStaff = "Your staff left you during the last year.  It hurt your chances of getting re-elected.";
+          }
+          if ((($scope.pct7 * 100) >= 50) && (($scope.pct7 * 100) < 75)) {
+            $scope.effStaff = "Your staff stayed with you, even though you didn't pay them enough attention."
+          }
+          if (($scope.pct7 * 100) > 74) {
+            $scope.effStaff = "Your staff was a big help in getting re-elected.  You kept them motivated and effective."
+          }
+          console.log("Governor percent is: " + $scope.pct8);
+          if (($scope.pct8 * 100) < 50) {
+            $scope.effGovernor = "You ignored the Governor and his agenda.  This hurt you some in fundraising but not much in the election.";
+          }
+          if ((($scope.pct8 * 100) >= 50) && (($scope.pct8 * 100) < 77)) {
+            $scope.effGovernor = "You were sensitive enough to the interests of the Governor to avoid problems but independent enough to gain support in your district from independents."
+          }
+          if (($scope.pct8 * 100) > 76) {
+            $scope.effGovernor = "The Governor appreciated your support, although it didn't help much in the election."
+          }
+          console.log("Ethics percent is: " + $scope.pct9);
+          if (($scope.pct9 * 100) < 50) {
+            $scope.effEthics = "You had terrible ethics.  The Districtville Gazette editorialized that \"seldom has a representative had so many problems with ethics.\"";
+          }
+          if ((($scope.pct9 * 100) >= 50) && (($scope.pct9 * 100) < 75)) {
+            $scope.effEthics = "You were ethical enough to avoid problems but not in the upper 75%."
+          }
+          if (($scope.pct9 * 100) > 74) {
+            $scope.effEthics = "You became known as Mr. Ethics.  The local church coalition named you as \"outstanding legislator of decision making.\""
+          }
+          console.log("Money percent is: " + $scope.pct10);
+          if (($scope.pct10 * 100) < 30) {
+            $scope.effMoney = "You didn't raise maximum funds for the campaign.  More money would have helped.";
+          }
+          if ((($scope.pct10 * 100) >= 30) && (($scope.pct10 * 100) < 75)) {
+            $scope.effMoney = "You raised enough money for the campaign, although more would have been helpful."
+          }
+          if (($scope.pct10 * 100) > 74) {
+            $scope.effMoney = "You did an outstanding job in raising money for the campaign without being unethical."
+          }
+      };
 
 
 
@@ -839,10 +924,58 @@ angular.module('controllers',['angularCharts'])
                 break;
 
             case 'analysis'://set model and view
-                    $scope.currentContInclude = {"url": "partials/analysis.html"};
-                    var model = DataService.getModel('analysis');
-                    model.get(function (content) {$scope.content = content.content;});
-                    break;
+
+                    $scope.evalGoals = function(){
+                      console.log("Gotta eval goals now");
+                      populateScopeFromStorage();
+                    $scope.goalData = { // raw numbers must be divided by max possible values Sederburg set up for each category
+                      data: [
+                        {
+                          x: "Overall",
+                          y: [$scope.overallScore]
+                        },
+                        {
+                          x: "Respect",
+                          y: [Math.trunc(($scope.respect / 62) * 100)]
+                        },
+                        {
+                          x: "Family",
+                          y: [Math.trunc(($scope.family / 9) * 100)]
+                        }
+                    ]
+                    };
+                    goalFeedback();
+                  };
+
+                    function goalFeedback() {
+                      console.log("overallScore is: " + $scope.overallScore);//effLegYear
+                      if ($scope.overallScore > 60) {
+                        $scope.effLegYear = "Congratulations -   The National Conference of State Legislatures has recognized you one of the 'Outstanding Legislators of The Year.'  Your constituents don't care but your mother is impressed.";
+                      } else {
+                        $scope.effLegYear = "Sorry, you were not selected as the National Conference of State Legislatures 'Outstanding Legislator of the Year' award but your application and effort was appreciated."
+                      }
+                      console.log("Family percent is: " + $scope.pct1);
+                      if (($scope.pct1 * 100) > 30) {
+                        $scope.effFamily = "Congratulations, your family is reasonably happy with you.";
+                      } else {
+                        $scope.effFamily = "Your family relations couldn't be worse.  You were caught in Motel Six with an exotic dancer from the 'Boom Boom' room.  A divorce is likely."
+                      }
+                      console.log("Respect percent is: " + $scope.pct2);
+                      if (($scope.pct2 * 100) > 70) {
+                        $scope.effRespect = "You ignored the press much too often.  The Districtville Gazette editorialized that you \"didn't really understand the public nature of the job.\"";
+                      }
+                      if ((($scope.pct2 * 100) > 50) && (($scope.pct2 * 100) < 70)) {
+                        $scope.effRespect = "You are about 'average' when it comes to respect from your colleagues."
+                      }
+                      if (($scope.pct2 * 100) < 50) {
+                        $scope.effRespect = "Your colleagues didn't care for you.  You gained little respect.  It didn't help you get \"legislator of the year.\""
+                      }
+                  };
+
+                  $scope.currentContInclude = {"url": "partials/analysis.html"};
+                  var model = DataService.getModel('analysis');
+                  model.get(function (content) {$scope.content = content.content;});
+                  break;
 
             case 'results'://set model and view
                     $scope.currentContInclude = {"url": "partials/results.html"};
