@@ -1,3 +1,39 @@
 <div class="camp-spending">
-    <h1>Campaign Spending</h1>
+    <h1>{{ content.header }}</h1>
+    <h2>{{ content.body.p1 }}</h2>
+    <div horizontal layout class="campaignDiv">
+      <img src="img/campaign.jpg"/>
+      <div vertical layout class="moneyDiv">
+  	     <div horizontal layout class="moneyCategories">
+  	        <p>Expenditure Category</p>
+            <p>Input Budget</p>
+            <p>Available Campaign Funds</p>
+          </div>
+          <div horizontal layout class="moneyRows">
+            <p>TV and Radio</p>
+            <input type="number" name="tvMoney" ng-model="tvMoney" ng-change="onTvChange(tvMoney)" min="0" max="125000" step="1000" size="6" placeholder="$0,000"/>
+            <p class="availFunds">{{ availFunds | currency: "$" : 0 }} </p>
+           </div>
+           <div horizontal layout class="moneyRows">
+           <p>Print Media</p>
+           <input type="number" name="printMoney" ng-model="printMoney" ng-change="onPrintChange(printMoney)" min="0" max="125000" step="1000" size="6" placeholder="$0,000"/>
+          </div>
+          <div horizontal layout class="moneyRows">
+          <p>Social Media</p>
+          <input type="number" name="socialMoney" ng-model="socialMoney" ng-change="onSocialChange(socialMoney)" min="0" max="125000" step="1000" size="6" placeholder="$0,000"/>
+         </div>
+         <div horizontal layout class="moneyRows">
+         <p>Staff</p>
+         <input type="number" name="staffMoney" ng-model="staffMoney" ng-change="onStaffChange(staffMoney)" min="0" max="125000" step="1000" size="6" placeholder="$0,000"/>
+        </div>
+        <div horizontal layout class="moneyRows">
+        <p>Polling and Research</p>
+        <input type="number" name="pollMoney" ng-model="pollMoney" ng-change="onPollChange(pollMoney)" min="0" max="125000" step="1000" size="6" placeholder="$0,000"/>
+       </div>
+       <div horizontal layout class="moneyRows">
+       <p>Personal Expenses</p>
+       <input type="number" name="personalMoney" ng-model="personalMoney" ng-change="onPersonalChange(personalMoney)" min="0" max="125000" step="1000" size="6" placeholder="$0,000"/>
+      </div>
+      </div>
+    </div>
 </div>

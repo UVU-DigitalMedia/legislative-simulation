@@ -168,6 +168,20 @@ angular.module('controllers',['angularCharts'])
         $scope.answers={};
         $scope.effFamily = $scope.effRespect = $scope.effDistrict = $scope.effPress = $scope.effCampaign = $scope.effBusiness = $scope.effStaff = $scope.effGovernor = $scope.effEthics = $scope.effMoney = "";
         $scope.family = $scope.respect = $scope.district = $scope.press = $scope.campaign = $scope.business = $scope.staff = $scope.governor = $scope.ethics = $scope.money = 0;
+        $scope.tvMoney = $scope.printMoney = $scope.socialMoney = $scope.staffMoney = $scope.pollMoney = $scope.personalMoney = 0;
+        $scope.availFunds = 125000;
+
+        $scope.onTvChange = function(changedFunds) {$scope.tvMoney = changedFunds; adjustFunds();}
+        $scope.onPrintChange = function(changedFunds) {$scope.printMoney = changedFunds;adjustFunds();}
+        $scope.onSocialChange = function(changedFunds) {$scope.socialMoney = changedFunds;adjustFunds();}
+        $scope.onStaffChange = function(changedFunds) {$scope.staffMoney = changedFunds;adjustFunds();}
+        $scope.onPollChange = function(changedFunds) {$scope.pollMoney = changedFunds;adjustFunds();}
+        $scope.onPersonalChange = function(changedFunds) {$scope.personalMoney = changedFunds;adjustFunds();}
+
+        function adjustFunds() {
+          var otherMoney = $scope.tvMoney + $scope.printMoney + $scope.socialMoney + $scope.staffMoney + $scope.pollMoney + $scope.personalMoney;
+          $scope.availFunds = (125000 - otherMoney);
+        }
 
         $scope.config = {
             tooltips: true,
@@ -410,9 +424,7 @@ angular.module('controllers',['angularCharts'])
             case 'campSpending'://set model and view
                 $scope.currentContInclude = {"url": "partials/campSpending.html"};
                 var campSpendingModel = DataService.getModel('campSpending');
-                campSpendingModel.get(function(content){ $scope.campSpendingContent = content.content;
-                });
-
+                campSpendingModel.get(function(content){ $scope.content = content.content;});
                 break;
 
         //todo create campaign spending case/model/bindings -- probably in a new controller, 'PostStageing' or 'results' or something
