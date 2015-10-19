@@ -134,7 +134,7 @@ angular.module('controllers',['angularCharts'])
                   if($scope.progMap[i].url === param){
                       //post next previous and value to view
                         $scope.progress.next = $scope.progMap[i + 1].url;
-                        if(i > 0) $scope.progress.previous = $scope.progMap[i - 1].url
+                        if(i > 0) $scope.progress.previous = $scope.progMap[i - 1].url;
                         $scope.progress.value = $scope.progMap[i].value;
                       }
                   }
@@ -170,6 +170,9 @@ angular.module('controllers',['angularCharts'])
         $scope.family = $scope.respect = $scope.district = $scope.press = $scope.campaign = $scope.business = $scope.staff = $scope.governor = $scope.ethics = $scope.money = 0;
         $scope.tvMoney = $scope.printMoney = $scope.socialMoney = $scope.staffMoney = $scope.pollMoney = $scope.personalMoney = 0;
         $scope.availFunds = 125000;
+        $scope.answer20 = 0;
+        $scope.answer21 = 0;
+        $scope.answer23 = 0;
 
         $scope.onTvChange = function(changedFunds) {$scope.tvMoney = changedFunds; adjustFunds();}
         $scope.onPrintChange = function(changedFunds) {$scope.printMoney = changedFunds;adjustFunds();}
@@ -181,6 +184,9 @@ angular.module('controllers',['angularCharts'])
         function adjustFunds() {
           var otherMoney = $scope.tvMoney + $scope.printMoney + $scope.socialMoney + $scope.staffMoney + $scope.pollMoney + $scope.personalMoney;
           $scope.availFunds = (125000 - otherMoney);
+          var fundPerc = ($scope.tvMoney + $scope.printMoney + $scope.socialMoney) / 125000;
+          $scope.saveAnswer(fundPerc, 'fundingPercent', 'answer');
+          //localStorage.setItem('fundingPercent', ($scope.tvMoney + $scope.printMoney + $scope.socialMoney) / 125000));
         }
 
         $scope.config = {
@@ -696,6 +702,12 @@ angular.module('controllers',['angularCharts'])
                       break;
                     }
               switch (localStorage['6a']){
+                  case "Tell them you weren't aware of the request.":
+                  $scope.answer20 = -7;
+                  break;
+                  case "Take the 5th Amendment and ask for next question.":
+                  $scope.answer20 = -7;
+                  break;
                   case "Say all representatives do constituent work and ask for contributions.":$scope.press += 3;
                   $scope.campaign += 3;
                       break;
@@ -703,12 +715,17 @@ angular.module('controllers',['angularCharts'])
               switch (localStorage['6b']){
                   case "Yes":$scope.money += 3;
                   $scope.business += 1;
+                  $scope.answer21 = -8;
                       break;
                   case "No":$scope.respect += 3;
                   $scope.press += 3;
                   $scope.ethics += 3;
                   $scope.money += 1;
+                  $scope.answer21 = 8;
                       break;
+                  case "Offer to discuss in more detail once the first $5,000 contribution is made.":
+                  $scope.answer21 = -13;
+                  break;
                     }
               switch (localStorage['6c']){
                   case "Joint fund-raiser with other Appropriations Committee members.":$scope.ethics += 3;
@@ -726,11 +743,17 @@ angular.module('controllers',['angularCharts'])
                   $scope.campaign += 3;
                   $scope.ethics += 1;
                   $scope.money += 3;
+                  $scope.answer23 = -5;
                       break;
                   case "Have your mother do a commercial for you saying how you were taught to hold on to a job.":$scope.campaign += 3;
+                      $scope.answer23 = -5;
                       break;
+                  case "Attack your opponent for not having worked hard as a college professor.":
+                    $scope.answer23 = -9;
+                    break;
                   case "Double your effort, stressing your successes in the legislature.":$scope.respect += 3;
                   $scope.campaign += 3;
+                  $scope.answer23 = 12;
                       break;
                     }
                     // now calculate the effectiveness values for all the work organizer choices they made
@@ -839,10 +862,32 @@ angular.module('controllers',['angularCharts'])
                + (10 * $scope.pct4) + (10 * $scope.pct5) + (5 * $scope.pct6) + (3 * $scope.pct7)
                 + (4 * $scope.pct8) + (5 * $scope.pct9) + (10 * $scope.pct10);
 
+                // adjustments to the final scoring from Sederburg's source files
+                $scope.fundingPercent = localStorage['fundingPercent'];
+
+                if($scope.pct10 > .79) $scope.overallScore += 10;
+                if($scope.pct10 < .25) $scope.overallScore -= 10;
+                if($scope.fundingPercent > .8) $scope.overallScore += 6;
+                if($scope.fundingPercent < .3) $scope.overallScore -= 6;
+                $scope.overallScore += $scope.answer20;
+                $scope.overallScore += $scope.answer21;
+                $scope.overallScore += $scope.answer23;
+                console.log("After adjustments, overallScore is: " + $scope.overallScore);
+                if($scope.overallScore < 42) $scope.overallScore += 3;
+                $scope.saveScore('overallScore', $scope.overallScore);
+                var eMessage = "";
+                if($scope.overallScore >= 50) {
+                  $scope.saveScore('finalElectionMessage', "In a toughly fought legislative campaign today, House District 38 incumbent Kenneth Jones won re-election.  Jones told supporters than his re-election proved his 'intelligence and good looks were recognized.'");
+                } else {
+                  $scope.saveScore('finalElectionMessage', "In a toughly fought race for House District 38, incumbent Kenneth Jones was ousted by newcommer Issac Samuelson.  UNC Districtville Professor Samuelson said his win was a 'paradigm busting new conceptualization of politics in Districtville.'");
+                }
+                var samScore = 100 - $scope.overallScore;
+
+                $scope.saveScore('samuelsonScore', samScore);
             };
 
         function effectivenessFeedback() {
-          console.log("District percent is: " + $scope.pct3);
+
           if (($scope.pct3 * 100) < 35) {
             $scope.effDistrict = "You ignored your district characteristics.  This hurt when it came to re-election.";
           }
@@ -852,7 +897,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct3 * 100) > 49) {
             $scope.effDistrict = "You did a great job representing the major interests in your district.  This helped you in your request for re-election."
           }
-          console.log("Press percent is: " + $scope.pct4);
+
           if (($scope.pct4 * 100) < 50) {
             $scope.effPress = "You ignored the press much too often.  The Districtville Gazette editorialized that you \"didn't really understand the public nature of the job.\"";
           }
@@ -862,7 +907,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct4 * 100) > 62) {
             $scope.effPress = "You did a good job in paying attention to the press.  This helped when it came time for re-electon."
           }
-          console.log("Campaign percent is: " + $scope.pct5);
+
           if (($scope.pct5 * 100) < 50) {
             $scope.effCampaign = "Your poor decision-making limited your ability to organize a good campaign.";
           }
@@ -872,7 +917,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct5 * 100) > 74) {
             $scope.effCampaign = "You did an outstanding job in getting organized for your re-election campaign."
           }
-          console.log("Business percent is: " + $scope.pct6);
+
           if (($scope.pct6 * 100) < 50) {
             $scope.effBusiness = "You ignored the interests of the business community, hurting your chances of raising money for your campaign.";
           }
@@ -882,7 +927,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct6 * 100) > 74) {
             $scope.effBusiness = "The business community was very supportive of you.  Their support helped in raising money for your re-election campaign."
           }
-          console.log("Staff percent is: " + $scope.pct7);
+
           if (($scope.pct7 * 100) < 50) {
             $scope.effStaff = "Your staff left you during the last year.  It hurt your chances of getting re-elected.";
           }
@@ -892,7 +937,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct7 * 100) > 74) {
             $scope.effStaff = "Your staff was a big help in getting re-elected.  You kept them motivated and effective."
           }
-          console.log("Governor percent is: " + $scope.pct8);
+
           if (($scope.pct8 * 100) < 50) {
             $scope.effGovernor = "You ignored the Governor and his agenda.  This hurt you some in fundraising but not much in the election.";
           }
@@ -902,7 +947,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct8 * 100) > 76) {
             $scope.effGovernor = "The Governor appreciated your support, although it didn't help much in the election."
           }
-          console.log("Ethics percent is: " + $scope.pct9);
+
           if (($scope.pct9 * 100) < 50) {
             $scope.effEthics = "You had terrible ethics.  The Districtville Gazette editorialized that \"seldom has a representative had so many problems with ethics.\"";
           }
@@ -912,7 +957,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct9 * 100) > 74) {
             $scope.effEthics = "You became known as Mr. Ethics.  The local church coalition named you as \"outstanding legislator of decision making.\""
           }
-          console.log("Money percent is: " + $scope.pct10);
+
           if (($scope.pct10 * 100) < 30) {
             $scope.effMoney = "You didn't raise maximum funds for the campaign.  More money would have helped.";
           }
@@ -922,6 +967,7 @@ angular.module('controllers',['angularCharts'])
           if (($scope.pct10 * 100) > 74) {
             $scope.effMoney = "You did an outstanding job in raising money for the campaign without being unethical."
           }
+
       };
 
 
@@ -999,6 +1045,9 @@ angular.module('controllers',['angularCharts'])
                 $scope.currentContInclude = {"url": "partials/voteResults.html"};
                 var model = DataService.getModel('voteResults');
                 model.get(function (content) {$scope.content = content.content;});
+                $scope.overallScore = parseFloat(localStorage['overallScore']);
+                $scope.samuelsonScore = parseFloat(localStorage['samuelsonScore']);
+                $scope.finalElectionMessage = localStorage['finalElectionMessage'];
                 break;
 
             case 'thankyou'://set model and view
@@ -1023,6 +1072,12 @@ angular.module('controllers',['angularCharts'])
             default :
                 console.log('stagectrl switch err');
         }
+    $scope.chosenStaff = localStorage['1a'];
+
+    $scope.saveScore = function(key, value){
+        console.log("key: " + key + " and value " + value);
+        localStorage[key] = value;
+    };
 
     //save answer and response on selection
     $scope.saveAnswer = function(entry, question, answer){

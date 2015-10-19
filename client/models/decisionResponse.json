@@ -1,7 +1,7 @@
 {
   "content":{
     "decisionResponse1":{
-      "header":"Update from (person you voted on in decisions)",
+      "header":"Update from ",
       "date":"November, 2015",
       "stage":"Stage 1",
       "body":{
@@ -21,7 +21,7 @@
       ]
     },
     "decisionResponse2":{
-      "header":"Update from (person you voted on in decisions)",
+      "header":"Update from ",
       "date":"January, 2016",
       "stage":"Stage 2",
       "body":{
@@ -41,7 +41,7 @@
       ]
     },
     "decisionResponse3":{
-      "header":"Update from (person you voted on in decisions)",
+      "header":"Update from ",
       "date":"February, 2016",
       "stage":"Stage 3",
       "body":{
@@ -61,7 +61,7 @@
       ]
     },
     "decisionResponse4":{
-      "header":"Update from (person you voted on in decisions)",
+      "header":"Update from ",
       "date":"January, 2017",
       "stage":"Stage 4",
       "body":{
@@ -81,7 +81,7 @@
       ]
     },
     "decisionResponse5":{
-      "header":"Update from (person you voted on in decisions)",
+      "header":"Update from ",
       "date":"February, 2017",
       "stage":"Stage 5",
       "body":{
@@ -101,7 +101,7 @@
       ]
     },
     "decisionResponse6":{
-      "header":"Update from (person you voted on in decisions)",
+      "header":"Update from ",
       "date":"October, 2018",
       "stage":"Stage 6",
       "body":{

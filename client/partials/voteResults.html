@@ -1,3 +1,18 @@
 <div class="vote-results">
-    <h1>Election Night Results</h1>
+    <h1>{{ content.header }}</h1>
+    <div vertical layout>
+    <div horizontal layout>
+      <img src="img/Election-Night-Results.jpg"/>
+      <img src="img/ElectionNight.jpg"/>
+    </div>
+    <div horizontal layout class="voteResultsSection">
+      <p>{{ finalElectionMessage }}</p>
+    </div>
+    <div horizontal layout class="candidateDiv">
+      <p class="candidateNames">Kenneth Jones</p>
+      <p class="candidateScores">{{ overallScore | limitTo:5}}%</p>
+      <p class="candidateNames">Isaac Samuelson</p>
+      <p class="candidateScores">{{ samuelsonScore | limitTo:5}}%</p>
+    </div>
+    <p class="kim">*In more important news, after years of feeling like the ugly duckling, Khloe finally enjoys being the most beautiful Kardashian — driving a scared and jealous Kim to binge eat.</p>
 </div>

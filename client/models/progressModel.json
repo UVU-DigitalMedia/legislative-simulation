@@ -65,9 +65,9 @@
 
     {"name":"effectiveness","url":"#/stage/effectiveness",            "value":94},
     {"name":"analysis",     "url":"#/stage/analysis",                 "value":97},
-    {"name":"voteResults",  "url":"#/stage/voteResults",              "value":100},
+    {"name":"voteResults",  "url":"#/stage/voteResults",              "value":99},
 
     {"name":"thankyou",     "url":"#/stage/thankyou",                 "value":100},
-    {"name":"credits",      "url":"#/stage/credits",                  "value":100}
+    {"name":"credits",     "url":"#/stage/credits",                 "value":100}
   ]
 }

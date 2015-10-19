@@ -1,0 +1,14 @@
+{
+  "content": {
+    "header":"Thanks for playing!",
+    "body":{
+      "p1":"Original Legislative Simulation: Bill Sederburg",
+      "p2":"UVU Online Conversion and Re-Design Team:",
+      "p3":"James Toney - Design and Implementation",
+      "p4":"Keith Smith - Tooling and Frameworks",
+      "p5":"Landon Conover - Testing and VM Wizardry",
+      "p6":"Eli Robison - Presidential Intern",
+      "p7":"Thor Anderson - Oversight and Budget"
+    }
+  }
+}

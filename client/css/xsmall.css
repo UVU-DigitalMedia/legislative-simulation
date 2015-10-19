@@ -102,7 +102,7 @@ html /deep/ .size-position {
 .situation img{  margin: 30px 0px 0px 0px;border: 7px solid #fff;box-shadow: 2px 2px 2px #111;border-radius: 0px;}
 
 /*-- News page --*/
-.news .articleCont {  margin: 20px 30px 0px 30px;min-height: 153px;background: #fff;padding: 20px 20px 20px 20px;border-radius: 8px;box-shadow: 1px 1px 2px -1px #323232;}
+.news .articleCont {  margin: 20px 30px 0px 30px;min-height: 153px;background: #fff;padding: 20px 20px 20px 20px;border-radius: 8px;box-shadow: 1px 1px 2px -1px #323232;overflow: auto}
 .news .articleCont h3{color:#333;}
 .news .actionArea img{  background: #333;float: left;margin: 0px 20px 10px 0px;border-radius: 4px;box-shadow: 1px 1px 2px 0px #000;}
 .news .actionArea h3{  margin: 0;}
@@ -112,9 +112,61 @@ html /deep/ .size-position {
 /*-- Work organizer page --*/
 .work-organizer .actionArea .questionCont {margin: 20px 0px 20px 0px;}
 
-/*-- Decision response page --*/
+/*-- Vote results page --*/
 
-/*-- Work response page --*/
+.vote-results p {
+  font-size: 1.5em;
+}
+
+.vote-results div {
+  justify-content: center;
+}
+
+.voteResultsSection {
+  background-color: #eee;
+  margin: 0px 72px 20px 72px;
+  padding: 8px;
+  box-shadow: 1px 1px 2px -1px #323232;
+}
+
+.voteResultsSection p {
+  text-align: center;
+}
+
+.candidateDiv {
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px -1px #323232;
+  margin: 0px 140px 20px 140px;
+}
+
+.candidateNames {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.kim {
+  color: #fff;
+  margin: 40px;
+  text-align: center;
+}
+
+.candidateScores {
+  background: darkBlue;
+  color: #fff;
+  margin: 20px;
+  padding: 6px;
+}
+/*-- Vote page --*/
+
+.vote img {
+  margin: 60px;
+  box-shadow: 1px 1px 2px -1px #323232;
+}
+
+.vote div {
+  justify-content: center;
+}
 
 /*-- Campaign spending page --*/
 .camp-spending h2 {
@@ -176,22 +228,19 @@ html /deep/ .size-position {
  box-shadow: 1px 1px 2px -1px #323232;
 }
 
-.effectResults {  margin-right: 8px;
-  padding: 20px;
+.effectResults {
+  margin-right: 8px;
   min-height: 153px;
-  background: #eee;
-  border-radius: 8px;
-  box-shadow: 1px 1px 2px -1px #323232;
   width: 380px;
-  height: 560px;
+  height: 600px;
   float: right;
 }
 
 .goalResults {
-  margin-right: 8px;
+    margin: 8px;
     padding: 20px;
     min-height: 153px;
-    width: 380px;
+    width: 280px;
     height: 560px;
     float: right;
 }
@@ -200,10 +249,14 @@ html /deep/ .size-position {
   margin: 0 auto;
 }
 
+.restatedGoals {
+  margin-left: 8px;
+}
+
 .effectiveness p {
   color: #fff;
-  font-size: 1.3em;
-  margin-left: 20px;
+  font-size: 1.2em;
+  margin-right: 8px;
 }
 
 .effectivenessButton {
@@ -223,3 +276,20 @@ html /deep/ .size-position {
 /*-- About you page --*/
 .abt-you {padding:0px 10px 0px 70px;}
 .abt-you p{color:#fff;}
+
+.thankyou {
+  text-align: center;
+}
+
+.thankyou h2 {
+  padding: 0px;
+}
+
+.thankyou h3 {
+    color: red;
+}
+
+.thankyou p {
+  font-size: 1.4em;
+  color: #eee;
+}
