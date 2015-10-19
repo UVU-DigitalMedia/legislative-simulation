@@ -443,7 +443,7 @@ angular.module('controllers',['angularCharts'])
 
             case 'effectiveness':
 
-
+            $scope.isButtonClicked = false;
             //save answer and response on selection
             $scope.evalAnswers = function(){
 
@@ -494,6 +494,7 @@ angular.module('controllers',['angularCharts'])
               ]
           };
           effectivenessFeedback();
+          $scope.isButtonClicked = true;
         };
 
             function populateScopeFromStorage() {
@@ -982,9 +983,9 @@ angular.module('controllers',['angularCharts'])
                 break;
 
             case 'analysis'://set model and view
+                $scope.isGoalButtonClicked = false;
 
                     $scope.evalGoals = function(){
-                      console.log("Gotta eval goals now");
                       populateScopeFromStorage();
                     $scope.goalData = { // raw numbers must be divided by max possible values Sederburg set up for each category
                       data: [
@@ -1003,22 +1004,20 @@ angular.module('controllers',['angularCharts'])
                     ]
                     };
                     goalFeedback();
+                    $scope.isGoalButtonClicked = true;
                   };
 
                     function goalFeedback() {
-                      console.log("overallScore is: " + $scope.overallScore);//effLegYear
                       if ($scope.overallScore > 60) {
                         $scope.effLegYear = "Congratulations -   The National Conference of State Legislatures has recognized you one of the 'Outstanding Legislators of The Year.'  Your constituents don't care but your mother is impressed.";
                       } else {
                         $scope.effLegYear = "Sorry, you were not selected as the National Conference of State Legislatures 'Outstanding Legislator of the Year' award but your application and effort was appreciated."
                       }
-                      console.log("Family percent is: " + $scope.pct1);
                       if (($scope.pct1 * 100) > 30) {
                         $scope.effFamily = "Congratulations, your family is reasonably happy with you.";
                       } else {
                         $scope.effFamily = "Your family relations couldn't be worse.  You were caught in Motel Six with an exotic dancer from the 'Boom Boom' room.  A divorce is likely."
                       }
-                      console.log("Respect percent is: " + $scope.pct2);
                       if (($scope.pct2 * 100) > 70) {
                         $scope.effRespect = "You ignored the press much too often.  The Districtville Gazette editorialized that you \"didn't really understand the public nature of the job.\"";
                       }
@@ -1075,7 +1074,6 @@ angular.module('controllers',['angularCharts'])
     $scope.chosenStaff = localStorage['1a'];
 
     $scope.saveScore = function(key, value){
-        console.log("key: " + key + " and value " + value);
         localStorage[key] = value;
     };
 
