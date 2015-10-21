@@ -3,7 +3,7 @@ var app        = express();
 var bodyParser = require('body-parser');
 
 //set the port :)
-var port = process.env.PORT || 9090;
+var port = process.env.PORT || 80;
 
 //serve the client out of /client
 app.use(express.static(__dirname + '/client'));
