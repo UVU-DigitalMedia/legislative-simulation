@@ -267,7 +267,7 @@ html /deep/ .size-position {
 
 /*-- About appropriations page --*/
 .candidateCont {padding:0px 10px 0px 70px;}
-.candidateCont p{color:#fff;}
+.candidateCont p{color:rgb(0, 0, 0);}
 
 /*-- About district page --*/
 .abt-district {padding:0px 10px 0px 70px;}

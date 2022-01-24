@@ -2,7 +2,7 @@
   "content":{
     "workDecision1":{
       "header":"Work Organizer",
-      "date":"November, 2015",
+      "date":"November, 2021",
       "stage":"Stage 1",
       "body":{
         "situations":[
@@ -108,7 +108,7 @@
         "situations":[
           {"entry":"Attend a Republican \"get out the vote\" rally on campus.", "value":"1", "name":"work6a", "response":"Students enjoy the rally with their representative.  Unfortunately, only 25 students showed up and they were already planning to vote for the Republican candidate from their home district."},
           {"entry":"Go door to door in swing precincts.", "value":"2", "name":"work6b", "response":"Door to door was very satisfying.  You received a good reception.  You were able to talk to 200 voters in the last few days."},
-          {"entry":"Campaign with Governor Herbert in Republican neighborhoods.", "value":"3", "name":"work6c", "response":"People were impressed that the governor came to visit.  It seemed like they remembered him more than you.  You did gain some additional yard sign locations. Press wrote favorably about it."},
+          {"entry":"Campaign with Governor Cox in Republican neighborhoods.", "value":"3", "name":"work6c", "response":"People were impressed that the governor came to visit.  It seemed like they remembered him more than you.  You did gain some additional yard sign locations. Press wrote favorably about it."},
           {"entry":"Organize a fund-raiser for a last minute television blitz.", "value":"4", "name":"work6d", "response":"You received needed funds for the last-minute television blitz. It should help if you can get the ads produced in time."}
         ]
       },

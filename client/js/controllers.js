@@ -839,7 +839,7 @@ angular.module('controllers',['angularCharts'])
                 $scope.district += 1;
                 $scope.campaign += 3;
               }
-              if (localStorage['work6c'] ===  "Campaign with Governor Herbert in Republican neighborhoods.") {
+              if (localStorage['work6c'] ===  "Campaign with Governor Cox in Republican neighborhoods.") {
                 $scope.press += 2;
                 $scope.campaign += 1;
                 $scope.governor += 1;
@@ -878,9 +878,9 @@ angular.module('controllers',['angularCharts'])
                 $scope.saveScore('overallScore', $scope.overallScore);
                 var eMessage = "";
                 if($scope.overallScore >= 50) {
-                  $scope.saveScore('finalElectionMessage', "In a toughly fought legislative campaign today, House District 38 incumbent Kenneth Jones won re-election.  Jones told supporters than his re-election proved his 'intelligence and good looks were recognized.'");
+                  $scope.saveScore('finalElectionMessage', "In a ROUGHLY fought legislative campaign today, House District 38 incumbent Kenneth Jones won re-election.  Jones told supporters THAT his re-election proved his 'intelligence and good looks were recognized.'");
                 } else {
-                  $scope.saveScore('finalElectionMessage', "In a toughly fought race for House District 38, incumbent Kenneth Jones was ousted by newcommer Issac Samuelson.  UNC Districtville Professor Samuelson said his win was a 'paradigm busting new conceptualization of politics in Districtville.'");
+                  $scope.saveScore('finalElectionMessage', "In a ROUGHLY fought race for House District 38, incumbent Kenneth Jones was ousted by newcommer Issac Samuelson.  UNC Districtville Professor Samuelson said his win was a 'paradigm busting new conceptualization of politics in Districtville.'");
                 }
                 var samScore = 100 - $scope.overallScore;
 

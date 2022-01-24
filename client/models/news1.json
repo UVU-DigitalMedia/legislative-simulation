@@ -2,7 +2,7 @@
   "content":{
     "news1":{
       "paper":{
-        "day":"November, 2015",
+        "day":"November, 2021",
         "title":"Districtville Gazette",
         "header":"LATEST NEWS: Republicans Keep Control",
         "articles":[
@@ -15,8 +15,8 @@
 
           },
           {
-            "title":"HERBERT ANNOUNCES DIRECTOR OF INNOVATION",
-            "p1":"The Utah Governor Gary Hisbert announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
+            "title":"COX ANNOUNCES DIRECTOR OF INNOVATION",
+            "p1":"The Utah Governor Spencer Cox announced today his intent to bring \"creative new ideas and faces into state government .\"   To lead this effort he has appointed Spencer Jenkins to be the state's first DOI, Director of Innovation.   According to insiders, Hisbert is concerned that the relatively weak showing of Republicans in the House elections may portend problems for him in 2016.  The Governor said the GOP may need to  \"push a more innovative agenda and do a better job selling our innovative conservative ideas.\"",
             "imgURL":"../img/article1b.jpg",
             "imgALT":"article1b"
           },
@@ -61,7 +61,7 @@
         "articles":[
           {
             "title":"GOVERNOR'S STATE OF STATE SPEECH OUTLINES AGENDA",
-            "p1":"Amidst a packed room of legislators and political supporters, Gov. Herbert outlined his priorities for 2015.  His priorities include reducing taxes on small businesses, pushing his 66% education goal and increased funding for charter schools.Governor Herbert said his plan can be carried out if the state freezes salaries, aid to public schools and highway construction.",
+            "p1":"Amidst a packed room of legislators and political supporters, Gov. Cox outlined his priorities for 2021.  His priorities include reducing taxes on small businesses, pushing his 66% education goal and increased funding for charter schools.Governor Cox said his plan can be carried out if the state freezes salaries, aid to public schools and highway construction.",
             "p2":"Democratic Leader Jennifer Seelig said that her caucus will \"study the Governor's ideas.   It is generally accepted, according to Seelig that \"the Governor proposes and legislature disposes.\"",
             "imgURL":"../img/Herbert1.jpg",
             "imgALT":"article1a"
@@ -70,14 +70,14 @@
             "title":"PETERSON ELECTED SPEAKER OF THE HOUSE",
             "p1":"After originally comtemplating running for the U.S. Senate, Rep.  Val Peterson (R-Orem)  was elected speaker at a lengthy caucus last Friday night.",
             "p2":"State Representatives E.D. Williams and James Macalester bolted from the Democratic caucus today to insure the election of Peterson.   Democrat Williams, when asked why she voted for Peterson, said that \"Peterson was more interested in providing tax relief than Seelig.\"  Seelig is the Democratic leader.",
-            "p3":"Williams and Macalester denied that their being appointed to the Captial Facililties and the  Executive Appropriations Committee, respectively, had anything to do with the vote.",
+            "p3":"Williams and Macalester denied that them being appointed to the Captial facilities and the  Executive Appropriations Committee, respectively, had anything to do with the vote.",
             "p4":"As it turned out, the vote for leadership by Rep. Jones, originally thought to be critical was not significant.",
             "imgURL":"../img/peterson.jpg",
             "imgALT":"article1b"
           },
           {
             "title":"JONES ACCEPTS COMMITTEE ASSIGNMENTS",
-            "p1":"Representative Jones was appointed today to Chair the House Ecoomic Development Committee and serve on the the House Education Committee.  Jones, who was reported to be under pressure to vote for Seelig for Speaker, was delighted with the appointments.  According to his aide, Jones is looking forward to serving his district with distinction and power.",
+            "p1":"Representative Jones was appointed today to Chair the House Economic Development Committee and serve on the House Education Committee.  Jones, who was reported to be under pressure to vote for Seelig for Speaker, was delighted with the appointments.  According to his aide, Jones is looking forward to serving his district with distinction and power.",
             "imgURL":"../img/kennethJones.jpg",
             "imgALT":"article1c"
           },
@@ -116,13 +116,13 @@
           },
           {
             "title":"GOVERNOR PROPOSES HIGHER EDUCATION COMMISSION",
-            "p1":"Governor Herbert announced Tuesday that Lt.  Gov. Dan Forest would head a special commission to look at the future of higher education.   Herbert told the capitol press corp that his current thinking was to eliminate the Board of Regents  but was open to other ways the colleges could be more \"market oriented.\"     Board of Govenror's Chair Fred Eshelman, said \"he wasn't sure the Governor and Lt. Governor understood how important the Board of Regents were to Utah.\"",
+            "p1":"Governor Cox announced Tuesday that Lt.  Gov. Dan Forest would head a special commission to look at the future of higher education.   Cox told the capitol press corp that his current thinking was to eliminate the Board of Regents  but was open to other ways the colleges could be more \"market oriented.\"     Board of Govenror's Chair Fred Eshelman, said \"he wasn't sure the Governor and Lt. Governor understood how important the Board of Regents were to Utah.\"",
             "imgURL":"../img/Herbert1.jpg",
             "imgALT":"article1b"
           },
           {
             "title":"ANTI-INCUMBENT ATTITUDE INCREASES",
-            "p1":"A recent poll conducted by Utah Valley University showed the voters in a mood to \"throw the rascals out.\"  Governor Herbert said that it didn't bother him since he \"was no rascal.\"  Nasty public sentiment is causing concern among Salt Lake City professionals.  According to an unnamed lobbyist, \"Salt Lake City is becoming more ungovernable by the day.\"    Former vice presidential candidate Sarah Pallin is expected to visit Salt Lake City within the month to organize a new political party.",
+            "p1":"A recent poll conducted by Utah Valley University showed the voters in a mood to \"throw the rascals out.\"  Governor Cox said that it didn't bother him since he \"was no rascal.\"  Nasty public sentiment is causing concern among Salt Lake City professionals.  According to an unnamed lobbyist, \"Salt Lake City is becoming more ungovernable by the day.\"    Former vice presidential candidate Sarah Pallin is expected to visit Salt Lake City within the month to organize a new political party.",
             "imgURL":"../img/protests.jpg",
             "imgALT":"article1b"
           },
@@ -135,7 +135,7 @@
           },
           {
             "title":"SENATOR HALES ANNOUNCES \"LAME GOVERNMENT AWARD\"",
-            "p1":"Democratic State Senator Karen Hales announced last week that the committee she created to determine if she should run for governor has decided to make periodic awards recognizing poor judgment in state government.   The first recipient is Governor Herbert for giving pay raises to two young staffers while freezing salaries for teachers.  Herbert's press secretary, Crystal Feldman, said \"it was an old issue that was totally irrelevant to anything.\"",
+            "p1":"Democratic State Senator Karen Hales announced last week that the committee she created to determine if she should run for governor has decided to make periodic awards recognizing poor judgment in state government.   The first recipient is Governor Cox for giving pay raises to two young staffers while freezing salaries for teachers.  Cox's press secretary, Crystal Feldman, said \"it was an old issue that was totally irrelevant to anything.\"",
             "imgURL":"../img/hales.jpg",
             "imgALT":"article1b"
           }
@@ -182,7 +182,7 @@
           {
             "title":"EVOLUTION AMENDMENT BEFORE HOUSE",
             "p1":"The House of Representatives will soon begin debate on a constitutional amendment requiring \"intelligent design\"to be taught on an equal basis with \"evolutionary theory\" in Utah schools.   The amendment will be presented to the House Education Committee next week.",
-            "p2":"According to Rep. Charles Fjord (R-St. George), \"the amendment merely makes it clear that one theory is as good as another.\"  ACLU advocaate, Chester Bivens said he expected Rep. Jones to see that the amendment is killed in committee.",
+            "p2":"According to Rep. Charles Fjord (R-St. George), \"the amendment merely makes it clear that one theory is as good as another.\"  ACLU advocate, Chester Bivens said he expected Rep. Jones to see that the amendment is killed in committee.",
             "imgURL":"../img/evolution.jpg",
             "imgALT":"article1b"
           },
@@ -235,14 +235,14 @@
           },
           {
             "title":"OBAMACARE COSTS UTAH",
-            "p1":"According to the Dept. of Administration, the full implementation of the Affordable Care Act  is likely to cost the Utah general fund $80 million.   Apparently, the cost of health care premiums were not as low as expected, thus requring additional state support.  Govenor Herbert told the Gazette that the cost was much less than he thought might happen, given \"the foolishness of the federal government mandating health insurance.\"",
+            "p1":"According to the Dept. of Administration, the full implementation of the Affordable Care Act  is likely to cost the Utah general fund $80 million.   Apparently, the cost of health care premiums were not as low as expected, thus requring additional state support.  Govenor Cox told the Gazette that the cost was much less than he thought might happen, given \"the foolishness of the federal government mandating health insurance.\"",
             "imgURL":"../img/obama-hurt.jpg",
             "imgALT":"article1b"
           },
           {
             "title":"SENATE VOTES TO ABOLISH BOARD OF REGENTS",
             "p1":"Senate President Phil Berger succeeded yesterday in getting the Senate to vote in favor of abolishing the Utah Board of Regents.   According to Berger, the Regents only \"get in the way of progress.\"",
-            "p2":"The Vote in the House is likely to be very close.  Rep. Alexander, from Wilmington, told the press that \"there are pluses and minues in any such major change.\"",
+            "p2":"The Vote in the House is likely to be very close.  Rep. Alexander, from Wilmington, told the press that \"there are pluses and MINUSES in any such major change.\"",
             "p3":"Southern Utah University Interim President Rich Kendall, who is hired by the Board of Regents, told the Districtiville Gazette that \"local Boards of Trustees should be further empowered but wasn't sure about the elimination of the Board of Regents.\"",
             "imgURL":"../img/regents.jpg",
             "imgALT":"article1b"
@@ -283,20 +283,20 @@
           },
           {
             "title":"BUDGET CUTS BACKFIRE ON LEGISLATURE",
-            "p1":"According to a new poll from  Utah Valley University, recent cuts in education funding have damaged the image of the legislature.  Approval ratings fell from 32% to 25% over the past three months.  Jones spokesperson said the drop in approval was greatest among the young families and suburban residents.",
-            "p2":"It is unclear what effect the cuts may have on the control of the House of Representatives.  Insiders report that the education changes may damage the re-election changes of Rep. Jones the most.",
+            "p1":"According to a new poll from  Utah Valley University, recent cuts in education funding have damaged the image of the legislature.  Approval ratings fell from 32% to 25% over the past three months.  Jones' spokesperson said the drop in approval was greatest among the young families and suburban residents.",
+            "p2":"It is unclear what effect the cuts may have on the control of the House of Representatives.  Insiders report that the education changes may damage the re-election chances of Rep. Jones the most.",
             "imgURL":"../img/polls-down.jpg",
             "imgALT":"article1b"
           },
           {
             "title":"BUDGET AGAIN IN DIFFICULTY",
-            "p1":"Budget revenues are not meeting projections.  Governor Herbert recently announced that revenues are 3% less than what the budget predicted.  The revenue drop is due to the recent tax cuts and a slowing in income tax revenue.  Governor Herbert blamed Democrats in Congress for the slow economy.",
+            "p1":"Budget revenues are not meeting projections.  Governor Cox recently announced that revenues are 3% less than what the budget predicted.  The revenue drop is due to the recent tax cuts and a slowing in income tax revenue.  Governor Cox blamed Democrats in Congress for the slow economy.",
             "imgURL":"../img/revenue-drop.jpg",
             "imgALT":"article1b"
           },
           {
             "title":"GOVERNOR PREDICTS REPUBLICAN VICTORY",
-            "p1":"Governor Herbert today predicted the House of Representatives would be controlled by the Republicans after the election this fall.  Herbert told the press yesterday \"it looks certain that Rep. Jones will beat Samuelson due to excellent campaign decisions by his staff and his support.\"",
+            "p1":"Governor Cox today predicted the House of Representatives would be controlled by the Republicans after the election this fall.  Cox told the press yesterday \"it looks certain that Rep. Jones will beat Samuelson due to excellent campaign decisions by his staff and his support.\"",
             "imgURL":"../img/victory.jpg",
             "imgALT":"article1b"
           }
